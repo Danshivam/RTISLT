@@ -1,11 +1,959 @@
 sample_id,label,split,video_path,landmark_path,status,frames,shape,nan_values
 MVI_9448,1. loud,train,Adjectives/1. loud/MVI_9448.MOV,data\landmarks\include50\train\Adjectives_1_loud_MVI_9448.npy,existing,,,
-MVI_3515,19. House,train,Places/19. House/MVI_3515.MOV,data\landmarks\include50\train\Places_19_House_MVI_3515.npy,processed,45.0,"(45, 225)",0.0
-MVI_5204,83. big large,train,Adjectives/83. big large/MVI_5204.MOV,data\landmarks\include50\train\Adjectives_83_big_large_MVI_5204.npy,processed,70.0,"(70, 225)",0.0
-MVI_5345,91. Priest,train,Jobs/91. Priest/MVI_5345.MOV,data\landmarks\include50\train\Jobs_91_Priest_MVI_5345.npy,processed,45.0,"(45, 225)",0.0
-MVI_3612,23. Court,train,Places/23. Court/MVI_3612.MOV,data\landmarks\include50\train\Places_23_Court_MVI_3612.npy,processed,61.0,"(61, 225)",0.0
-MVI_8596,16. train ticket,train,Means_of_Transportation/16. train ticket/MVI_8596.MP4,data\landmarks\include50\train\Means_of_Transportation_16_train_ticket_MVI_8596.npy,processed,101.0,"(101, 225)",0.0
-MVI_3531,23. Court,train,Places/23. Court/MVI_3531.MOV,data\landmarks\include50\train\Places_23_Court_MVI_3531.npy,processed,70.0,"(70, 225)",0.0
-MVI_0014,44. it,train,Pronouns/44. it/MVI_0014.MOV,data\landmarks\include50\train\Pronouns_44_it_MVI_0014.npy,processed,78.0,"(78, 225)",0.0
-MVI_3436,19. House,train,Places/19. House/MVI_3436.MOV,data\landmarks\include50\train\Places_19_House_MVI_3436.npy,processed,64.0,"(64, 225)",0.0
-MVI_3711,44. Shoes,train,Clothes/44. Shoes/MVI_3711.MOV,data\landmarks\include50\train\Clothes_44_Shoes_MVI_3711.npy,processed,69.0,"(69, 225)",0.0
+MVI_3515,19. House,train,Places/19. House/MVI_3515.MOV,data\landmarks\include50\train\Places_19_House_MVI_3515.npy,existing,,,
+MVI_5204,83. big large,train,Adjectives/83. big large/MVI_5204.MOV,data\landmarks\include50\train\Adjectives_83_big_large_MVI_5204.npy,existing,,,
+MVI_5345,91. Priest,train,Jobs/91. Priest/MVI_5345.MOV,data\landmarks\include50\train\Jobs_91_Priest_MVI_5345.npy,existing,,,
+MVI_3612,23. Court,train,Places/23. Court/MVI_3612.MOV,data\landmarks\include50\train\Places_23_Court_MVI_3612.npy,existing,,,
+MVI_8596,16. train ticket,train,Means_of_Transportation/16. train ticket/MVI_8596.MP4,data\landmarks\include50\train\Means_of_Transportation_16_train_ticket_MVI_8596.npy,existing,,,
+MVI_3531,23. Court,train,Places/23. Court/MVI_3531.MOV,data\landmarks\include50\train\Places_23_Court_MVI_3531.npy,existing,,,
+MVI_0014,44. it,train,Pronouns/44. it/MVI_0014.MOV,data\landmarks\include50\train\Pronouns_44_it_MVI_0014.npy,existing,,,
+MVI_3436,19. House,train,Places/19. House/MVI_3436.MOV,data\landmarks\include50\train\Places_19_House_MVI_3436.npy,existing,,,
+MVI_3711,44. Shoes,train,Clothes/44. Shoes/MVI_3711.MOV,data\landmarks\include50\train\Clothes_44_Shoes_MVI_3711.npy,existing,,,
+MVI_3060,1. Dog,train,Animals/1. Dog/MVI_3060.MOV,data\landmarks\include50\train\Animals_1_Dog_MVI_3060.npy,processed,85.0,"(85, 225)",0.0
+MVI_3060,35. Bank,train,Animals/1. Dog/MVI_3060.MOV,data\landmarks\include50\train\Places_35_Bank_MVI_3060.npy,processed,85.0,"(85, 225)",0.0
+MVI_3030,1. Dog,train,Animals/1. Dog/MVI_3030.MOV,data\landmarks\include50\train\Animals_1_Dog_MVI_3030.npy,processed,103.0,"(103, 225)",0.0
+MVI_0111,55. Thank you,train,Greetings/55. Thank you/MVI_0111.MOV,data\landmarks\include50\train\Greetings_55_Thank_you_MVI_0111.npy,processed,62.0,"(62, 225)",0.0
+MVI_4307,14. Election,train,Society/14. Election/MVI_4307.MOV,data\landmarks\include50\train\Society_14_Election_MVI_4307.npy,processed,73.0,"(73, 225)",0.0
+MVI_3047,5. Cow,train,Animals/5. Cow/MVI_3047.MOV,data\landmarks\include50\train\Animals_5_Cow_MVI_3047.npy,processed,109.0,"(109, 225)",0.0
+MVI_8769,28. Window,train,Home/28. Window/MVI_8769.MP4,data\landmarks\include50\train\Home_28_Window_MVI_8769.npy,processed,101.0,"(101, 225)",0.0
+MVI_5338,2. quiet,train,Adjectives/2. quiet/MVI_5338.MOV,data\landmarks\include50\train\Adjectives_2_quiet_MVI_5338.npy,processed,45.0,"(45, 225)",0.0
+MVI_5328,97. dry,train,Adjectives/97. dry/MVI_5328.MOV,data\landmarks\include50\train\Adjectives_97_dry_MVI_5328.npy,processed,55.0,"(55, 225)",0.0
+MVI_5186,78. long,train,Adjectives/78. long/MVI_5186.MOV,data\landmarks\include50\train\Adjectives_78_long_MVI_5186.npy,processed,64.0,"(64, 225)",0.0
+MVI_0090,48. Hello,train,Greetings/48. Hello/MVI_0090.MOV,data\landmarks\include50\train\Greetings_48_Hello_MVI_0090.npy,processed,69.0,"(69, 225)",0.0
+MVI_9523,97. dry,train,Adjectives/97. dry/MVI_9523.MOV,data\landmarks\include50\train\Adjectives_97_dry_MVI_9523.npy,processed,66.0,"(66, 225)",0.0
+MVI_9983,48. Hello,train,Greetings/48. Hello/MVI_9983.MOV,data\landmarks\include50\train\Greetings_48_Hello_MVI_9983.npy,processed,53.0,"(53, 225)",0.0
+MVI_2992,5. Cow,train,Animals/5. Cow/MVI_2992.MOV,data\landmarks\include50\train\Animals_5_Cow_MVI_2992.npy,processed,91.0,"(91, 225)",0.0
+MVI_4155,4. Bird,train,Animals/4. Bird/MVI_4155.MOV,data\landmarks\include50\train\Animals_4_Bird_MVI_4155.npy,processed,61.0,"(61, 225)",0.0
+MVI_3610,23. Court,train,Places/23. Court/MVI_3610.MOV,data\landmarks\include50\train\Places_23_Court_MVI_3610.npy,processed,56.0,"(56, 225)",0.0
+MVI_9317,83. big large,train,Adjectives/83. big large/MVI_9317.MOV,data\landmarks\include50\train\Adjectives_83_big_large_MVI_9317.npy,processed,48.0,"(48, 225)",0.0
+MVI_3502,35. Bank,train,Places/35. Bank/MVI_3502.MOV,data\landmarks\include50\train\Places_35_Bank_MVI_3502.npy,processed,48.0,"(48, 225)",0.0
+MVI_3985,37. Hat,train,Clothes/37. Hat/MVI_3985.MOV,data\landmarks\include50\train\Clothes_37_Hat_MVI_3985.npy,processed,59.0,"(59, 225)",0.0
+MVI_5206,54. Black,train,Colours/54. Black/MVI_5206.MOV,data\landmarks\include50\train\Colours_54_Black_MVI_5206.npy,processed,52.0,"(52, 225)",0.0
+MVI_9452,2. quiet,train,Adjectives/2. quiet/MVI_9452.MOV,data\landmarks\include50\train\Adjectives_2_quiet_MVI_9452.npy,processed,66.0,"(66, 225)",0.0
+MVI_9380,79. short,train,Adjectives/79. short/MVI_9380.MOV,data\landmarks\include50\train\Adjectives_79_short_MVI_9380.npy,processed,53.0,"(53, 225)",0.0
+MVI_3337,35. Bank,train,Places/35. Bank/MVI_3337.MOV,data\landmarks\include50\train\Places_35_Bank_MVI_3337.npy,processed,62.0,"(62, 225)",0.0
+MVI_2990,5. Cow,train,Animals/5. Cow/MVI_2990.MOV,data\landmarks\include50\train\Animals_5_Cow_MVI_2990.npy,processed,73.0,"(73, 225)",0.0
+MVI_3891,55. White,train,Colours/55. White/MVI_3891.MOV,data\landmarks\include50\train\Colours_55_White_MVI_3891.npy,processed,85.0,"(85, 225)",0.0
+MVI_5270,79. short,train,Adjectives/79. short/MVI_5270.MOV,data\landmarks\include50\train\Adjectives_79_short_MVI_5270.npy,processed,51.0,"(51, 225)",0.0
+MVI_3583,35. Bank,train,Places/35. Bank/MVI_3583.MOV,data\landmarks\include50\train\Places_35_Bank_MVI_3583.npy,processed,45.0,"(45, 225)",0.0
+MVI_9099,53. Fan,train,Electronics/53. Fan/MVI_9099.MP4,data\landmarks\include50\train\Electronics_53_Fan_MVI_9099.npy,processed,87.0,"(87, 225)",0.0
+MVI_3268,19. House,train,Places/19. House/MVI_3268.MOV,data\landmarks\include50\train\Places_19_House_MVI_3268.npy,processed,75.0,"(75, 225)",0.0
+MVI_9502,91. new,train,Adjectives/91. new/MVI_9502.MOV,data\landmarks\include50\train\Adjectives_91_new_MVI_9502.npy,processed,52.0,"(52, 225)",0.0
+MVI_3308,28. Store or Shop,train,Places/28. Store or Shop/MVI_3308.MOV,data\landmarks\include50\train\Places_28_Store_or_Shop_MVI_3308.npy,processed,61.0,"(61, 225)",0.0
+MVI_5449,67. Monday,train,Days_and_Time/67. Monday/MVI_5449.MOV,data\landmarks\include50\train\Days_and_Time_67_Monday_MVI_5449.npy,processed,51.0,"(51, 225)",0.0
+MVI_4040,54. Black,train,Colours/54. Black/MVI_4040.MOV,data\landmarks\include50\train\Colours_54_Black_MVI_4040.npy,processed,46.0,"(46, 225)",0.0
+MVI_3349,19. House,train,Places/19. House/MVI_3349.MOV,data\landmarks\include50\train\Places_19_House_MVI_3349.npy,processed,66.0,"(66, 225)",0.0
+MVI_3349,4. Bird,train,Places/19. House/MVI_3349.MOV,data\landmarks\include50\train\Animals_4_Bird_MVI_3349.npy,processed,66.0,"(66, 225)",0.0
+MVI_4257,2. Death,train,Society/2. Death/MVI_4257.MOV,data\landmarks\include50\train\Society_2_Death_MVI_4257.npy,processed,116.0,"(116, 225)",0.0
+MVI_4534,53. Fan,train,Electronics/53. Fan/MVI_4534.MOV,data\landmarks\include50\train\Electronics_53_Fan_MVI_4534.npy,processed,59.0,"(59, 225)",0.0
+MVI_0038,48. Hello,train,Greetings/48. Hello/MVI_0038.MOV,data\landmarks\include50\train\Greetings_48_Hello_MVI_0038.npy,processed,56.0,"(56, 225)",0.0
+MVI_9371,2. quiet,train,Adjectives/2. quiet/MVI_9371.MOV,data\landmarks\include50\train\Adjectives_2_quiet_MVI_9371.npy,processed,48.0,"(48, 225)",0.0
+MVI_3452,23. Court,train,Places/23. Court/MVI_3452.MOV,data\landmarks\include50\train\Places_23_Court_MVI_3452.npy,processed,68.0,"(68, 225)",0.0
+MVI_4540,54. Cell phone,train,Electronics/54. Cell phone/MVI_4540.MOV,data\landmarks\include50\train\Electronics_54_Cell_phone_MVI_4540.npy,processed,45.0,"(45, 225)",0.0
+MVI_8568,4. Bird,train,Animals/4. Bird/MVI_8568.MP4,data\landmarks\include50\train\Animals_4_Bird_MVI_8568.npy,processed,76.0,"(76, 225)",0.0
+MVI_0083,46. you (plural),train,Pronouns/46. you (plural)/MVI_0083.MOV,data\landmarks\include50\train\Pronouns_46_you_(plural)_MVI_0083.npy,processed,78.0,"(78, 225)",0.0
+MVI_4003,42. T-Shirt,train,Clothes/42. T-Shirt/MVI_4003.MOV,data\landmarks\include50\train\Clothes_42_T-Shirt_MVI_4003.npy,processed,85.0,"(85, 225)",0.0
+MVI_4594,67. Monday,train,Days_and_Time/67. Monday/MVI_4594.MOV,data\landmarks\include50\train\Days_and_Time_67_Monday_MVI_4594.npy,processed,59.0,"(59, 225)",0.0
+MVI_4243,78. Girl,train,People/78. Girl/MVI_4243.MOV,data\landmarks\include50\train\People_78_Girl_MVI_4243.npy,processed,64.0,"(64, 225)",0.0
+MVI_4940,61. Father,train,People/61. Father/MVI_4940.MOV,data\landmarks\include50\train\People_61_Father_MVI_4940.npy,processed,60.0,"(60, 225)",0.0
+MVI_9382,79. short,train,Adjectives/79. short/MVI_9382.MOV,data\landmarks\include50\train\Adjectives_79_short_MVI_9382.npy,processed,45.0,"(45, 225)",0.0
+MVI_3720,47. Red,train,Colours/47. Red/MVI_3720.MOV,data\landmarks\include50\train\Colours_47_Red_MVI_3720.npy,processed,62.0,"(62, 225)",0.0
+MVI_9421,91. new,train,Adjectives/91. new/MVI_9421.MOV,data\landmarks\include50\train\Adjectives_91_new_MVI_9421.npy,processed,63.0,"(63, 225)",0.0
+MVI_3013,4. Bird,train,Animals/4. Bird/MVI_3013.MOV,data\landmarks\include50\train\Animals_4_Bird_MVI_3013.npy,processed,81.0,"(81, 225)",0.0
+MVI_5136,87. hot,train,Adjectives/87. hot/MVI_5136.MOV,data\landmarks\include50\train\Adjectives_87_hot_MVI_5136.npy,processed,71.0,"(71, 225)",0.0
+MVI_5339,2. quiet,train,Adjectives/2. quiet/MVI_5339.MOV,data\landmarks\include50\train\Adjectives_2_quiet_MVI_5339.npy,processed,52.0,"(52, 225)",0.0
+MVI_4580,64. Fall,train,Seasons/64. Fall/MVI_4580.MOV,data\landmarks\include50\train\Seasons_64_Fall_MVI_4580.npy,processed,60.0,"(60, 225)",0.0
+MVI_3366,23. Court,train,Places/23. Court/MVI_3366.MOV,data\landmarks\include50\train\Places_23_Court_MVI_3366.npy,processed,61.0,"(61, 225)",0.0
+MVI_5436,64. Fall,train,Seasons/64. Fall/MVI_5436.MOV,data\landmarks\include50\train\Seasons_64_Fall_MVI_5436.npy,processed,52.0,"(52, 225)",0.0
+MVI_0066,40. I,train,Pronouns/40. I/MVI_0066.MOV,data\landmarks\include50\train\Pronouns_40_I_MVI_0066.npy,processed,65.0,"(65, 225)",0.0
+MVI_5524,86. Time,train,Days_and_Time/86. Time/MVI_5524.MOV,data\landmarks\include50\train\Days_and_Time_86_Time_MVI_5524.npy,processed,38.0,"(38, 225)",0.0
+MVI_4177,11. Car,train,Means_of_Transportation/11. Car/MVI_4177.MOV,data\landmarks\include50\train\Means_of_Transportation_11_Car_MVI_4177.npy,processed,83.0,"(83, 225)",0.0
+MVI_3350,19. House,train,Places/19. House/MVI_3350.MOV,data\landmarks\include50\train\Places_19_House_MVI_3350.npy,processed,54.0,"(54, 225)",0.0
+MVI_4533,53. Fan,train,Electronics/53. Fan/MVI_4533.MOV,data\landmarks\include50\train\Electronics_53_Fan_MVI_4533.npy,processed,65.0,"(65, 225)",0.0
+MVI_4019,47. Red,train,Colours/47. Red/MVI_4019.MOV,data\landmarks\include50\train\Colours_47_Red_MVI_4019.npy,processed,64.0,"(64, 225)",0.0
+MVI_2987,4. Bird,train,Animals/4. Bird/MVI_2987.MOV,data\landmarks\include50\train\Animals_4_Bird_MVI_2987.npy,processed,76.0,"(76, 225)",0.0
+MVI_5062,55. White,train,Colours/55. White/MVI_5062.MOV,data\landmarks\include50\train\Colours_55_White_MVI_5062.npy,processed,47.0,"(47, 225)",0.0
+MVI_5062,23. Court,train,Colours/55. White/MVI_5062.MOV,data\landmarks\include50\train\Places_23_Court_MVI_5062.npy,processed,47.0,"(47, 225)",0.0
+MVI_9932,51. Good Morning,train,Greetings/51. Good Morning/MVI_9932.MOV,data\landmarks\include50\train\Greetings_51_Good_Morning_MVI_9932.npy,processed,56.0,"(56, 225)",0.0
+MVI_5424,61. Summer,train,Seasons/61. Summer/MVI_5424.MOV,data\landmarks\include50\train\Seasons_61_Summer_MVI_5424.npy,processed,58.0,"(58, 225)",0.0
+MVI_3594,19. House,train,Places/19. House/MVI_3594.MOV,data\landmarks\include50\train\Places_19_House_MVI_3594.npy,processed,57.0,"(57, 225)",0.0
+MVI_4413,40. Paint,train,Home/40. Paint/MVI_4413.MOV,data\landmarks\include50\train\Home_40_Paint_MVI_4413.npy,processed,54.0,"(54, 225)",0.0
+MVI_5336,1. loud,train,Adjectives/1. loud/MVI_5336.MOV,data\landmarks\include50\train\Adjectives_1_loud_MVI_5336.npy,processed,42.0,"(42, 225)",0.0
+MVI_8866,84. Teacher,train,Jobs/84. Teacher/MVI_8866.MP4,data\landmarks\include50\train\Jobs_84_Teacher_MVI_8866.npy,processed,61.0,"(61, 225)",0.0
+MVI_3516,19. House,train,Places/19. House/MVI_3516.MOV,data\landmarks\include50\train\Places_19_House_MVI_3516.npy,processed,48.0,"(48, 225)",0.0
+MVI_9985,55. Thank you,train,Greetings/55. Thank you/MVI_9985.MOV,data\landmarks\include50\train\Greetings_55_Thank_you_MVI_9985.npy,processed,67.0,"(67, 225)",0.0
+MVI_3664,35. Bank,train,Places/35. Bank/MVI_3664.MOV,data\landmarks\include50\train\Places_35_Bank_MVI_3664.npy,processed,47.0,"(47, 225)",0.0
+MVI_5108,78. long,train,Adjectives/78. long/MVI_5108.MOV,data\landmarks\include50\train\Adjectives_78_long_MVI_5108.npy,processed,78.0,"(78, 225)",0.0
+MVI_9538,2. quiet,train,Adjectives/2. quiet/MVI_9538.MOV,data\landmarks\include50\train\Adjectives_2_quiet_MVI_9538.npy,processed,66.0,"(66, 225)",0.0
+MVI_5209,55. White,train,Colours/55. White/MVI_5209.MOV,data\landmarks\include50\train\Colours_55_White_MVI_5209.npy,processed,48.0,"(48, 225)",0.0
+MVI_8631,66. Brother,train,People/66. Brother/MVI_8631.MP4,data\landmarks\include50\train\People_66_Brother_MVI_8631.npy,processed,63.0,"(63, 225)",0.0
+MVI_5059,54. Black,train,Colours/54. Black/MVI_5059.MOV,data\landmarks\include50\train\Colours_54_Black_MVI_5059.npy,processed,49.0,"(49, 225)",0.0
+MVI_9135,64. Fall,train,Seasons/64. Fall/MVI_9135.MP4,data\landmarks\include50\train\Seasons_64_Fall_MVI_9135.npy,processed,71.0,"(71, 225)",0.0
+MVI_5240,94. good,train,Adjectives/94. good/MVI_5240.MOV,data\landmarks\include50\train\Adjectives_94_good_MVI_5240.npy,processed,65.0,"(65, 225)",0.0
+MVI_9453,2. quiet,train,Adjectives/2. quiet/MVI_9453.MOV,data\landmarks\include50\train\Adjectives_2_quiet_MVI_9453.npy,processed,60.0,"(60, 225)",0.0
+MVI_5167,97. dry,train,Adjectives/97. dry/MVI_5167.MOV,data\landmarks\include50\train\Adjectives_97_dry_MVI_5167.npy,processed,68.0,"(68, 225)",0.0
+MVI_9919,40. I,train,Pronouns/40. I/MVI_9919.MOV,data\landmarks\include50\train\Pronouns_40_I_MVI_9919.npy,processed,81.0,"(81, 225)",0.0
+MVI_5038,47. Red,train,Colours/47. Red/MVI_5038.MOV,data\landmarks\include50\train\Colours_47_Red_MVI_5038.npy,processed,59.0,"(59, 225)",0.0
+MVI_9540,3. happy,train,Adjectives/3. happy/MVI_9540.MOV,data\landmarks\include50\train\Adjectives_3_happy_MVI_9540.npy,processed,50.0,"(50, 225)",0.0
+MVI_8711,14. Election,train,Society/14. Election/MVI_8711.MP4,data\landmarks\include50\train\Society_14_Election_MVI_8711.npy,processed,78.0,"(78, 225)",0.0
+MVI_4204,44. Shoes,train,Clothes/44. Shoes/MVI_4204.MOV,data\landmarks\include50\train\Clothes_44_Shoes_MVI_4204.npy,processed,57.0,"(57, 225)",0.0
+MVI_4365,28. Window,train,Home/28. Window/MVI_4365.MOV,data\landmarks\include50\train\Home_28_Window_MVI_4365.npy,processed,81.0,"(81, 225)",0.0
+MVI_3814,77. Boy,train,People/77. Boy/MVI_3814.MOV,data\landmarks\include50\train\People_77_Boy_MVI_3814.npy,processed,63.0,"(63, 225)",0.0
+MVI_3238,11. Car,train,Means_of_Transportation/11. Car/MVI_3238.MOV,data\landmarks\include50\train\Means_of_Transportation_11_Car_MVI_3238.npy,processed,104.0,"(104, 225)",0.0
+MVI_3818,78. Girl,train,People/78. Girl/MVI_3818.MOV,data\landmarks\include50\train\People_78_Girl_MVI_3818.npy,processed,52.0,"(52, 225)",0.0
+MVI_8887,91. Priest,train,Jobs/91. Priest/MVI_8887.MP4,data\landmarks\include50\train\Jobs_91_Priest_MVI_8887.npy,processed,61.0,"(61, 225)",0.0
+MVI_5284,83. big large,train,Adjectives/83. big large/MVI_5284.MOV,data\landmarks\include50\train\Adjectives_83_big_large_MVI_5284.npy,processed,55.0,"(55, 225)",0.0
+MVI_9368,1. loud,train,Adjectives/1. loud/MVI_9368.MOV,data\landmarks\include50\train\Adjectives_1_loud_MVI_9368.npy,processed,47.0,"(47, 225)",0.0
+MVI_9236,84. small little,train,Adjectives/84. small little/MVI_9236.MOV,data\landmarks\include50\train\Adjectives_84_small_little_MVI_9236.npy,processed,44.0,"(44, 225)",0.0
+MVI_4839,14. Election,train,Society/14. Election/MVI_4839.MOV,data\landmarks\include50\train\Society_14_Election_MVI_4839.npy,processed,73.0,"(73, 225)",0.0
+MVI_3850,42. T-Shirt,train,Clothes/42. T-Shirt/MVI_3850.MOV,data\landmarks\include50\train\Clothes_42_T-Shirt_MVI_3850.npy,processed,106.0,"(106, 225)",0.0
+MVI_4075,66. Brother,train,People/66. Brother/MVI_4075.MOV,data\landmarks\include50\train\People_66_Brother_MVI_4075.npy,processed,61.0,"(61, 225)",0.0
+MVI_2979,1. Dog,train,Animals/1. Dog/MVI_2979.MOV,data\landmarks\include50\train\Animals_1_Dog_MVI_2979.npy,processed,76.0,"(76, 225)",0.0
+MVI_4230,66. Brother,train,People/66. Brother/MVI_4230.MOV,data\landmarks\include50\train\People_66_Brother_MVI_4230.npy,processed,51.0,"(51, 225)",0.0
+MVI_3196,16. train ticket,train,Means_of_Transportation/16. train ticket/MVI_3196.MOV,data\landmarks\include50\train\Means_of_Transportation_16_train_ticket_MVI_3196.npy,processed,102.0,"(102, 225)",0.0
+MVI_5309,91. new,train,Adjectives/91. new/MVI_5309.MOV,data\landmarks\include50\train\Adjectives_91_new_MVI_5309.npy,processed,46.0,"(46, 225)",0.0
+MVI_5287,84. small little,train,Adjectives/84. small little/MVI_5287.MOV,data\landmarks\include50\train\Adjectives_84_small_little_MVI_5287.npy,processed,54.0,"(54, 225)",0.0
+MVI_9432,94. good,train,Adjectives/94. good/MVI_9432.MOV,data\landmarks\include50\train\Adjectives_94_good_MVI_9432.npy,processed,59.0,"(59, 225)",0.0
+MVI_9521,97. dry,train,Adjectives/97. dry/MVI_9521.MOV,data\landmarks\include50\train\Adjectives_97_dry_MVI_9521.npy,processed,63.0,"(63, 225)",0.0
+MVI_9409,87. hot,train,Adjectives/87. hot/MVI_9409.MOV,data\landmarks\include50\train\Adjectives_87_hot_MVI_9409.npy,processed,66.0,"(66, 225)",0.0
+MVI_3310,28. Store or Shop,train,Places/28. Store or Shop/MVI_3310.MOV,data\landmarks\include50\train\Places_28_Store_or_Shop_MVI_3310.npy,processed,56.0,"(56, 225)",0.0
+MVI_9879,40. I,train,Pronouns/40. I/MVI_9879.MOV,data\landmarks\include50\train\Pronouns_40_I_MVI_9879.npy,processed,53.0,"(53, 225)",0.0
+MVI_9947,46. you (plural),train,Pronouns/46. you (plural)/MVI_9947.MOV,data\landmarks\include50\train\Pronouns_46_you_(plural)_MVI_9947.npy,processed,64.0,"(64, 225)",0.0
+MVI_9097,53. Fan,train,Electronics/53. Fan/MVI_9097.MP4,data\landmarks\include50\train\Electronics_53_Fan_MVI_9097.npy,processed,78.0,"(78, 225)",0.0
+MVI_4160,5. Cow,train,Animals/5. Cow/MVI_4160.MOV,data\landmarks\include50\train\Animals_5_Cow_MVI_4160.npy,processed,57.0,"(57, 225)",0.0
+MVI_9234,83. big large,train,Adjectives/83. big large/MVI_9234.MOV,data\landmarks\include50\train\Adjectives_83_big_large_MVI_9234.npy,processed,47.0,"(47, 225)",0.0
+MVI_8645,78. Girl,train,People/78. Girl/MVI_8645.MP4,data\landmarks\include50\train\People_78_Girl_MVI_8645.npy,processed,62.0,"(62, 225)",0.0
+MVI_3780,66. Brother,train,People/66. Brother/MVI_3780.MOV,data\landmarks\include50\train\People_66_Brother_MVI_3780.npy,processed,58.0,"(58, 225)",0.0
+MVI_5288,84. small little,train,Adjectives/84. small little/MVI_5288.MOV,data\landmarks\include50\train\Adjectives_84_small_little_MVI_5288.npy,processed,38.0,"(38, 225)",0.0
+MVI_8584,11. Car,train,Means_of_Transportation/11. Car/MVI_8584.MP4,data\landmarks\include50\train\Means_of_Transportation_11_Car_MVI_8584.npy,processed,87.0,"(87, 225)",0.0
+MVI_4062,61. Father,train,People/61. Father/MVI_4062.MOV,data\landmarks\include50\train\People_61_Father_MVI_4062.npy,processed,56.0,"(56, 225)",0.0
+MVI_3765,61. Father,train,People/61. Father/MVI_3765.MOV,data\landmarks\include50\train\People_61_Father_MVI_3765.npy,processed,55.0,"(55, 225)",0.0
+MVI_4919,54. Black,train,Colours/54. Black/MVI_4919.MOV,data\landmarks\include50\train\Colours_54_Black_MVI_4919.npy,processed,54.0,"(54, 225)",0.0
+MVI_4390,34. Pen,train,Home/34. Pen/MVI_4390.MOV,data\landmarks\include50\train\Home_34_Pen_MVI_4390.npy,processed,57.0,"(57, 225)",0.0
+MVI_3336,35. Bank,train,Places/35. Bank/MVI_3336.MOV,data\landmarks\include50\train\Places_35_Bank_MVI_3336.npy,processed,63.0,"(63, 225)",0.0
+MVI_9124,61. Summer,train,Seasons/61. Summer/MVI_9124.MP4,data\landmarks\include50\train\Seasons_61_Summer_MVI_9124.npy,processed,75.0,"(75, 225)",0.0
+MVI_9349,94. good,train,Adjectives/94. good/MVI_9349.MOV,data\landmarks\include50\train\Adjectives_94_good_MVI_9349.npy,processed,41.0,"(41, 225)",0.0
+MVI_5420,61. Summer,train,Seasons/61. Summer/MVI_5420.MOV,data\landmarks\include50\train\Seasons_61_Summer_MVI_5420.npy,processed,64.0,"(64, 225)",0.0
+MVI_3816,77. Boy,train,People/77. Boy/MVI_3816.MOV,data\landmarks\include50\train\People_77_Boy_MVI_3816.npy,processed,54.0,"(54, 225)",0.0
+MVI_3817,78. Girl,train,People/78. Girl/MVI_3817.MOV,data\landmarks\include50\train\People_78_Girl_MVI_3817.npy,processed,51.0,"(51, 225)",0.0
+MVI_5288,78. Girl,train,People/78. Girl/MVI_5288.MOV,data\landmarks\include50\train\People_78_Girl_MVI_5288.npy,processed,48.0,"(48, 225)",0.0
+MVI_8612,47. Red,train,Colours/47. Red/MVI_8612.MP4,data\landmarks\include50\train\Colours_47_Red_MVI_8612.npy,processed,73.0,"(73, 225)",0.0
+MVI_4009,44. Shoes,train,Clothes/44. Shoes/MVI_4009.MOV,data\landmarks\include50\train\Clothes_44_Shoes_MVI_4009.npy,processed,69.0,"(69, 225)",0.0
+MVI_9051,40. Paint,train,Home/40. Paint/MVI_9051.MP4,data\landmarks\include50\train\Home_40_Paint_MVI_9051.npy,processed,70.0,"(70, 225)",0.0
+MVI_4667,86. Time,train,Days_and_Time/86. Time/MVI_4667.MOV,data\landmarks\include50\train\Days_and_Time_86_Time_MVI_4667.npy,processed,58.0,"(58, 225)",0.0
+MVI_3134,16. train ticket,train,Means_of_Transportation/16. train ticket/MVI_3134.MOV,data\landmarks\include50\train\Means_of_Transportation_16_train_ticket_MVI_3134.npy,processed,99.0,"(99, 225)",0.0
+MVI_4412,40. Paint,train,Home/40. Paint/MVI_4412.MOV,data\landmarks\include50\train\Home_40_Paint_MVI_4412.npy,processed,56.0,"(56, 225)",0.0
+MVI_3986,37. Hat,train,Clothes/37. Hat/MVI_3986.MOV,data\landmarks\include50\train\Clothes_37_Hat_MVI_3986.npy,processed,101.0,"(101, 225)",0.0
+MVI_3385,28. Store or Shop,train,Places/28. Store or Shop/MVI_3385.MOV,data\landmarks\include50\train\Places_28_Store_or_Shop_MVI_3385.npy,processed,64.0,"(64, 225)",0.0
+MVI_5009,67. Monday,train,Days_and_Time/67. Monday/MVI_5009.MOV,data\landmarks\include50\train\Days_and_Time_67_Monday_MVI_5009.npy,processed,47.0,"(47, 225)",0.0
+MVI_3146,11. Car,train,Means_of_Transportation/11. Car/MVI_3146.MOV,data\landmarks\include50\train\Means_of_Transportation_11_Car_MVI_3146.npy,processed,148.0,"(148, 225)",0.0
+MVI_5208,54. Black,train,Colours/54. Black/MVI_5208.MOV,data\landmarks\include50\train\Colours_54_Black_MVI_5208.npy,processed,54.0,"(54, 225)",0.0
+MVI_5185,3. happy,train,Adjectives/3. happy/MVI_5185.MOV,data\landmarks\include50\train\Adjectives_3_happy_MVI_5185.npy,processed,78.0,"(78, 225)",0.0
+MVI_5286,77. Boy,train,People/77. Boy/MVI_5286.MOV,data\landmarks\include50\train\People_77_Boy_MVI_5286.npy,processed,52.0,"(52, 225)",0.0
+MVI_9878,40. I,train,Pronouns/40. I/MVI_9878.MOV,data\landmarks\include50\train\Pronouns_40_I_MVI_9878.npy,processed,48.0,"(48, 225)",0.0
+MVI_3351,19. House,train,Places/19. House/MVI_3351.MOV,data\landmarks\include50\train\Places_19_House_MVI_3351.npy,processed,58.0,"(58, 225)",0.0
+MVI_0032,48. Hello,train,Greetings/48. Hello/MVI_0032.MOV,data\landmarks\include50\train\Greetings_48_Hello_MVI_0032.npy,processed,61.0,"(61, 225)",0.0
+MVI_9279,97. dry,train,Adjectives/97. dry/MVI_9279.MOV,data\landmarks\include50\train\Adjectives_97_dry_MVI_9279.npy,processed,56.0,"(56, 225)",0.0
+MVI_4744,84. Teacher,train,Jobs/84. Teacher/MVI_4744.MOV,data\landmarks\include50\train\Jobs_84_Teacher_MVI_4744.npy,processed,53.0,"(53, 225)",0.0
+MVI_3423,35. Bank,train,Places/35. Bank/MVI_3423.MOV,data\landmarks\include50\train\Places_35_Bank_MVI_3423.npy,processed,70.0,"(70, 225)",0.0
+MVI_3965,78. Girl,train,People/78. Girl/MVI_3965.MOV,data\landmarks\include50\train\People_78_Girl_MVI_3965.npy,processed,74.0,"(74, 225)",0.0
+MVI_4923,55. White,train,Colours/55. White/MVI_4923.MOV,data\landmarks\include50\train\Colours_55_White_MVI_4923.npy,processed,43.0,"(43, 225)",0.0
+MVI_4459,84. Teacher,train,Jobs/84. Teacher/MVI_4459.MOV,data\landmarks\include50\train\Jobs_84_Teacher_MVI_4459.npy,processed,79.0,"(79, 225)",0.0
+MVI_5266,78. long,train,Adjectives/78. long/MVI_5266.MOV,data\landmarks\include50\train\Adjectives_78_long_MVI_5266.npy,processed,69.0,"(69, 225)",0.0
+MVI_9898,44. it,train,Pronouns/44. it/MVI_9898.MOV,data\landmarks\include50\train\Pronouns_44_it_MVI_9898.npy,processed,46.0,"(46, 225)",0.0
+MVI_9123,61. Summer,train,Seasons/61. Summer/MVI_9123.MP4,data\landmarks\include50\train\Seasons_61_Summer_MVI_9123.npy,processed,71.0,"(71, 225)",0.0
+MVI_3764,61. Father,train,People/61. Father/MVI_3764.MOV,data\landmarks\include50\train\People_61_Father_MVI_3764.npy,processed,56.0,"(56, 225)",0.0
+MVI_3438,19. House,train,Places/19. House/MVI_3438.MOV,data\landmarks\include50\train\Places_19_House_MVI_3438.npy,processed,58.0,"(58, 225)",0.0
+MVI_9296,3. happy,train,Adjectives/3. happy/MVI_9296.MOV,data\landmarks\include50\train\Adjectives_3_happy_MVI_9296.npy,processed,50.0,"(50, 225)",0.0
+MVI_5491,78. Year,train,Days_and_Time/78. Year/MVI_5491.MOV,data\landmarks\include50\train\Days_and_Time_78_Year_MVI_5491.npy,processed,46.0,"(46, 225)",0.0
+MVI_5188,78. long,train,Adjectives/78. long/MVI_5188.MOV,data\landmarks\include50\train\Adjectives_78_long_MVI_5188.npy,processed,51.0,"(51, 225)",0.0
+MVI_9290,1. loud,train,Adjectives/1. loud/MVI_9290.MOV,data\landmarks\include50\train\Adjectives_1_loud_MVI_9290.npy,processed,64.0,"(64, 225)",0.0
+MVI_9290,23. Court,train,Adjectives/1. loud/MVI_9290.MOV,data\landmarks\include50\train\Places_23_Court_MVI_9290.npy,processed,64.0,"(64, 225)",0.0
+MVI_5184,47. Red,train,Colours/47. Red/MVI_5184.MOV,data\landmarks\include50\train\Colours_47_Red_MVI_5184.npy,processed,50.0,"(50, 225)",0.0
+MVI_0089,48. Hello,train,Greetings/48. Hello/MVI_0089.MOV,data\landmarks\include50\train\Greetings_48_Hello_MVI_0089.npy,processed,68.0,"(68, 225)",0.0
+MVI_5243,66. Brother,train,People/66. Brother/MVI_5243.MOV,data\landmarks\include50\train\People_66_Brother_MVI_5243.npy,processed,57.0,"(57, 225)",0.0
+MVI_5022,42. T-Shirt,train,Clothes/42. T-Shirt/MVI_5022.MOV,data\landmarks\include50\train\Clothes_42_T-Shirt_MVI_5022.npy,processed,76.0,"(76, 225)",0.0
+MVI_3096,4. Bird,train,Animals/4. Bird/MVI_3096.MOV,data\landmarks\include50\train\Animals_4_Bird_MVI_3096.npy,processed,85.0,"(85, 225)",0.0
+MVI_9328,87. hot,train,Adjectives/87. hot/MVI_9328.MOV,data\landmarks\include50\train\Adjectives_87_hot_MVI_9328.npy,processed,52.0,"(52, 225)",0.0
+MVI_4532,53. Fan,train,Electronics/53. Fan/MVI_4532.MOV,data\landmarks\include50\train\Electronics_53_Fan_MVI_4532.npy,processed,78.0,"(78, 225)",0.0
+MVI_4532,28. Store or Shop,train,Electronics/53. Fan/MVI_4532.MOV,data\landmarks\include50\train\Places_28_Store_or_Shop_MVI_4532.npy,processed,78.0,"(78, 225)",0.0
+MVI_3453,23. Court,train,Places/23. Court/MVI_3453.MOV,data\landmarks\include50\train\Places_23_Court_MVI_3453.npy,processed,58.0,"(58, 225)",0.0
+MVI_4387,34. Pen,train,Home/34. Pen/MVI_4387.MOV,data\landmarks\include50\train\Home_34_Pen_MVI_4387.npy,processed,64.0,"(64, 225)",0.0
+MVI_3595,19. House,train,Places/19. House/MVI_3595.MOV,data\landmarks\include50\train\Places_19_House_MVI_3595.npy,processed,58.0,"(58, 225)",0.0
+MVI_9293,2. quiet,train,Adjectives/2. quiet/MVI_9293.MOV,data\landmarks\include50\train\Adjectives_2_quiet_MVI_9293.npy,processed,53.0,"(53, 225)",0.0
+MVI_9431,94. good,train,Adjectives/94. good/MVI_9431.MOV,data\landmarks\include50\train\Adjectives_94_good_MVI_9431.npy,processed,59.0,"(59, 225)",0.0
+MVI_9318,83. big large,train,Adjectives/83. big large/MVI_9318.MOV,data\landmarks\include50\train\Adjectives_83_big_large_MVI_9318.npy,processed,49.0,"(49, 225)",0.0
+MVI_5079,86. Time,train,Days_and_Time/86. Time/MVI_5079.MOV,data\landmarks\include50\train\Days_and_Time_86_Time_MVI_5079.npy,processed,42.0,"(42, 225)",0.0
+MVI_4565,61. Summer,train,Seasons/61. Summer/MVI_4565.MOV,data\landmarks\include50\train\Seasons_61_Summer_MVI_4565.npy,processed,78.0,"(78, 225)",0.0
+MVI_8864,84. Teacher,train,Jobs/84. Teacher/MVI_8864.MP4,data\landmarks\include50\train\Jobs_84_Teacher_MVI_8864.npy,processed,73.0,"(73, 225)",0.0
+MVI_9976,46. you (plural),train,Pronouns/46. you (plural)/MVI_9976.MOV,data\landmarks\include50\train\Pronouns_46_you_(plural)_MVI_9976.npy,processed,74.0,"(74, 225)",0.0
+MVI_2989,4. Bird,train,Animals/4. Bird/MVI_2989.MOV,data\landmarks\include50\train\Animals_4_Bird_MVI_2989.npy,processed,64.0,"(64, 225)",0.0
+MVI_5181,2. quiet,train,Adjectives/2. quiet/MVI_5181.MOV,data\landmarks\include50\train\Adjectives_2_quiet_MVI_5181.npy,processed,74.0,"(74, 225)",0.0
+MVI_4002,42. T-Shirt,train,Clothes/42. T-Shirt/MVI_4002.MOV,data\landmarks\include50\train\Clothes_42_T-Shirt_MVI_4002.npy,processed,92.0,"(92, 225)",0.0
+MVI_5008,37. Hat,train,Clothes/37. Hat/MVI_5008.MOV,data\landmarks\include50\train\Clothes_37_Hat_MVI_5008.npy,processed,50.0,"(50, 225)",0.0
+MVI_3239,11. Car,train,Means_of_Transportation/11. Car/MVI_3239.MOV,data\landmarks\include50\train\Means_of_Transportation_11_Car_MVI_3239.npy,processed,108.0,"(108, 225)",0.0
+MVI_8889,91. Priest,train,Jobs/91. Priest/MVI_8889.MP4,data\landmarks\include50\train\Jobs_91_Priest_MVI_8889.npy,processed,65.0,"(65, 225)",0.0
+MVI_4215,54. Black,train,Colours/54. Black/MVI_4215.MOV,data\landmarks\include50\train\Colours_54_Black_MVI_4215.npy,processed,49.0,"(49, 225)",0.0
+MVI_3422,35. Bank,train,Places/35. Bank/MVI_3422.MOV,data\landmarks\include50\train\Places_35_Bank_MVI_3422.npy,processed,59.0,"(59, 225)",0.0
+MVI_5168,97. dry,train,Adjectives/97. dry/MVI_5168.MOV,data\landmarks\include50\train\Adjectives_97_dry_MVI_5168.npy,processed,80.0,"(80, 225)",0.0
+MVI_4176,11. Car,train,Means_of_Transportation/11. Car/MVI_4176.MOV,data\landmarks\include50\train\Means_of_Transportation_11_Car_MVI_4176.npy,processed,75.0,"(75, 225)",0.0
+MVI_5010,67. Monday,train,Days_and_Time/67. Monday/MVI_5010.MOV,data\landmarks\include50\train\Days_and_Time_67_Monday_MVI_5010.npy,processed,47.0,"(47, 225)",0.0
+MVI_5123,83. big large,train,Adjectives/83. big large/MVI_5123.MOV,data\landmarks\include50\train\Adjectives_83_big_large_MVI_5123.npy,processed,54.0,"(54, 225)",0.0
+MVI_5264,3. happy,train,Adjectives/3. happy/MVI_5264.MOV,data\landmarks\include50\train\Adjectives_3_happy_MVI_5264.npy,processed,56.0,"(56, 225)",0.0
+MVI_4538,54. Cell phone,train,Electronics/54. Cell phone/MVI_4538.MOV,data\landmarks\include50\train\Electronics_54_Cell_phone_MVI_4538.npy,processed,47.0,"(47, 225)",0.0
+MVI_9299,78. long,train,Adjectives/78. long/MVI_9299.MOV,data\landmarks\include50\train\Adjectives_78_long_MVI_9299.npy,processed,50.0,"(50, 225)",0.0
+MVI_9933,51. Good Morning,train,Greetings/51. Good Morning/MVI_9933.MOV,data\landmarks\include50\train\Greetings_51_Good_Morning_MVI_9933.npy,processed,53.0,"(53, 225)",0.0
+MVI_4061,61. Father,train,People/61. Father/MVI_4061.MOV,data\landmarks\include50\train\People_61_Father_MVI_4061.npy,processed,57.0,"(57, 225)",0.0
+MVI_5285,77. Boy,train,People/77. Boy/MVI_5285.MOV,data\landmarks\include50\train\People_77_Boy_MVI_5285.npy,processed,55.0,"(55, 225)",0.0
+MVI_5112,79. short,train,Adjectives/79. short/MVI_5112.MOV,data\landmarks\include50\train\Adjectives_79_short_MVI_5112.npy,processed,61.0,"(61, 225)",0.0
+MVI_8620,55. White,train,Colours/55. White/MVI_8620.MP4,data\landmarks\include50\train\Colours_55_White_MVI_8620.npy,processed,61.0,"(61, 225)",0.0
+MVI_3352,19. House,train,Places/19. House/MVI_3352.MOV,data\landmarks\include50\train\Places_19_House_MVI_3352.npy,processed,56.0,"(56, 225)",0.0
+MVI_4018,47. Red,train,Colours/47. Red/MVI_4018.MOV,data\landmarks\include50\train\Colours_47_Red_MVI_4018.npy,processed,66.0,"(66, 225)",0.0
+MVI_3386,28. Store or Shop,train,Places/28. Store or Shop/MVI_3386.MOV,data\landmarks\include50\train\Places_28_Store_or_Shop_MVI_3386.npy,processed,59.0,"(59, 225)",0.0
+MVI_3501,35. Bank,train,Places/35. Bank/MVI_3501.MOV,data\landmarks\include50\train\Places_35_Bank_MVI_3501.npy,processed,41.0,"(41, 225)",0.0
+MVI_4178,11. Car,train,Means_of_Transportation/11. Car/MVI_4178.MOV,data\landmarks\include50\train\Means_of_Transportation_11_Car_MVI_4178.npy,processed,77.0,"(77, 225)",0.0
+MVI_3890,55. White,train,Colours/55. White/MVI_3890.MOV,data\landmarks\include50\train\Colours_55_White_MVI_3890.npy,processed,80.0,"(80, 225)",0.0
+MVI_3534,23. Court,train,Places/23. Court/MVI_3534.MOV,data\landmarks\include50\train\Places_23_Court_MVI_3534.npy,processed,60.0,"(60, 225)",0.0
+MVI_5021,42. T-Shirt,train,Clothes/42. T-Shirt/MVI_5021.MOV,data\landmarks\include50\train\Clothes_42_T-Shirt_MVI_5021.npy,processed,64.0,"(64, 225)",0.0
+MVI_0037,48. Hello,train,Greetings/48. Hello/MVI_0037.MOV,data\landmarks\include50\train\Greetings_48_Hello_MVI_0037.npy,processed,49.0,"(49, 225)",0.0
+MVI_4982,77. Boy,train,People/77. Boy/MVI_4982.MOV,data\landmarks\include50\train\People_77_Boy_MVI_4982.npy,processed,51.0,"(51, 225)",0.0
+MVI_5187,78. long,train,Adjectives/78. long/MVI_5187.MOV,data\landmarks\include50\train\Adjectives_78_long_MVI_5187.npy,processed,60.0,"(60, 225)",0.0
+MVI_3892,55. White,train,Colours/55. White/MVI_3892.MOV,data\landmarks\include50\train\Colours_55_White_MVI_3892.npy,processed,69.0,"(69, 225)",0.0
+MVI_2991,5. Cow,train,Animals/5. Cow/MVI_2991.MOV,data\landmarks\include50\train\Animals_5_Cow_MVI_2991.npy,processed,65.0,"(65, 225)",0.0
+MVI_5446,67. Monday,train,Days_and_Time/67. Monday/MVI_5446.MOV,data\landmarks\include50\train\Days_and_Time_67_Monday_MVI_5446.npy,processed,52.0,"(52, 225)",0.0
+MVI_3688,37. Hat,train,Clothes/37. Hat/MVI_3688.MOV,data\landmarks\include50\train\Clothes_37_Hat_MVI_3688.npy,processed,69.0,"(69, 225)",0.0
+MVI_3781,66. Brother,train,People/66. Brother/MVI_3781.MOV,data\landmarks\include50\train\People_66_Brother_MVI_3781.npy,processed,61.0,"(61, 225)",0.0
+MVI_4981,77. Boy,train,People/77. Boy/MVI_4981.MOV,data\landmarks\include50\train\People_77_Boy_MVI_4981.npy,processed,54.0,"(54, 225)",0.0
+MVI_0078,44. it,train,Pronouns/44. it/MVI_0078.MOV,data\landmarks\include50\train\Pronouns_44_it_MVI_0078.npy,processed,58.0,"(58, 225)",0.0
+MVI_5250,97. dry,train,Adjectives/97. dry/MVI_5250.MOV,data\landmarks\include50\train\Adjectives_97_dry_MVI_5250.npy,processed,67.0,"(67, 225)",0.0
+MVI_4907,34. Pen,train,Home/34. Pen/MVI_4907.MOV,data\landmarks\include50\train\Home_34_Pen_MVI_4907.npy,processed,48.0,"(48, 225)",0.0
+MVI_8865,84. Teacher,train,Jobs/84. Teacher/MVI_8865.MP4,data\landmarks\include50\train\Jobs_84_Teacher_MVI_8865.npy,processed,60.0,"(60, 225)",0.0
+MVI_5037,47. Red,train,Colours/47. Red/MVI_5037.MOV,data\landmarks\include50\train\Colours_47_Red_MVI_5037.npy,processed,52.0,"(52, 225)",0.0
+MVI_9176,78. Year,train,Days_and_Time/78. Year/MVI_9176.MP4,data\landmarks\include50\train\Days_and_Time_78_Year_MVI_9176.npy,processed,61.0,"(61, 225)",0.0
+MVI_4362,28. Window,train,Home/28. Window/MVI_4362.MOV,data\landmarks\include50\train\Home_28_Window_MVI_4362.npy,processed,84.0,"(84, 225)",0.0
+MVI_4579,64. Fall,train,Seasons/64. Fall/MVI_4579.MOV,data\landmarks\include50\train\Seasons_64_Fall_MVI_4579.npy,processed,64.0,"(64, 225)",0.0
+MVI_5217,87. hot,train,Adjectives/87. hot/MVI_5217.MOV,data\landmarks\include50\train\Adjectives_87_hot_MVI_5217.npy,processed,66.0,"(66, 225)",0.0
+MVI_8932,2. Death,train,Society/2. Death/MVI_8932.MP4,data\landmarks\include50\train\Society_2_Death_MVI_8932.npy,processed,71.0,"(71, 225)",0.0
+MVI_9455,3. happy,train,Adjectives/3. happy/MVI_9455.MOV,data\landmarks\include50\train\Adjectives_3_happy_MVI_9455.npy,processed,51.0,"(51, 225)",0.0
+MVI_3966,78. Girl,train,People/78. Girl/MVI_3966.MOV,data\landmarks\include50\train\People_78_Girl_MVI_3966.npy,processed,68.0,"(68, 225)",0.0
+MVI_3097,5. Cow,train,Animals/5. Cow/MVI_3097.MOV,data\landmarks\include50\train\Animals_5_Cow_MVI_3097.npy,processed,76.0,"(76, 225)",0.0
+MVI_5392,54. Cell phone,train,Electronics/54. Cell phone/MVI_5392.MOV,data\landmarks\include50\train\Electronics_54_Cell_phone_MVI_5392.npy,processed,53.0,"(53, 225)",0.0
+MVI_0001,40. I,train,Pronouns/40. I/MVI_0001.MOV,data\landmarks\include50\train\Pronouns_40_I_MVI_0001.npy,processed,66.0,"(66, 225)",0.0
+MVI_5096,66. Brother,train,People/66. Brother/MVI_5096.MOV,data\landmarks\include50\train\People_66_Brother_MVI_5096.npy,processed,63.0,"(63, 225)",0.0
+MVI_5344,91. Priest,train,Jobs/91. Priest/MVI_5344.MOV,data\landmarks\include50\train\Jobs_91_Priest_MVI_5344.npy,processed,47.0,"(47, 225)",0.0
+MVI_4488,91. Priest,train,Jobs/91. Priest/MVI_4488.MOV,data\landmarks\include50\train\Jobs_91_Priest_MVI_4488.npy,processed,78.0,"(78, 225)",0.0
+MVI_8661,2. Death,train,Society/2. Death/MVI_8661.MP4,data\landmarks\include50\train\Society_2_Death_MVI_8661.npy,processed,92.0,"(92, 225)",0.0
+MVI_9500,91. new,train,Adjectives/91. new/MVI_9500.MOV,data\landmarks\include50\train\Adjectives_91_new_MVI_9500.npy,processed,56.0,"(56, 225)",0.0
+MVI_9460,78. long,train,Adjectives/78. long/MVI_9460.MOV,data\landmarks\include50\train\Adjectives_78_long_MVI_9460.npy,processed,52.0,"(52, 225)",0.0
+MVI_8713,14. Election,train,Society/14. Election/MVI_8713.MP4,data\landmarks\include50\train\Society_14_Election_MVI_8713.npy,processed,68.0,"(68, 225)",0.0
+MVI_3609,23. Court,train,Places/23. Court/MVI_3609.MOV,data\landmarks\include50\train\Places_23_Court_MVI_3609.npy,processed,62.0,"(62, 225)",0.0
+MVI_4110,77. Boy,train,People/77. Boy/MVI_4110.MOV,data\landmarks\include50\train\People_77_Boy_MVI_4110.npy,processed,66.0,"(66, 225)",0.0
+MVI_9053,40. Paint,train,Home/40. Paint/MVI_9053.MP4,data\landmarks\include50\train\Home_40_Paint_MVI_9053.npy,processed,72.0,"(72, 225)",0.0
+MVI_5231,91. new,train,Adjectives/91. new/MVI_5231.MOV,data\landmarks\include50\train\Adjectives_91_new_MVI_5231.npy,processed,62.0,"(62, 225)",0.0
+MVI_9142,67. Monday,train,Days_and_Time/67. Monday/MVI_9142.MP4,data\landmarks\include50\train\Days_and_Time_67_Monday_MVI_9142.npy,processed,63.0,"(63, 225)",0.0
+MVI_9316,83. big large,train,Adjectives/83. big large/MVI_9316.MOV,data\landmarks\include50\train\Adjectives_83_big_large_MVI_9316.npy,processed,44.0,"(44, 225)",0.0
+MVI_9968,51. Good Morning,train,Greetings/51. Good Morning/MVI_9968.MOV,data\landmarks\include50\train\Greetings_51_Good_Morning_MVI_9968.npy,processed,70.0,"(70, 225)",0.0
+MVI_5286,84. small little,train,Adjectives/84. small little/MVI_5286.MOV,data\landmarks\include50\train\Adjectives_84_small_little_MVI_5286.npy,processed,52.0,"(52, 225)",0.0
+MVI_9221,79. short,train,Adjectives/79. short/MVI_9221.MOV,data\landmarks\include50\train\Adjectives_79_short_MVI_9221.npy,processed,44.0,"(44, 225)",0.0
+MVI_4577,64. Fall,train,Seasons/64. Fall/MVI_4577.MOV,data\landmarks\include50\train\Seasons_64_Fall_MVI_4577.npy,processed,71.0,"(71, 225)",0.0
+MVI_9298,78. long,train,Adjectives/78. long/MVI_9298.MOV,data\landmarks\include50\train\Adjectives_78_long_MVI_9298.npy,processed,53.0,"(53, 225)",0.0
+MVI_3593,19. House,train,Places/19. House/MVI_3593.MOV,data\landmarks\include50\train\Places_19_House_MVI_3593.npy,processed,63.0,"(63, 225)",0.0
+MVI_5182,2. quiet,train,Adjectives/2. quiet/MVI_5182.MOV,data\landmarks\include50\train\Adjectives_2_quiet_MVI_5182.npy,processed,76.0,"(76, 225)",0.0
+MVI_9909,46. you (plural),train,Pronouns/46. you (plural)/MVI_9909.MOV,data\landmarks\include50\train\Pronouns_46_you_(plural)_MVI_9909.npy,processed,57.0,"(57, 225)",0.0
+MVI_0048,51. Good Morning,train,Greetings/51. Good Morning/MVI_0048.MOV,data\landmarks\include50\train\Greetings_51_Good_Morning_MVI_0048.npy,processed,41.0,"(41, 225)",0.0
+MVI_0022,46. you (plural),train,Pronouns/46. you (plural)/MVI_0022.MOV,data\landmarks\include50\train\Pronouns_46_you_(plural)_MVI_0022.npy,processed,84.0,"(84, 225)",0.0
+MVI_4999,64. Fall,train,Seasons/64. Fall/MVI_4999.MOV,data\landmarks\include50\train\Seasons_64_Fall_MVI_4999.npy,processed,44.0,"(44, 225)",0.0
+MVI_5169,97. dry,train,Adjectives/97. dry/MVI_5169.MOV,data\landmarks\include50\train\Adjectives_97_dry_MVI_5169.npy,processed,82.0,"(82, 225)",0.0
+MVI_9143,67. Monday,train,Days_and_Time/67. Monday/MVI_9143.MP4,data\landmarks\include50\train\Days_and_Time_67_Monday_MVI_9143.npy,processed,70.0,"(70, 225)",0.0
+MVI_9542,3. happy,train,Adjectives/3. happy/MVI_9542.MOV,data\landmarks\include50\train\Adjectives_3_happy_MVI_9542.npy,processed,58.0,"(58, 225)",0.0
+MVI_5048,78. Year,train,Days_and_Time/78. Year/MVI_5048.MOV,data\landmarks\include50\train\Days_and_Time_78_Year_MVI_5048.npy,processed,37.0,"(37, 225)",0.0
+MVI_4888,44. Shoes,train,Clothes/44. Shoes/MVI_4888.MOV,data\landmarks\include50\train\Clothes_44_Shoes_MVI_4888.npy,processed,80.0,"(80, 225)",0.0
+MVI_4927,40. Paint,train,Home/40. Paint/MVI_4927.MOV,data\landmarks\include50\train\Home_40_Paint_MVI_4927.npy,processed,65.0,"(65, 225)",0.0
+MVI_3967,78. Girl,train,People/78. Girl/MVI_3967.MOV,data\landmarks\include50\train\People_78_Girl_MVI_3967.npy,processed,75.0,"(75, 225)",0.0
+MVI_9512,94. good,train,Adjectives/94. good/MVI_9512.MOV,data\landmarks\include50\train\Adjectives_94_good_MVI_9512.npy,processed,50.0,"(50, 225)",0.0
+MVI_9511,94. good,train,Adjectives/94. good/MVI_9511.MOV,data\landmarks\include50\train\Adjectives_94_good_MVI_9511.npy,processed,56.0,"(56, 225)",0.0
+MVI_3635,28. Store or Shop,train,Places/28. Store or Shop/MVI_3635.MOV,data\landmarks\include50\train\Places_28_Store_or_Shop_MVI_3635.npy,processed,52.0,"(52, 225)",0.0
+MVI_4887,44. Shoes,train,Clothes/44. Shoes/MVI_4887.MOV,data\landmarks\include50\train\Clothes_44_Shoes_MVI_4887.npy,processed,83.0,"(83, 225)",0.0
+MVI_4867,37. Hat,train,Clothes/37. Hat/MVI_4867.MOV,data\landmarks\include50\train\Clothes_37_Hat_MVI_4867.npy,processed,67.0,"(67, 225)",0.0
+MVI_4191,16. train ticket,train,Means_of_Transportation/16. train ticket/MVI_4191.MOV,data\landmarks\include50\train\Means_of_Transportation_16_train_ticket_MVI_4191.npy,processed,77.0,"(77, 225)",0.0
+MVI_3474,28. Store or Shop,train,Places/28. Store or Shop/MVI_3474.MOV,data\landmarks\include50\train\Places_28_Store_or_Shop_MVI_3474.npy,processed,45.0,"(45, 225)",0.0
+MVI_5011,67. Monday,train,Days_and_Time/67. Monday/MVI_5011.MOV,data\landmarks\include50\train\Days_and_Time_67_Monday_MVI_5011.npy,processed,54.0,"(54, 225)",0.0
+MVI_9938,44. it,train,Pronouns/44. it/MVI_9938.MOV,data\landmarks\include50\train\Pronouns_44_it_MVI_9938.npy,processed,68.0,"(68, 225)",0.0
+MVI_9375,3. happy,train,Adjectives/3. happy/MVI_9375.MOV,data\landmarks\include50\train\Adjectives_3_happy_MVI_9375.npy,processed,41.0,"(41, 225)",0.0
+MVI_5132,77. Boy,train,People/77. Boy/MVI_5132.MOV,data\landmarks\include50\train\People_77_Boy_MVI_5132.npy,processed,59.0,"(59, 225)",0.0
+MVI_9101,54. Cell phone,train,Electronics/54. Cell phone/MVI_9101.MP4,data\landmarks\include50\train\Electronics_54_Cell_phone_MVI_9101.npy,processed,69.0,"(69, 225)",0.0
+MVI_5391,54. Cell phone,train,Electronics/54. Cell phone/MVI_5391.MOV,data\landmarks\include50\train\Electronics_54_Cell_phone_MVI_5391.npy,processed,46.0,"(46, 225)",0.0
+MVI_5312,84. Teacher,train,Jobs/84. Teacher/MVI_5312.MOV,data\landmarks\include50\train\Jobs_84_Teacher_MVI_5312.npy,processed,51.0,"(51, 225)",0.0
+MVI_4670,86. Time,train,Days_and_Time/86. Time/MVI_4670.MOV,data\landmarks\include50\train\Days_and_Time_86_Time_MVI_4670.npy,processed,66.0,"(66, 225)",0.0
+MVI_8664,2. Death,train,Society/2. Death/MVI_8664.MP4,data\landmarks\include50\train\Society_2_Death_MVI_8664.npy,processed,92.0,"(92, 225)",0.0
+MVI_0062,55. Thank you,train,Greetings/55. Thank you/MVI_0062.MOV,data\landmarks\include50\train\Greetings_55_Thank_you_MVI_0062.npy,processed,79.0,"(79, 225)",0.0
+MVI_5295,87. hot,train,Adjectives/87. hot/MVI_5295.MOV,data\landmarks\include50\train\Adjectives_87_hot_MVI_5295.npy,processed,56.0,"(56, 225)",0.0
+MVI_0045,51. Good Morning,train,Greetings/51. Good Morning/MVI_0045.MOV,data\landmarks\include50\train\Greetings_51_Good_Morning_MVI_0045.npy,processed,90.0,"(90, 225)",0.0
+MVI_9970,51. Good Morning,train,Greetings/51. Good Morning/MVI_9970.MOV,data\landmarks\include50\train\Greetings_51_Good_Morning_MVI_9970.npy,processed,82.0,"(82, 225)",0.0
+MVI_3226,16. train ticket,train,Means_of_Transportation/16. train ticket/MVI_3226.MOV,data\landmarks\include50\train\Means_of_Transportation_16_train_ticket_MVI_3226.npy,processed,81.0,"(81, 225)",0.0
+MVI_9102,54. Cell phone,train,Electronics/54. Cell phone/MVI_9102.MP4,data\landmarks\include50\train\Electronics_54_Cell_phone_MVI_9102.npy,processed,62.0,"(62, 225)",0.0
+MVI_4922,55. White,train,Colours/55. White/MVI_4922.MOV,data\landmarks\include50\train\Colours_55_White_MVI_4922.npy,processed,52.0,"(52, 225)",0.0
+MVI_3513,19. House,train,Places/19. House/MVI_3513.MOV,data\landmarks\include50\train\Places_19_House_MVI_3513.npy,processed,53.0,"(53, 225)",0.0
+MVI_8583,11. Car,train,Means_of_Transportation/11. Car/MVI_8583.MP4,data\landmarks\include50\train\Means_of_Transportation_11_Car_MVI_8583.npy,processed,92.0,"(92, 225)",0.0
+MVI_0013,44. it,train,Pronouns/44. it/MVI_0013.MOV,data\landmarks\include50\train\Pronouns_44_it_MVI_0013.npy,processed,66.0,"(66, 225)",0.0
+MVI_9946,46. you (plural),train,Pronouns/46. you (plural)/MVI_9946.MOV,data\landmarks\include50\train\Pronouns_46_you_(plural)_MVI_9946.npy,processed,87.0,"(87, 225)",0.0
+MVI_3851,42. T-Shirt,train,Clothes/42. T-Shirt/MVI_3851.MOV,data\landmarks\include50\train\Clothes_42_T-Shirt_MVI_3851.npy,processed,88.0,"(88, 225)",0.0
+MVI_3851,4. Bird,train,Clothes/42. T-Shirt/MVI_3851.MOV,data\landmarks\include50\train\Animals_4_Bird_MVI_3851.npy,processed,88.0,"(88, 225)",0.0
+MVI_3095,4. Bird,train,Animals/4. Bird/MVI_3095.MOV,data\landmarks\include50\train\Animals_4_Bird_MVI_3095.npy,processed,80.0,"(80, 225)",0.0
+MVI_9144,67. Monday,train,Days_and_Time/67. Monday/MVI_9144.MP4,data\landmarks\include50\train\Days_and_Time_67_Monday_MVI_9144.npy,processed,58.0,"(58, 225)",0.0
+MVI_5229,91. new,train,Adjectives/91. new/MVI_5229.MOV,data\landmarks\include50\train\Adjectives_91_new_MVI_5229.npy,processed,54.0,"(54, 225)",0.0
+MVI_4983,77. Boy,train,People/77. Boy/MVI_4983.MOV,data\landmarks\include50\train\People_77_Boy_MVI_4983.npy,processed,50.0,"(50, 225)",0.0
+MVI_5493,78. Year,train,Days_and_Time/78. Year/MVI_5493.MOV,data\landmarks\include50\train\Days_and_Time_78_Year_MVI_5493.npy,processed,39.0,"(39, 225)",0.0
+MVI_5229,61. Father,train,People/61. Father/MVI_5229.MOV,data\landmarks\include50\train\People_61_Father_MVI_5229.npy,processed,48.0,"(48, 225)",0.0
+MVI_4223,61. Father,train,People/61. Father/MVI_4223.MOV,data\landmarks\include50\train\People_61_Father_MVI_4223.npy,processed,63.0,"(63, 225)",0.0
+MVI_9370,1. loud,train,Adjectives/1. loud/MVI_9370.MOV,data\landmarks\include50\train\Adjectives_1_loud_MVI_9370.npy,processed,46.0,"(46, 225)",0.0
+MVI_5110,79. short,train,Adjectives/79. short/MVI_5110.MOV,data\landmarks\include50\train\Adjectives_79_short_MVI_5110.npy,processed,62.0,"(62, 225)",0.0
+MVI_5110,79. short,train,Adjectives/79. short/MVI_5110.MOV,data\landmarks\include50\train\Adjectives_79_short_MVI_5110.npy,existing,,,
+MVI_9439,97. dry,train,Adjectives/97. dry/MVI_9439.MOV,data\landmarks\include50\train\Adjectives_97_dry_MVI_9439.npy,processed,63.0,"(63, 225)",0.0
+MVI_0021,46. you (plural),train,Pronouns/46. you (plural)/MVI_0021.MOV,data\landmarks\include50\train\Pronouns_46_you_(plural)_MVI_0021.npy,processed,75.0,"(75, 225)",0.0
+MVI_9260,91. new,train,Adjectives/91. new/MVI_9260.MOV,data\landmarks\include50\train\Adjectives_91_new_MVI_9260.npy,processed,49.0,"(49, 225)",0.0
+MVI_4840,14. Election,train,Society/14. Election/MVI_4840.MOV,data\landmarks\include50\train\Society_14_Election_MVI_4840.npy,processed,65.0,"(65, 225)",0.0
+MVI_4957,66. Brother,train,People/66. Brother/MVI_4957.MOV,data\landmarks\include50\train\People_66_Brother_MVI_4957.npy,processed,54.0,"(54, 225)",0.0
+MVI_3387,28. Store or Shop,train,Places/28. Store or Shop/MVI_3387.MOV,data\landmarks\include50\train\Places_28_Store_or_Shop_MVI_3387.npy,processed,52.0,"(52, 225)",0.0
+MVI_9098,53. Fan,train,Electronics/53. Fan/MVI_9098.MP4,data\landmarks\include50\train\Electronics_53_Fan_MVI_9098.npy,processed,71.0,"(71, 225)",0.0
+MVI_5244,66. Brother,train,People/66. Brother/MVI_5244.MOV,data\landmarks\include50\train\People_66_Brother_MVI_5244.npy,processed,61.0,"(61, 225)",0.0
+MVI_4489,91. Priest,train,Jobs/91. Priest/MVI_4489.MOV,data\landmarks\include50\train\Jobs_91_Priest_MVI_4489.npy,processed,60.0,"(60, 225)",0.0
+MVI_9381,79. short,train,Adjectives/79. short/MVI_9381.MOV,data\landmarks\include50\train\Adjectives_79_short_MVI_9381.npy,processed,47.0,"(47, 225)",0.0
+MVI_3964,77. Boy,train,People/77. Boy/MVI_3964.MOV,data\landmarks\include50\train\People_77_Boy_MVI_3964.npy,processed,68.0,"(68, 225)",0.0
+MVI_4882,28. Window,train,Home/28. Window/MVI_4882.MOV,data\landmarks\include50\train\Home_28_Window_MVI_4882.npy,processed,67.0,"(67, 225)",0.0
+MVI_3061,1. Dog,train,Animals/1. Dog/MVI_3061.MOV,data\landmarks\include50\train\Animals_1_Dog_MVI_3061.npy,processed,83.0,"(83, 225)",0.0
+MVI_3857,44. Shoes,train,Clothes/44. Shoes/MVI_3857.MOV,data\landmarks\include50\train\Clothes_44_Shoes_MVI_3857.npy,processed,93.0,"(93, 225)",0.0
+MVI_8968,14. Election,train,Society/14. Election/MVI_8968.MP4,data\landmarks\include50\train\Society_14_Election_MVI_8968.npy,processed,75.0,"(75, 225)",0.0
+MVI_5001,64. Fall,train,Seasons/64. Fall/MVI_5001.MOV,data\landmarks\include50\train\Seasons_64_Fall_MVI_5001.npy,processed,42.0,"(42, 225)",0.0
+MVI_4668,86. Time,train,Days_and_Time/86. Time/MVI_4668.MOV,data\landmarks\include50\train\Days_and_Time_86_Time_MVI_4668.npy,processed,59.0,"(59, 225)",0.0
+MVI_5135,78. Girl,train,People/78. Girl/MVI_5135.MOV,data\landmarks\include50\train\People_78_Girl_MVI_5135.npy,processed,54.0,"(54, 225)",0.0
+MVI_4746,84. Teacher,train,Jobs/84. Teacher/MVI_4746.MOV,data\landmarks\include50\train\Jobs_84_Teacher_MVI_4746.npy,processed,59.0,"(59, 225)",0.0
+MVI_8606,42. T-Shirt,train,Clothes/42. T-Shirt/MVI_8606.MP4,data\landmarks\include50\train\Clothes_42_T-Shirt_MVI_8606.npy,processed,76.0,"(76, 225)",0.0
+MVI_9914,48. Hello,train,Greetings/48. Hello/MVI_9914.MOV,data\landmarks\include50\train\Greetings_48_Hello_MVI_9914.npy,processed,53.0,"(53, 225)",0.0
+MVI_3928,66. Brother,train,People/66. Brother/MVI_3928.MOV,data\landmarks\include50\train\People_66_Brother_MVI_3928.npy,processed,85.0,"(85, 225)",0.0
+MVI_0047,51. Good Morning,train,Greetings/51. Good Morning/MVI_0047.MOV,data\landmarks\include50\train\Greetings_51_Good_Morning_MVI_0047.npy,processed,59.0,"(59, 225)",0.0
+MVI_5078,86. Time,train,Days_and_Time/86. Time/MVI_5078.MOV,data\landmarks\include50\train\Days_and_Time_86_Time_MVI_5078.npy,processed,44.0,"(44, 225)",0.0
+MVI_5238,94. good,train,Adjectives/94. good/MVI_5238.MOV,data\landmarks\include50\train\Adjectives_94_good_MVI_5238.npy,processed,49.0,"(49, 225)",0.0
+MVI_5326,97. dry,train,Adjectives/97. dry/MVI_5326.MOV,data\landmarks\include50\train\Adjectives_97_dry_MVI_5326.npy,processed,60.0,"(60, 225)",0.0
+MVI_3017,5. Cow,train,Animals/5. Cow/MVI_3017.MOV,data\landmarks\include50\train\Animals_5_Cow_MVI_3017.npy,processed,91.0,"(91, 225)",0.0
+MVI_3743,55. White,train,Colours/55. White/MVI_3743.MOV,data\landmarks\include50\train\Colours_55_White_MVI_3743.npy,processed,51.0,"(51, 225)",0.0
+MVI_4921,55. White,train,Colours/55. White/MVI_4921.MOV,data\landmarks\include50\train\Colours_55_White_MVI_4921.npy,processed,49.0,"(49, 225)",0.0
+MVI_3209,11. Car,train,Means_of_Transportation/11. Car/MVI_3209.MOV,data\landmarks\include50\train\Means_of_Transportation_11_Car_MVI_3209.npy,processed,111.0,"(111, 225)",0.0
+MVI_5169,42. T-Shirt,train,Clothes/42. T-Shirt/MVI_5169.MOV,data\landmarks\include50\train\Clothes_42_T-Shirt_MVI_5169.npy,processed,60.0,"(60, 225)",0.0
+MVI_5124,83. big large,train,Adjectives/83. big large/MVI_5124.MOV,data\landmarks\include50\train\Adjectives_83_big_large_MVI_5124.npy,processed,61.0,"(61, 225)",0.0
+MVI_9970,44. it,train,Pronouns/44. it/MVI_9970.MOV,data\landmarks\include50\train\Pronouns_44_it_MVI_9970.npy,processed,48.0,"(48, 225)",0.0
+MVI_3889,54. Black,train,Colours/54. Black/MVI_3889.MOV,data\landmarks\include50\train\Colours_54_Black_MVI_3889.npy,processed,58.0,"(58, 225)",0.0
+MVI_5335,1. loud,train,Adjectives/1. loud/MVI_5335.MOV,data\landmarks\include50\train\Adjectives_1_loud_MVI_5335.npy,processed,45.0,"(45, 225)",0.0
+MVI_5296,87. hot,train,Adjectives/87. hot/MVI_5296.MOV,data\landmarks\include50\train\Adjectives_87_hot_MVI_5296.npy,processed,56.0,"(56, 225)",0.0
+MVI_4207,47. Red,train,Colours/47. Red/MVI_4207.MOV,data\landmarks\include50\train\Colours_47_Red_MVI_4207.npy,processed,44.0,"(44, 225)",0.0
+MVI_5175,44. Shoes,train,Clothes/44. Shoes/MVI_5175.MOV,data\landmarks\include50\train\Clothes_44_Shoes_MVI_5175.npy,processed,60.0,"(60, 225)",0.0
+MVI_3070,4. Bird,train,Animals/4. Bird/MVI_3070.MOV,data\landmarks\include50\train\Animals_4_Bird_MVI_3070.npy,processed,84.0,"(84, 225)",0.0
+MVI_3099,5. Cow,train,Animals/5. Cow/MVI_3099.MOV,data\landmarks\include50\train\Animals_5_Cow_MVI_3099.npy,processed,76.0,"(76, 225)",0.0
+MVI_9422,91. new,train,Adjectives/91. new/MVI_9422.MOV,data\landmarks\include50\train\Adjectives_91_new_MVI_9422.npy,processed,47.0,"(47, 225)",0.0
+MVI_3003,1. Dog,train,Animals/1. Dog/MVI_3003.MOV,data\landmarks\include50\train\Animals_1_Dog_MVI_3003.npy,processed,92.0,"(92, 225)",0.0
+MVI_9341,91. new,train,Adjectives/91. new/MVI_9341.MOV,data\landmarks\include50\train\Adjectives_91_new_MVI_9341.npy,processed,49.0,"(49, 225)",0.0
+MVI_0061,55. Thank you,train,Greetings/55. Thank you/MVI_0061.MOV,data\landmarks\include50\train\Greetings_55_Thank_you_MVI_0061.npy,processed,82.0,"(82, 225)",0.0
+MVI_4305,14. Election,train,Society/14. Election/MVI_4305.MOV,data\landmarks\include50\train\Society_14_Election_MVI_4305.npy,processed,80.0,"(80, 225)",0.0
+MVI_9269,94. good,train,Adjectives/94. good/MVI_9269.MOV,data\landmarks\include50\train\Adjectives_94_good_MVI_9269.npy,processed,48.0,"(48, 225)",0.0
+MVI_3254,16. train ticket,train,Means_of_Transportation/16. train ticket/MVI_3254.MOV,data\landmarks\include50\train\Means_of_Transportation_16_train_ticket_MVI_3254.npy,processed,75.0,"(75, 225)",0.0
+MVI_5128,84. small little,train,Adjectives/84. small little/MVI_5128.MOV,data\landmarks\include50\train\Adjectives_84_small_little_MVI_5128.npy,processed,62.0,"(62, 225)",0.0
+MVI_3555,28. Store or Shop,train,Places/28. Store or Shop/MVI_3555.MOV,data\landmarks\include50\train\Places_28_Store_or_Shop_MVI_3555.npy,processed,52.0,"(52, 225)",0.0
+MVI_5126,84. small little,train,Adjectives/84. small little/MVI_5126.MOV,data\landmarks\include50\train\Adjectives_84_small_little_MVI_5126.npy,processed,83.0,"(83, 225)",0.0
+MVI_4908,34. Pen,train,Home/34. Pen/MVI_4908.MOV,data\landmarks\include50\train\Home_34_Pen_MVI_4908.npy,processed,58.0,"(58, 225)",0.0
+MVI_8662,2. Death,train,Society/2. Death/MVI_8662.MP4,data\landmarks\include50\train\Society_2_Death_MVI_8662.npy,processed,82.0,"(82, 225)",0.0
+MVI_0098,51. Good Morning,train,Greetings/51. Good Morning/MVI_0098.MOV,data\landmarks\include50\train\Greetings_51_Good_Morning_MVI_0098.npy,processed,66.0,"(66, 225)",0.0
+MVI_9935,51. Good Morning,train,Greetings/51. Good Morning/MVI_9935.MOV,data\landmarks\include50\train\Greetings_51_Good_Morning_MVI_9935.npy,processed,48.0,"(48, 225)",0.0
+MVI_4113,78. Girl,train,People/78. Girl/MVI_4113.MOV,data\landmarks\include50\train\People_78_Girl_MVI_4113.npy,processed,53.0,"(53, 225)",0.0
+MVI_3059,1. Dog,train,Animals/1. Dog/MVI_3059.MOV,data\landmarks\include50\train\Animals_1_Dog_MVI_3059.npy,processed,75.0,"(75, 225)",0.0
+MVI_5095,66. Brother,train,People/66. Brother/MVI_5095.MOV,data\landmarks\include50\train\People_66_Brother_MVI_5095.npy,processed,59.0,"(59, 225)",0.0
+MVI_9342,91. new,train,Adjectives/91. new/MVI_9342.MOV,data\landmarks\include50\train\Adjectives_91_new_MVI_9342.npy,processed,47.0,"(47, 225)",0.0
+MVI_3710,44. Shoes,train,Clothes/44. Shoes/MVI_3710.MOV,data\landmarks\include50\train\Clothes_44_Shoes_MVI_3710.npy,processed,65.0,"(65, 225)",0.0
+MVI_9259,91. new,train,Adjectives/91. new/MVI_9259.MOV,data\landmarks\include50\train\Adjectives_91_new_MVI_9259.npy,processed,46.0,"(46, 225)",0.0
+MVI_3435,19. House,train,Places/19. House/MVI_3435.MOV,data\landmarks\include50\train\Places_19_House_MVI_3435.npy,processed,65.0,"(65, 225)",0.0
+MVI_3888,54. Black,train,Colours/54. Black/MVI_3888.MOV,data\landmarks\include50\train\Colours_54_Black_MVI_3888.npy,processed,72.0,"(72, 225)",0.0
+MVI_5177,44. Shoes,train,Clothes/44. Shoes/MVI_5177.MOV,data\landmarks\include50\train\Clothes_44_Shoes_MVI_5177.npy,processed,60.0,"(60, 225)",0.0
+MVI_0065,40. I,train,Pronouns/40. I/MVI_0065.MOV,data\landmarks\include50\train\Pronouns_40_I_MVI_0065.npy,processed,71.0,"(71, 225)",0.0
+MVI_0016,44. it,train,Pronouns/44. it/MVI_0016.MOV,data\landmarks\include50\train\Pronouns_44_it_MVI_0016.npy,processed,70.0,"(70, 225)",0.0
+MVI_3910,61. Father,train,People/61. Father/MVI_3910.MOV,data\landmarks\include50\train\People_61_Father_MVI_3910.npy,processed,71.0,"(71, 225)",0.0
+MVI_9920,40. I,train,Pronouns/40. I/MVI_9920.MOV,data\landmarks\include50\train\Pronouns_40_I_MVI_9920.npy,processed,80.0,"(80, 225)",0.0
+MVI_9463,79. short,train,Adjectives/79. short/MVI_9463.MOV,data\landmarks\include50\train\Adjectives_79_short_MVI_9463.npy,processed,56.0,"(56, 225)",0.0
+MVI_3094,4. Bird,train,Animals/4. Bird/MVI_3094.MOV,data\landmarks\include50\train\Animals_4_Bird_MVI_3094.npy,processed,96.0,"(96, 225)",0.0
+MVI_9881,40. I,train,Pronouns/40. I/MVI_9881.MOV,data\landmarks\include50\train\Pronouns_40_I_MVI_9881.npy,processed,50.0,"(50, 225)",0.0
+MVI_3741,54. Black,train,Colours/54. Black/MVI_3741.MOV,data\landmarks\include50\train\Colours_54_Black_MVI_3741.npy,processed,52.0,"(52, 225)",0.0
+MVI_9052,40. Paint,train,Home/40. Paint/MVI_9052.MP4,data\landmarks\include50\train\Home_40_Paint_MVI_9052.npy,processed,68.0,"(68, 225)",0.0
+MVI_4592,67. Monday,train,Days_and_Time/67. Monday/MVI_4592.MOV,data\landmarks\include50\train\Days_and_Time_67_Monday_MVI_4592.npy,processed,54.0,"(54, 225)",0.0
+MVI_3074,5. Cow,train,Animals/5. Cow/MVI_3074.MOV,data\landmarks\include50\train\Animals_5_Cow_MVI_3074.npy,processed,84.0,"(84, 225)",0.0
+MVI_9450,1. loud,train,Adjectives/1. loud/MVI_9450.MOV,data\landmarks\include50\train\Adjectives_1_loud_MVI_9450.npy,processed,50.0,"(50, 225)",0.0
+MVI_9233,83. big large,train,Adjectives/83. big large/MVI_9233.MOV,data\landmarks\include50\train\Adjectives_83_big_large_MVI_9233.npy,processed,48.0,"(48, 225)",0.0
+MVI_3632,28. Store or Shop,train,Places/28. Store or Shop/MVI_3632.MOV,data\landmarks\include50\train\Places_28_Store_or_Shop_MVI_3632.npy,processed,54.0,"(54, 225)",0.0
+MVI_4802,2. Death,train,Society/2. Death/MVI_4802.MOV,data\landmarks\include50\train\Society_2_Death_MVI_4802.npy,processed,61.0,"(61, 225)",0.0
+MVI_4458,84. Teacher,train,Jobs/84. Teacher/MVI_4458.MOV,data\landmarks\include50\train\Jobs_84_Teacher_MVI_4458.npy,processed,73.0,"(73, 225)",0.0
+MVI_4881,42. T-Shirt,train,Clothes/42. T-Shirt/MVI_4881.MOV,data\landmarks\include50\train\Clothes_42_T-Shirt_MVI_4881.npy,processed,77.0,"(77, 225)",0.0
+MVI_3038,4. Bird,train,Animals/4. Bird/MVI_3038.MOV,data\landmarks\include50\train\Animals_4_Bird_MVI_3038.npy,processed,94.0,"(94, 225)",0.0
+MVI_5260,2. quiet,train,Adjectives/2. quiet/MVI_5260.MOV,data\landmarks\include50\train\Adjectives_2_quiet_MVI_5260.npy,processed,69.0,"(69, 225)",0.0
+MVI_9277,97. dry,train,Adjectives/97. dry/MVI_9277.MOV,data\landmarks\include50\train\Adjectives_97_dry_MVI_9277.npy,processed,57.0,"(57, 225)",0.0
+MVI_3162,16. train ticket,train,Means_of_Transportation/16. train ticket/MVI_3162.MOV,data\landmarks\include50\train\Means_of_Transportation_16_train_ticket_MVI_3162.npy,processed,85.0,"(85, 225)",0.0
+MVI_0082,46. you (plural),train,Pronouns/46. you (plural)/MVI_0082.MOV,data\landmarks\include50\train\Pronouns_46_you_(plural)_MVI_0082.npy,processed,70.0,"(70, 225)",0.0
+MVI_9977,46. you (plural),train,Pronouns/46. you (plural)/MVI_9977.MOV,data\landmarks\include50\train\Pronouns_46_you_(plural)_MVI_9977.npy,processed,80.0,"(80, 225)",0.0
+MVI_5028,44. Shoes,train,Clothes/44. Shoes/MVI_5028.MOV,data\landmarks\include50\train\Clothes_44_Shoes_MVI_5028.npy,processed,64.0,"(64, 225)",0.0
+MVI_9986,55. Thank you,train,Greetings/55. Thank you/MVI_9986.MOV,data\landmarks\include50\train\Greetings_55_Thank_you_MVI_9986.npy,processed,56.0,"(56, 225)",0.0
+MVI_3691,37. Hat,train,Clothes/37. Hat/MVI_3691.MOV,data\landmarks\include50\train\Clothes_37_Hat_MVI_3691.npy,processed,116.0,"(116, 225)",0.0
+MVI_3721,47. Red,train,Colours/47. Red/MVI_3721.MOV,data\landmarks\include50\train\Colours_47_Red_MVI_3721.npy,processed,54.0,"(54, 225)",0.0
+MVI_4899,47. Red,train,Colours/47. Red/MVI_4899.MOV,data\landmarks\include50\train\Colours_47_Red_MVI_4899.npy,processed,58.0,"(58, 225)",0.0
+MVI_3887,54. Black,train,Colours/54. Black/MVI_3887.MOV,data\landmarks\include50\train\Colours_54_Black_MVI_3887.npy,processed,69.0,"(69, 225)",0.0
+MVI_5308,91. new,train,Adjectives/91. new/MVI_5308.MOV,data\landmarks\include50\train\Adjectives_91_new_MVI_5308.npy,processed,42.0,"(42, 225)",0.0
+MVI_4881,28. Window,train,Home/28. Window/MVI_4881.MOV,data\landmarks\include50\train\Home_28_Window_MVI_4881.npy,processed,72.0,"(72, 225)",0.0
+MVI_9955,48. Hello,train,Greetings/48. Hello/MVI_9955.MOV,data\landmarks\include50\train\Greetings_48_Hello_MVI_9955.npy,processed,84.0,"(84, 225)",0.0
+MVI_9278,97. dry,train,Adjectives/97. dry/MVI_9278.MOV,data\landmarks\include50\train\Adjectives_97_dry_MVI_9278.npy,processed,62.0,"(62, 225)",0.0
+MVI_3367,23. Court,train,Places/23. Court/MVI_3367.MOV,data\landmarks\include50\train\Places_23_Court_MVI_3367.npy,processed,69.0,"(69, 225)",0.0
+MVI_9451,2. quiet,train,Adjectives/2. quiet/MVI_9451.MOV,data\landmarks\include50\train\Adjectives_2_quiet_MVI_9451.npy,processed,57.0,"(57, 225)",0.0
+MVI_5154,37. Hat,train,Clothes/37. Hat/MVI_5154.MOV,data\landmarks\include50\train\Clothes_37_Hat_MVI_5154.npy,processed,60.0,"(60, 225)",0.0
+MVI_8710,14. Election,train,Society/14. Election/MVI_8710.MP4,data\landmarks\include50\train\Society_14_Election_MVI_8710.npy,processed,76.0,"(76, 225)",0.0
+MVI_9449,1. loud,train,Adjectives/1. loud/MVI_9449.MOV,data\landmarks\include50\train\Adjectives_1_loud_MVI_9449.npy,processed,47.0,"(47, 225)",0.0
+MVI_3582,35. Bank,train,Places/35. Bank/MVI_3582.MOV,data\landmarks\include50\train\Places_35_Bank_MVI_3582.npy,processed,51.0,"(51, 225)",0.0
+MVI_9441,97. dry,train,Adjectives/97. dry/MVI_9441.MOV,data\landmarks\include50\train\Adjectives_97_dry_MVI_9441.npy,processed,57.0,"(57, 225)",0.0
+MVI_4148,1. Dog,train,Animals/1. Dog/MVI_4148.MOV,data\landmarks\include50\train\Animals_1_Dog_MVI_4148.npy,processed,71.0,"(71, 225)",0.0
+MVI_3868,47. Red,train,Colours/47. Red/MVI_3868.MOV,data\landmarks\include50\train\Colours_47_Red_MVI_3868.npy,processed,70.0,"(70, 225)",0.0
+MVI_3819,78. Girl,train,People/78. Girl/MVI_3819.MOV,data\landmarks\include50\train\People_78_Girl_MVI_3819.npy,processed,58.0,"(58, 225)",0.0
+MVI_4591,67. Monday,train,Days_and_Time/67. Monday/MVI_4591.MOV,data\landmarks\include50\train\Days_and_Time_67_Monday_MVI_4591.npy,processed,57.0,"(57, 225)",0.0
+MVI_9178,78. Year,train,Days_and_Time/78. Year/MVI_9178.MP4,data\landmarks\include50\train\Days_and_Time_78_Year_MVI_9178.npy,processed,69.0,"(69, 225)",0.0
+MVI_3963,77. Boy,train,People/77. Boy/MVI_3963.MOV,data\landmarks\include50\train\People_77_Boy_MVI_3963.npy,processed,81.0,"(81, 225)",0.0
+MVI_5311,84. Teacher,train,Jobs/84. Teacher/MVI_5311.MOV,data\landmarks\include50\train\Jobs_84_Teacher_MVI_5311.npy,processed,50.0,"(50, 225)",0.0
+MVI_5318,94. good,train,Adjectives/94. good/MVI_5318.MOV,data\landmarks\include50\train\Adjectives_94_good_MVI_5318.npy,processed,44.0,"(44, 225)",0.0
+MVI_5327,97. dry,train,Adjectives/97. dry/MVI_5327.MOV,data\landmarks\include50\train\Adjectives_97_dry_MVI_5327.npy,processed,58.0,"(58, 225)",0.0
+MVI_9291,1. loud,train,Adjectives/1. loud/MVI_9291.MOV,data\landmarks\include50\train\Adjectives_1_loud_MVI_9291.npy,processed,63.0,"(63, 225)",0.0
+MVI_5184,3. happy,train,Adjectives/3. happy/MVI_5184.MOV,data\landmarks\include50\train\Adjectives_3_happy_MVI_5184.npy,processed,69.0,"(69, 225)",0.0
+MVI_3270,19. House,train,Places/19. House/MVI_3270.MOV,data\landmarks\include50\train\Places_19_House_MVI_3270.npy,processed,74.0,"(74, 225)",0.0
+MVI_3662,35. Bank,train,Places/35. Bank/MVI_3662.MOV,data\landmarks\include50\train\Places_35_Bank_MVI_3662.npy,processed,43.0,"(43, 225)",0.0
+MVI_8567,4. Bird,train,Animals/4. Bird/MVI_8567.MP4,data\landmarks\include50\train\Animals_4_Bird_MVI_8567.npy,processed,73.0,"(73, 225)",0.0
+MVI_5337,1. loud,train,Adjectives/1. loud/MVI_5337.MOV,data\landmarks\include50\train\Adjectives_1_loud_MVI_5337.npy,processed,48.0,"(48, 225)",0.0
+MVI_3309,28. Store or Shop,train,Places/28. Store or Shop/MVI_3309.MOV,data\landmarks\include50\train\Places_28_Store_or_Shop_MVI_3309.npy,processed,63.0,"(63, 225)",0.0
+MVI_9995,40. I,train,Pronouns/40. I/MVI_9995.MOV,data\landmarks\include50\train\Pronouns_40_I_MVI_9995.npy,processed,74.0,"(74, 225)",0.0
+MVI_5205,83. big large,train,Adjectives/83. big large/MVI_5205.MOV,data\landmarks\include50\train\Adjectives_83_big_large_MVI_5205.npy,processed,66.0,"(66, 225)",0.0
+MVI_9897,44. it,train,Pronouns/44. it/MVI_9897.MOV,data\landmarks\include50\train\Pronouns_44_it_MVI_9897.npy,processed,44.0,"(44, 225)",0.0
+MVI_3255,16. train ticket,train,Means_of_Transportation/16. train ticket/MVI_3255.MOV,data\landmarks\include50\train\Means_of_Transportation_16_train_ticket_MVI_3255.npy,processed,81.0,"(81, 225)",0.0
+MVI_9959,40. I,train,Pronouns/40. I/MVI_9959.MOV,data\landmarks\include50\train\Pronouns_40_I_MVI_9959.npy,processed,50.0,"(50, 225)",0.0
+MVI_4882,42. T-Shirt,train,Clothes/42. T-Shirt/MVI_4882.MOV,data\landmarks\include50\train\Clothes_42_T-Shirt_MVI_4882.npy,processed,78.0,"(78, 225)",0.0
+MVI_4669,86. Time,train,Days_and_Time/86. Time/MVI_4669.MOV,data\landmarks\include50\train\Days_and_Time_86_Time_MVI_4669.npy,processed,73.0,"(73, 225)",0.0
+MVI_4388,34. Pen,train,Home/34. Pen/MVI_4388.MOV,data\landmarks\include50\train\Home_34_Pen_MVI_4388.npy,processed,53.0,"(53, 225)",0.0
+MVI_3028,1. Dog,train,Animals/1. Dog/MVI_3028.MOV,data\landmarks\include50\train\Animals_1_Dog_MVI_3028.npy,processed,92.0,"(92, 225)",0.0
+MVI_3028,23. Court,train,Animals/1. Dog/MVI_3028.MOV,data\landmarks\include50\train\Places_23_Court_MVI_3028.npy,processed,92.0,"(92, 225)",0.0
+MVI_5421,61. Summer,train,Seasons/61. Summer/MVI_5421.MOV,data\landmarks\include50\train\Seasons_61_Summer_MVI_5421.npy,processed,70.0,"(70, 225)",0.0
+MVI_5006,37. Hat,train,Clothes/37. Hat/MVI_5006.MOV,data\landmarks\include50\train\Clothes_37_Hat_MVI_5006.npy,processed,60.0,"(60, 225)",0.0
+MVI_5269,79. short,train,Adjectives/79. short/MVI_5269.MOV,data\landmarks\include50\train\Adjectives_79_short_MVI_5269.npy,processed,51.0,"(51, 225)",0.0
+MVI_0100,51. Good Morning,train,Greetings/51. Good Morning/MVI_0100.MOV,data\landmarks\include50\train\Greetings_51_Good_Morning_MVI_0100.npy,processed,63.0,"(63, 225)",0.0
+MVI_4364,28. Window,train,Home/28. Window/MVI_4364.MOV,data\landmarks\include50\train\Home_28_Window_MVI_4364.npy,processed,87.0,"(87, 225)",0.0
+MVI_4146,1. Dog,train,Animals/1. Dog/MVI_4146.MOV,data\landmarks\include50\train\Animals_1_Dog_MVI_4146.npy,processed,71.0,"(71, 225)",0.0
+MVI_5148,91. new,train,Adjectives/91. new/MVI_5148.MOV,data\landmarks\include50\train\Adjectives_91_new_MVI_5148.npy,processed,57.0,"(57, 225)",0.0
+MVI_9440,97. dry,train,Adjectives/97. dry/MVI_9440.MOV,data\landmarks\include50\train\Adjectives_97_dry_MVI_9440.npy,processed,58.0,"(58, 225)",0.0
+MVI_8608,44. Shoes,train,Clothes/44. Shoes/MVI_8608.MP4,data\landmarks\include50\train\Clothes_44_Shoes_MVI_8608.npy,processed,62.0,"(62, 225)",0.0
+MVI_5434,64. Fall,train,Seasons/64. Fall/MVI_5434.MOV,data\landmarks\include50\train\Seasons_64_Fall_MVI_5434.npy,processed,53.0,"(53, 225)",0.0
+MVI_4883,28. Window,train,Home/28. Window/MVI_4883.MOV,data\landmarks\include50\train\Home_28_Window_MVI_4883.npy,processed,66.0,"(66, 225)",0.0
+MVI_3037,4. Bird,train,Animals/4. Bird/MVI_3037.MOV,data\landmarks\include50\train\Animals_4_Bird_MVI_3037.npy,processed,86.0,"(86, 225)",0.0
+MVI_9014,28. Window,train,Home/28. Window/MVI_9014.MP4,data\landmarks\include50\train\Home_28_Window_MVI_9014.npy,processed,80.0,"(80, 225)",0.0
+MVI_3147,11. Car,train,Means_of_Transportation/11. Car/MVI_3147.MOV,data\landmarks\include50\train\Means_of_Transportation_11_Car_MVI_3147.npy,processed,154.0,"(154, 225)",0.0
+MVI_5257,1. loud,train,Adjectives/1. loud/MVI_5257.MOV,data\landmarks\include50\train\Adjectives_1_loud_MVI_5257.npy,processed,52.0,"(52, 225)",0.0
+MVI_0063,55. Thank you,train,Greetings/55. Thank you/MVI_0063.MOV,data\landmarks\include50\train\Greetings_55_Thank_you_MVI_0063.npy,processed,86.0,"(86, 225)",0.0
+MVI_9535,1. loud,train,Adjectives/1. loud/MVI_9535.MOV,data\landmarks\include50\train\Adjectives_1_loud_MVI_9535.npy,processed,65.0,"(65, 225)",0.0
+MVI_4202,42. T-Shirt,train,Clothes/42. T-Shirt/MVI_4202.MOV,data\landmarks\include50\train\Clothes_42_T-Shirt_MVI_4202.npy,processed,61.0,"(61, 225)",0.0
+MVI_4984,78. Girl,train,People/78. Girl/MVI_4984.MOV,data\landmarks\include50\train\People_78_Girl_MVI_4984.npy,processed,48.0,"(48, 225)",0.0
+MVI_5179,1. loud,train,Adjectives/1. loud/MVI_5179.MOV,data\landmarks\include50\train\Adjectives_1_loud_MVI_5179.npy,processed,66.0,"(66, 225)",0.0
+MVI_0042,51. Good Morning,train,Greetings/51. Good Morning/MVI_0042.MOV,data\landmarks\include50\train\Greetings_51_Good_Morning_MVI_0042.npy,processed,85.0,"(85, 225)",0.0
+MVI_4487,91. Priest,train,Jobs/91. Priest/MVI_4487.MOV,data\landmarks\include50\train\Jobs_91_Priest_MVI_4487.npy,processed,64.0,"(64, 225)",0.0
+MVI_3164,16. train ticket,train,Means_of_Transportation/16. train ticket/MVI_3164.MOV,data\landmarks\include50\train\Means_of_Transportation_16_train_ticket_MVI_3164.npy,processed,111.0,"(111, 225)",0.0
+MVI_3455,23. Court,train,Places/23. Court/MVI_3455.MOV,data\landmarks\include50\train\Places_23_Court_MVI_3455.npy,processed,59.0,"(59, 225)",0.0
+MVI_8766,28. Window,train,Home/28. Window/MVI_8766.MP4,data\landmarks\include50\train\Home_28_Window_MVI_8766.npy,processed,100.0,"(100, 225)",0.0
+MVI_3002,1. Dog,train,Animals/1. Dog/MVI_3002.MOV,data\landmarks\include50\train\Animals_1_Dog_MVI_3002.npy,processed,87.0,"(87, 225)",0.0
+MVI_9249,87. hot,train,Adjectives/87. hot/MVI_9249.MOV,data\landmarks\include50\train\Adjectives_87_hot_MVI_9249.npy,processed,48.0,"(48, 225)",0.0
+MVI_0059,55. Thank you,train,Greetings/55. Thank you/MVI_0059.MOV,data\landmarks\include50\train\Greetings_55_Thank_you_MVI_0059.npy,processed,56.0,"(56, 225)",0.0
+MVI_5249,97. dry,train,Adjectives/97. dry/MVI_5249.MOV,data\landmarks\include50\train\Adjectives_97_dry_MVI_5249.npy,processed,67.0,"(67, 225)",0.0
+MVI_4566,61. Summer,train,Seasons/61. Summer/MVI_4566.MOV,data\landmarks\include50\train\Seasons_61_Summer_MVI_4566.npy,processed,75.0,"(75, 225)",0.0
+MVI_5342,91. Priest,train,Jobs/91. Priest/MVI_5342.MOV,data\landmarks\include50\train\Jobs_91_Priest_MVI_5342.npy,processed,53.0,"(53, 225)",0.0
+MVI_4242,77. Boy,train,People/77. Boy/MVI_4242.MOV,data\landmarks\include50\train\People_77_Boy_MVI_4242.npy,processed,63.0,"(63, 225)",0.0
+MVI_3475,28. Store or Shop,train,Places/28. Store or Shop/MVI_3475.MOV,data\landmarks\include50\train\Places_28_Store_or_Shop_MVI_3475.npy,processed,46.0,"(46, 225)",0.0
+MVI_5061,55. White,train,Colours/55. White/MVI_5061.MOV,data\landmarks\include50\train\Colours_55_White_MVI_5061.npy,processed,44.0,"(44, 225)",0.0
+MVI_9201,86. Time,train,Days_and_Time/86. Time/MVI_9201.MP4,data\landmarks\include50\train\Days_and_Time_86_Time_MVI_9201.npy,processed,64.0,"(64, 225)",0.0
+MVI_4389,34. Pen,train,Home/34. Pen/MVI_4389.MOV,data\landmarks\include50\train\Home_34_Pen_MVI_4389.npy,processed,55.0,"(55, 225)",0.0
+MVI_3075,5. Cow,train,Animals/5. Cow/MVI_3075.MOV,data\landmarks\include50\train\Animals_5_Cow_MVI_3075.npy,processed,84.0,"(84, 225)",0.0
+MVI_5137,87. hot,train,Adjectives/87. hot/MVI_5137.MOV,data\landmarks\include50\train\Adjectives_87_hot_MVI_5137.npy,processed,56.0,"(56, 225)",0.0
+MVI_5137,4. Bird,train,Adjectives/87. hot/MVI_5137.MOV,data\landmarks\include50\train\Animals_4_Bird_MVI_5137.npy,processed,56.0,"(56, 225)",0.0
+MVI_3533,23. Court,train,Places/23. Court/MVI_3533.MOV,data\landmarks\include50\train\Places_23_Court_MVI_3533.npy,processed,54.0,"(54, 225)",0.0
+MVI_5058,54. Black,train,Colours/54. Black/MVI_5058.MOV,data\landmarks\include50\train\Colours_54_Black_MVI_5058.npy,processed,47.0,"(47, 225)",0.0
+MVI_4928,40. Paint,train,Home/40. Paint/MVI_4928.MOV,data\landmarks\include50\train\Home_40_Paint_MVI_4928.npy,processed,57.0,"(57, 225)",0.0
+MVI_9950,55. Thank you,train,Greetings/55. Thank you/MVI_9950.MOV,data\landmarks\include50\train\Greetings_55_Thank_you_MVI_9950.npy,processed,52.0,"(52, 225)",0.0
+MVI_5310,84. Teacher,train,Jobs/84. Teacher/MVI_5310.MOV,data\landmarks\include50\train\Jobs_84_Teacher_MVI_5310.npy,processed,61.0,"(61, 225)",0.0
+MVI_4956,66. Brother,train,People/66. Brother/MVI_4956.MOV,data\landmarks\include50\train\People_66_Brother_MVI_4956.npy,processed,52.0,"(52, 225)",0.0
+MVI_5289,78. Girl,train,People/78. Girl/MVI_5289.MOV,data\landmarks\include50\train\People_78_Girl_MVI_5289.npy,processed,49.0,"(49, 225)",0.0
+MVI_5342,3. happy,train,Adjectives/3. happy/MVI_5342.MOV,data\landmarks\include50\train\Adjectives_3_happy_MVI_5342.npy,processed,53.0,"(53, 225)",0.0
+MVI_3706,42. T-Shirt,train,Clothes/42. T-Shirt/MVI_3706.MOV,data\landmarks\include50\train\Clothes_42_T-Shirt_MVI_3706.npy,processed,74.0,"(74, 225)",0.0
+MVI_9301,79. short,train,Adjectives/79. short/MVI_9301.MOV,data\landmarks\include50\train\Adjectives_79_short_MVI_9301.npy,processed,49.0,"(49, 225)",0.0
+MVI_4076,66. Brother,train,People/66. Brother/MVI_4076.MOV,data\landmarks\include50\train\People_66_Brother_MVI_4076.npy,processed,56.0,"(56, 225)",0.0
+MVI_4076,4. Bird,train,People/66. Brother/MVI_4076.MOV,data\landmarks\include50\train\Animals_4_Bird_MVI_4076.npy,processed,56.0,"(56, 225)",0.0
+MVI_0012,40. I,train,Pronouns/40. I/MVI_0012.MOV,data\landmarks\include50\train\Pronouns_40_I_MVI_0012.npy,processed,45.0,"(45, 225)",0.0
+MVI_4043,55. White,train,Colours/55. White/MVI_4043.MOV,data\landmarks\include50\train\Colours_55_White_MVI_4043.npy,processed,57.0,"(57, 225)",0.0
+MVI_4490,91. Priest,train,Jobs/91. Priest/MVI_4490.MOV,data\landmarks\include50\train\Jobs_91_Priest_MVI_4490.npy,processed,73.0,"(73, 225)",0.0
+MVI_9360,97. dry,train,Adjectives/97. dry/MVI_9360.MOV,data\landmarks\include50\train\Adjectives_97_dry_MVI_9360.npy,processed,53.0,"(53, 225)",0.0
+MVI_5261,2. quiet,train,Adjectives/2. quiet/MVI_5261.MOV,data\landmarks\include50\train\Adjectives_2_quiet_MVI_5261.npy,processed,63.0,"(63, 225)",0.0
+MVI_9984,48. Hello,train,Greetings/48. Hello/MVI_9984.MOV,data\landmarks\include50\train\Greetings_48_Hello_MVI_9984.npy,processed,47.0,"(47, 225)",0.0
+MVI_5316,94. good,train,Adjectives/94. good/MVI_5316.MOV,data\landmarks\include50\train\Adjectives_94_good_MVI_5316.npy,processed,46.0,"(46, 225)",0.0
+MVI_0031,46. you (plural),train,Pronouns/46. you (plural)/MVI_0031.MOV,data\landmarks\include50\train\Pronouns_46_you_(plural)_MVI_0031.npy,processed,61.0,"(61, 225)",0.0
+MVI_3211,11. Car,train,Means_of_Transportation/11. Car/MVI_3211.MOV,data\landmarks\include50\train\Means_of_Transportation_11_Car_MVI_3211.npy,processed,96.0,"(96, 225)",0.0
+MVI_9270,94. good,train,Adjectives/94. good/MVI_9270.MOV,data\landmarks\include50\train\Adjectives_94_good_MVI_9270.npy,processed,46.0,"(46, 225)",0.0
+MVI_9203,86. Time,train,Days_and_Time/86. Time/MVI_9203.MP4,data\landmarks\include50\train\Days_and_Time_86_Time_MVI_9203.npy,processed,57.0,"(57, 225)",0.0
+MVI_4567,61. Summer,train,Seasons/61. Summer/MVI_4567.MOV,data\landmarks\include50\train\Seasons_61_Summer_MVI_4567.npy,processed,67.0,"(67, 225)",0.0
+MVI_9454,3. happy,train,Adjectives/3. happy/MVI_9454.MOV,data\landmarks\include50\train\Adjectives_3_happy_MVI_9454.npy,processed,44.0,"(44, 225)",0.0
+MVI_4017,47. Red,train,Colours/47. Red/MVI_4017.MOV,data\landmarks\include50\train\Colours_47_Red_MVI_4017.npy,processed,61.0,"(61, 225)",0.0
+MVI_5210,55. White,train,Colours/55. White/MVI_5210.MOV,data\landmarks\include50\train\Colours_55_White_MVI_5210.npy,processed,61.0,"(61, 225)",0.0
+MVI_9295,3. happy,train,Adjectives/3. happy/MVI_9295.MOV,data\landmarks\include50\train\Adjectives_3_happy_MVI_9295.npy,processed,48.0,"(48, 225)",0.0
+MVI_3596,19. House,train,Places/19. House/MVI_3596.MOV,data\landmarks\include50\train\Places_19_House_MVI_3596.npy,processed,54.0,"(54, 225)",0.0
+MVI_9510,94. good,train,Adjectives/94. good/MVI_9510.MOV,data\landmarks\include50\train\Adjectives_94_good_MVI_9510.npy,processed,62.0,"(62, 225)",0.0
+MVI_8619,54. Black,train,Colours/54. Black/MVI_8619.MP4,data\landmarks\include50\train\Colours_54_Black_MVI_8619.npy,processed,65.0,"(65, 225)",0.0
+MVI_5285,83. big large,train,Adjectives/83. big large/MVI_5285.MOV,data\landmarks\include50\train\Adjectives_83_big_large_MVI_5285.npy,processed,51.0,"(51, 225)",0.0
+MVI_9378,78. long,train,Adjectives/78. long/MVI_9378.MOV,data\landmarks\include50\train\Adjectives_78_long_MVI_9378.npy,processed,52.0,"(52, 225)",0.0
+MVI_4966,53. Fan,train,Electronics/53. Fan/MVI_4966.MOV,data\landmarks\include50\train\Electronics_53_Fan_MVI_4966.npy,processed,53.0,"(53, 225)",0.0
+MVI_9488,87. hot,train,Adjectives/87. hot/MVI_9488.MOV,data\landmarks\include50\train\Adjectives_87_hot_MVI_9488.npy,processed,65.0,"(65, 225)",0.0
+MVI_9936,44. it,train,Pronouns/44. it/MVI_9936.MOV,data\landmarks\include50\train\Pronouns_44_it_MVI_9936.npy,processed,74.0,"(74, 225)",0.0
+MVI_9398,84. small little,train,Adjectives/84. small little/MVI_9398.MOV,data\landmarks\include50\train\Adjectives_84_small_little_MVI_9398.npy,processed,50.0,"(50, 225)",0.0
+MVI_5137,78. Girl,train,People/78. Girl/MVI_5137.MOV,data\landmarks\include50\train\People_78_Girl_MVI_5137.npy,processed,58.0,"(58, 225)",0.0
+MVI_5218,87. hot,train,Adjectives/87. hot/MVI_5218.MOV,data\landmarks\include50\train\Adjectives_87_hot_MVI_5218.npy,processed,66.0,"(66, 225)",0.0
+MVI_5290,78. Girl,train,People/78. Girl/MVI_5290.MOV,data\landmarks\include50\train\People_78_Girl_MVI_5290.npy,processed,57.0,"(57, 225)",0.0
+MVI_3705,42. T-Shirt,train,Clothes/42. T-Shirt/MVI_3705.MOV,data\landmarks\include50\train\Clothes_42_T-Shirt_MVI_3705.npy,processed,70.0,"(70, 225)",0.0
+MVI_5390,53. Fan,train,Electronics/53. Fan/MVI_5390.MOV,data\landmarks\include50\train\Electronics_53_Fan_MVI_5390.npy,processed,57.0,"(57, 225)",0.0
+MVI_5185,47. Red,train,Colours/47. Red/MVI_5185.MOV,data\landmarks\include50\train\Colours_47_Red_MVI_5185.npy,processed,49.0,"(49, 225)",0.0
+MVI_9916,48. Hello,train,Greetings/48. Hello/MVI_9916.MOV,data\landmarks\include50\train\Greetings_48_Hello_MVI_9916.npy,processed,50.0,"(50, 225)",0.0
+MVI_4114,78. Girl,train,People/78. Girl/MVI_4114.MOV,data\landmarks\include50\train\People_78_Girl_MVI_4114.npy,processed,65.0,"(65, 225)",0.0
+MVI_8818,40. Paint,train,Home/40. Paint/MVI_8818.MP4,data\landmarks\include50\train\Home_40_Paint_MVI_8818.npy,processed,69.0,"(69, 225)",0.0
+MVI_3012,4. Bird,train,Animals/4. Bird/MVI_3012.MOV,data\landmarks\include50\train\Animals_4_Bird_MVI_3012.npy,processed,84.0,"(84, 225)",0.0
+MVI_0060,55. Thank you,train,Greetings/55. Thank you/MVI_0060.MOV,data\landmarks\include50\train\Greetings_55_Thank_you_MVI_0060.npy,processed,56.0,"(56, 225)",0.0
+MVI_4883,42. T-Shirt,train,Clothes/42. T-Shirt/MVI_4883.MOV,data\landmarks\include50\train\Clothes_42_T-Shirt_MVI_4883.npy,processed,70.0,"(70, 225)",0.0
+MVI_0058,55. Thank you,train,Greetings/55. Thank you/MVI_0058.MOV,data\landmarks\include50\train\Greetings_55_Thank_you_MVI_0058.npy,processed,60.0,"(60, 225)",0.0
+MVI_3117,11. Car,train,Means_of_Transportation/11. Car/MVI_3117.MOV,data\landmarks\include50\train\Means_of_Transportation_11_Car_MVI_3117.npy,processed,98.0,"(98, 225)",0.0
+MVI_5060,54. Black,train,Colours/54. Black/MVI_5060.MOV,data\landmarks\include50\train\Colours_54_Black_MVI_5060.npy,processed,41.0,"(41, 225)",0.0
+MVI_4866,37. Hat,train,Clothes/37. Hat/MVI_4866.MOV,data\landmarks\include50\train\Clothes_37_Hat_MVI_4866.npy,processed,57.0,"(57, 225)",0.0
+MVI_4042,55. White,train,Colours/55. White/MVI_4042.MOV,data\landmarks\include50\train\Colours_55_White_MVI_4042.npy,processed,57.0,"(57, 225)",0.0
+MVI_3267,19. House,train,Places/19. House/MVI_3267.MOV,data\landmarks\include50\train\Places_19_House_MVI_3267.npy,processed,78.0,"(78, 225)",0.0
+MVI_5343,91. Priest,train,Jobs/91. Priest/MVI_5343.MOV,data\landmarks\include50\train\Jobs_91_Priest_MVI_5343.npy,processed,53.0,"(53, 225)",0.0
+MVI_4539,54. Cell phone,train,Electronics/54. Cell phone/MVI_4539.MOV,data\landmarks\include50\train\Electronics_54_Cell_phone_MVI_4539.npy,processed,53.0,"(53, 225)",0.0
+MVI_9294,2. quiet,train,Adjectives/2. quiet/MVI_9294.MOV,data\landmarks\include50\train\Adjectives_2_quiet_MVI_9294.npy,processed,56.0,"(56, 225)",0.0
+MVI_3004,1. Dog,train,Animals/1. Dog/MVI_3004.MOV,data\landmarks\include50\train\Animals_1_Dog_MVI_3004.npy,processed,87.0,"(87, 225)",0.0
+MVI_4536,53. Fan,train,Electronics/53. Fan/MVI_4536.MOV,data\landmarks\include50\train\Electronics_53_Fan_MVI_4536.npy,processed,64.0,"(64, 225)",0.0
+MVI_9908,46. you (plural),train,Pronouns/46. you (plural)/MVI_9908.MOV,data\landmarks\include50\train\Pronouns_46_you_(plural)_MVI_9908.npy,processed,51.0,"(51, 225)",0.0
+MVI_5170,42. T-Shirt,train,Clothes/42. T-Shirt/MVI_5170.MOV,data\landmarks\include50\train\Clothes_42_T-Shirt_MVI_5170.npy,processed,66.0,"(66, 225)",0.0
+MVI_3370,23. Court,train,Places/23. Court/MVI_3370.MOV,data\landmarks\include50\train\Places_23_Court_MVI_3370.npy,processed,81.0,"(81, 225)",0.0
+MVI_4109,77. Boy,train,People/77. Boy/MVI_4109.MOV,data\landmarks\include50\train\People_77_Boy_MVI_4109.npy,processed,72.0,"(72, 225)",0.0
+MVI_3085,1. Dog,train,Animals/1. Dog/MVI_3085.MOV,data\landmarks\include50\train\Animals_1_Dog_MVI_3085.npy,processed,85.0,"(85, 225)",0.0
+MVI_9541,3. happy,train,Adjectives/3. happy/MVI_9541.MOV,data\landmarks\include50\train\Adjectives_3_happy_MVI_9541.npy,processed,57.0,"(57, 225)",0.0
+MVI_9359,97. dry,train,Adjectives/97. dry/MVI_9359.MOV,data\landmarks\include50\train\Adjectives_97_dry_MVI_9359.npy,processed,55.0,"(55, 225)",0.0
+MVI_9958,40. I,train,Pronouns/40. I/MVI_9958.MOV,data\landmarks\include50\train\Pronouns_40_I_MVI_9958.npy,processed,47.0,"(47, 225)",0.0
+MVI_5138,87. hot,train,Adjectives/87. hot/MVI_5138.MOV,data\landmarks\include50\train\Adjectives_87_hot_MVI_5138.npy,processed,49.0,"(49, 225)",0.0
+MVI_4968,54. Cell phone,train,Electronics/54. Cell phone/MVI_4968.MOV,data\landmarks\include50\train\Electronics_54_Cell_phone_MVI_4968.npy,processed,59.0,"(59, 225)",0.0
+MVI_0008,55. Thank you,train,Greetings/55. Thank you/MVI_0008.MOV,data\landmarks\include50\train\Greetings_55_Thank_you_MVI_0008.npy,processed,57.0,"(57, 225)",0.0
+MVI_9975,46. you (plural),train,Pronouns/46. you (plural)/MVI_9975.MOV,data\landmarks\include50\train\Pronouns_46_you_(plural)_MVI_9975.npy,processed,73.0,"(73, 225)",0.0
+MVI_4414,40. Paint,train,Home/40. Paint/MVI_4414.MOV,data\landmarks\include50\train\Home_40_Paint_MVI_4414.npy,processed,54.0,"(54, 225)",0.0
+MVI_3745,55. White,train,Colours/55. White/MVI_3745.MOV,data\landmarks\include50\train\Colours_55_White_MVI_3745.npy,processed,45.0,"(45, 225)",0.0
+MVI_9991,51. Good Morning,train,Greetings/51. Good Morning/MVI_9991.MOV,data\landmarks\include50\train\Greetings_51_Good_Morning_MVI_9991.npy,processed,58.0,"(58, 225)",0.0
+MVI_5189,79. short,train,Adjectives/79. short/MVI_5189.MOV,data\landmarks\include50\train\Adjectives_79_short_MVI_5189.npy,processed,57.0,"(57, 225)",0.0
+MVI_9217,78. long,train,Adjectives/78. long/MVI_9217.MOV,data\landmarks\include50\train\Adjectives_78_long_MVI_9217.npy,processed,52.0,"(52, 225)",0.0
+MVI_3175,11. Car,train,Means_of_Transportation/11. Car/MVI_3175.MOV,data\landmarks\include50\train\Means_of_Transportation_11_Car_MVI_3175.npy,processed,96.0,"(96, 225)",0.0
+MVI_4258,2. Death,train,Society/2. Death/MVI_4258.MOV,data\landmarks\include50\train\Society_2_Death_MVI_4258.npy,processed,59.0,"(59, 225)",0.0
+MVI_9033,34. Pen,train,Home/34. Pen/MVI_9033.MP4,data\landmarks\include50\train\Home_34_Pen_MVI_9033.npy,processed,68.0,"(68, 225)",0.0
+MVI_3690,37. Hat,train,Clothes/37. Hat/MVI_3690.MOV,data\landmarks\include50\train\Clothes_37_Hat_MVI_3690.npy,processed,59.0,"(59, 225)",0.0
+MVI_0084,46. you (plural),train,Pronouns/46. you (plural)/MVI_0084.MOV,data\landmarks\include50\train\Pronouns_46_you_(plural)_MVI_0084.npy,processed,72.0,"(72, 225)",0.0
+MVI_9319,84. small little,train,Adjectives/84. small little/MVI_9319.MOV,data\landmarks\include50\train\Adjectives_84_small_little_MVI_9319.npy,processed,51.0,"(51, 225)",0.0
+MVI_5341,3. happy,train,Adjectives/3. happy/MVI_5341.MOV,data\landmarks\include50\train\Adjectives_3_happy_MVI_5341.npy,processed,41.0,"(41, 225)",0.0
+MVI_5227,61. Father,train,People/61. Father/MVI_5227.MOV,data\landmarks\include50\train\People_61_Father_MVI_5227.npy,processed,50.0,"(50, 225)",0.0
+MVI_9218,78. long,train,Adjectives/78. long/MVI_9218.MOV,data\landmarks\include50\train\Adjectives_78_long_MVI_9218.npy,processed,53.0,"(53, 225)",0.0
+MVI_9954,48. Hello,train,Greetings/48. Hello/MVI_9954.MOV,data\landmarks\include50\train\Greetings_48_Hello_MVI_9954.npy,processed,69.0,"(69, 225)",0.0
+MVI_9330,87. hot,train,Adjectives/87. hot/MVI_9330.MOV,data\landmarks\include50\train\Adjectives_87_hot_MVI_9330.npy,processed,50.0,"(50, 225)",0.0
+MVI_3454,23. Court,train,Places/23. Court/MVI_3454.MOV,data\landmarks\include50\train\Places_23_Court_MVI_3454.npy,processed,59.0,"(59, 225)",0.0
+MVI_5007,37. Hat,train,Clothes/37. Hat/MVI_5007.MOV,data\landmarks\include50\train\Clothes_37_Hat_MVI_5007.npy,processed,50.0,"(50, 225)",0.0
+MVI_9918,40. I,train,Pronouns/40. I/MVI_9918.MOV,data\landmarks\include50\train\Pronouns_40_I_MVI_9918.npy,processed,83.0,"(83, 225)",0.0
+MVI_5047,78. Year,train,Days_and_Time/78. Year/MVI_5047.MOV,data\landmarks\include50\train\Days_and_Time_78_Year_MVI_5047.npy,processed,46.0,"(46, 225)",0.0
+MVI_0013,40. I,train,Pronouns/40. I/MVI_0013.MOV,data\landmarks\include50\train\Pronouns_40_I_MVI_0013.npy,processed,43.0,"(43, 225)",0.0
+MVI_5297,87. hot,train,Adjectives/87. hot/MVI_5297.MOV,data\landmarks\include50\train\Adjectives_87_hot_MVI_5297.npy,processed,55.0,"(55, 225)",0.0
+MVI_3015,5. Cow,train,Animals/5. Cow/MVI_3015.MOV,data\landmarks\include50\train\Animals_5_Cow_MVI_3015.npy,processed,99.0,"(99, 225)",0.0
+MVI_4955,66. Brother,train,People/66. Brother/MVI_4955.MOV,data\landmarks\include50\train\People_66_Brother_MVI_4955.npy,processed,41.0,"(41, 225)",0.0
+MVI_5317,94. good,train,Adjectives/94. good/MVI_5317.MOV,data\landmarks\include50\train\Adjectives_94_good_MVI_5317.npy,processed,49.0,"(49, 225)",0.0
+MVI_4771,91. Priest,train,Jobs/91. Priest/MVI_4771.MOV,data\landmarks\include50\train\Jobs_91_Priest_MVI_4771.npy,processed,56.0,"(56, 225)",0.0
+MVI_4770,91. Priest,train,Jobs/91. Priest/MVI_4770.MOV,data\landmarks\include50\train\Jobs_91_Priest_MVI_4770.npy,processed,61.0,"(61, 225)",0.0
+MVI_3712,44. Shoes,train,Clothes/44. Shoes/MVI_3712.MOV,data\landmarks\include50\train\Clothes_44_Shoes_MVI_3712.npy,processed,70.0,"(70, 225)",0.0
+MVI_5265,3. happy,train,Adjectives/3. happy/MVI_5265.MOV,data\landmarks\include50\train\Adjectives_3_happy_MVI_5265.npy,processed,48.0,"(48, 225)",0.0
+MVI_3072,4. Bird,train,Animals/4. Bird/MVI_3072.MOV,data\landmarks\include50\train\Animals_4_Bird_MVI_3072.npy,processed,93.0,"(93, 225)",0.0
+MVI_9202,86. Time,train,Days_and_Time/86. Time/MVI_9202.MP4,data\landmarks\include50\train\Days_and_Time_86_Time_MVI_9202.npy,processed,58.0,"(58, 225)",0.0
+MVI_5151,91. new,train,Adjectives/91. new/MVI_5151.MOV,data\landmarks\include50\train\Adjectives_91_new_MVI_5151.npy,processed,59.0,"(59, 225)",0.0
+MVI_0043,51. Good Morning,train,Greetings/51. Good Morning/MVI_0043.MOV,data\landmarks\include50\train\Greetings_51_Good_Morning_MVI_0043.npy,processed,83.0,"(83, 225)",0.0
+MVI_0030,46. you (plural),train,Pronouns/46. you (plural)/MVI_0030.MOV,data\landmarks\include50\train\Pronouns_46_you_(plural)_MVI_0030.npy,processed,61.0,"(61, 225)",0.0
+MVI_4942,61. Father,train,People/61. Father/MVI_4942.MOV,data\landmarks\include50\train\People_61_Father_MVI_4942.npy,processed,59.0,"(59, 225)",0.0
+MVI_3473,28. Store or Shop,train,Places/28. Store or Shop/MVI_3473.MOV,data\landmarks\include50\train\Places_28_Store_or_Shop_MVI_3473.npy,processed,43.0,"(43, 225)",0.0
+MVI_5262,2. quiet,train,Adjectives/2. quiet/MVI_5262.MOV,data\landmarks\include50\train\Adjectives_2_quiet_MVI_5262.npy,processed,66.0,"(66, 225)",0.0
+MVI_8930,2. Death,train,Society/2. Death/MVI_8930.MP4,data\landmarks\include50\train\Society_2_Death_MVI_8930.npy,processed,67.0,"(67, 225)",0.0
+MVI_4965,53. Fan,train,Electronics/53. Fan/MVI_4965.MOV,data\landmarks\include50\train\Electronics_53_Fan_MVI_4965.npy,processed,56.0,"(56, 225)",0.0
+MVI_8767,28. Window,train,Home/28. Window/MVI_8767.MP4,data\landmarks\include50\train\Home_28_Window_MVI_8767.npy,processed,99.0,"(99, 225)",0.0
+MVI_3912,61. Father,train,People/61. Father/MVI_3912.MOV,data\landmarks\include50\train\People_61_Father_MVI_3912.npy,processed,94.0,"(94, 225)",0.0
+MVI_3763,61. Father,train,People/61. Father/MVI_3763.MOV,data\landmarks\include50\train\People_61_Father_MVI_3763.npy,processed,51.0,"(51, 225)",0.0
+MVI_9479,84. small little,train,Adjectives/84. small little/MVI_9479.MOV,data\landmarks\include50\train\Adjectives_84_small_little_MVI_9479.npy,processed,52.0,"(52, 225)",0.0
+MVI_9321,84. small little,train,Adjectives/84. small little/MVI_9321.MOV,data\landmarks\include50\train\Adjectives_84_small_little_MVI_9321.npy,processed,54.0,"(54, 225)",0.0
+MVI_9247,87. hot,train,Adjectives/87. hot/MVI_9247.MOV,data\landmarks\include50\train\Adjectives_87_hot_MVI_9247.npy,processed,55.0,"(55, 225)",0.0
+MVI_5492,78. Year,train,Days_and_Time/78. Year/MVI_5492.MOV,data\landmarks\include50\train\Days_and_Time_78_Year_MVI_5492.npy,processed,43.0,"(43, 225)",0.0
+MVI_8791,34. Pen,train,Home/34. Pen/MVI_8791.MP4,data\landmarks\include50\train\Home_34_Pen_MVI_8791.npy,processed,57.0,"(57, 225)",0.0
+MVI_9957,40. I,train,Pronouns/40. I/MVI_9957.MOV,data\landmarks\include50\train\Pronouns_40_I_MVI_9957.npy,processed,46.0,"(46, 225)",0.0
+MVI_5176,44. Shoes,train,Clothes/44. Shoes/MVI_5176.MOV,data\landmarks\include50\train\Clothes_44_Shoes_MVI_5176.npy,processed,62.0,"(62, 225)",0.0
+MVI_9522,97. dry,train,Adjectives/97. dry/MVI_9522.MOV,data\landmarks\include50\train\Adjectives_97_dry_MVI_9522.npy,processed,64.0,"(64, 225)",0.0
+MVI_9100,54. Cell phone,train,Electronics/54. Cell phone/MVI_9100.MP4,data\landmarks\include50\train\Electronics_54_Cell_phone_MVI_9100.npy,processed,73.0,"(73, 225)",0.0
+MVI_9478,84. small little,train,Adjectives/84. small little/MVI_9478.MOV,data\landmarks\include50\train\Adjectives_84_small_little_MVI_9478.npy,processed,54.0,"(54, 225)",0.0
+MVI_5160,94. good,train,Adjectives/94. good/MVI_5160.MOV,data\landmarks\include50\train\Adjectives_94_good_MVI_5160.npy,processed,62.0,"(62, 225)",0.0
+MVI_0025,44. it,train,Pronouns/44. it/MVI_0025.MOV,data\landmarks\include50\train\Pronouns_44_it_MVI_0025.npy,processed,40.0,"(40, 225)",0.0
+MVI_9956,48. Hello,train,Greetings/48. Hello/MVI_9956.MOV,data\landmarks\include50\train\Greetings_48_Hello_MVI_9956.npy,processed,76.0,"(76, 225)",0.0
+MVI_9459,78. long,train,Adjectives/78. long/MVI_9459.MOV,data\landmarks\include50\train\Adjectives_78_long_MVI_9459.npy,processed,51.0,"(51, 225)",0.0
+MVI_9461,79. short,train,Adjectives/79. short/MVI_9461.MOV,data\landmarks\include50\train\Adjectives_79_short_MVI_9461.npy,processed,57.0,"(57, 225)",0.0
+MVI_3133,16. train ticket,train,Means_of_Transportation/16. train ticket/MVI_3133.MOV,data\landmarks\include50\train\Means_of_Transportation_16_train_ticket_MVI_3133.npy,processed,102.0,"(102, 225)",0.0
+MVI_0023,46. you (plural),train,Pronouns/46. you (plural)/MVI_0023.MOV,data\landmarks\include50\train\Pronouns_46_you_(plural)_MVI_0023.npy,processed,92.0,"(92, 225)",0.0
+MVI_4157,4. Bird,train,Animals/4. Bird/MVI_4157.MOV,data\landmarks\include50\train\Animals_4_Bird_MVI_4157.npy,processed,54.0,"(54, 225)",0.0
+MVI_4486,91. Priest,train,Jobs/91. Priest/MVI_4486.MOV,data\landmarks\include50\train\Jobs_91_Priest_MVI_4486.npy,processed,79.0,"(79, 225)",0.0
+MVI_3287,23. Court,train,Places/23. Court/MVI_3287.MOV,data\landmarks\include50\train\Places_23_Court_MVI_3287.npy,processed,84.0,"(84, 225)",0.0
+MVI_9351,94. good,train,Adjectives/94. good/MVI_9351.MOV,data\landmarks\include50\train\Adjectives_94_good_MVI_9351.npy,processed,50.0,"(50, 225)",0.0
+MVI_9032,34. Pen,train,Home/34. Pen/MVI_9032.MP4,data\landmarks\include50\train\Home_34_Pen_MVI_9032.npy,processed,63.0,"(63, 225)",0.0
+MVI_5228,61. Father,train,People/61. Father/MVI_5228.MOV,data\landmarks\include50\train\People_61_Father_MVI_5228.npy,processed,50.0,"(50, 225)",0.0
+MVI_5228,28. Store or Shop,train,People/61. Father/MVI_5228.MOV,data\landmarks\include50\train\Places_28_Store_or_Shop_MVI_5228.npy,processed,50.0,"(50, 225)",0.0
+MVI_4112,77. Boy,train,People/77. Boy/MVI_4112.MOV,data\landmarks\include50\train\People_77_Boy_MVI_4112.npy,processed,66.0,"(66, 225)",0.0
+MVI_5526,86. Time,train,Days_and_Time/86. Time/MVI_5526.MOV,data\landmarks\include50\train\Days_and_Time_86_Time_MVI_5526.npy,processed,43.0,"(43, 225)",0.0
+MVI_5081,61. Father,train,People/61. Father/MVI_5081.MOV,data\landmarks\include50\train\People_61_Father_MVI_5081.npy,processed,60.0,"(60, 225)",0.0
+MVI_4990,61. Summer,train,Seasons/61. Summer/MVI_4990.MOV,data\landmarks\include50\train\Seasons_61_Summer_MVI_4990.npy,processed,63.0,"(63, 225)",0.0
+MVI_4926,40. Paint,train,Home/40. Paint/MVI_4926.MOV,data\landmarks\include50\train\Home_40_Paint_MVI_4926.npy,processed,64.0,"(64, 225)",0.0
+MVI_8569,5. Cow,train,Animals/5. Cow/MVI_8569.MP4,data\landmarks\include50\train\Animals_5_Cow_MVI_8569.npy,processed,80.0,"(80, 225)",0.0
+MVI_5107,78. long,train,Adjectives/78. long/MVI_5107.MOV,data\landmarks\include50\train\Adjectives_78_long_MVI_5107.npy,processed,71.0,"(71, 225)",0.0
+MVI_4197,37. Hat,train,Clothes/37. Hat/MVI_4197.MOV,data\landmarks\include50\train\Clothes_37_Hat_MVI_4197.npy,processed,52.0,"(52, 225)",0.0
+MVI_9034,34. Pen,train,Home/34. Pen/MVI_9034.MP4,data\landmarks\include50\train\Home_34_Pen_MVI_9034.npy,processed,59.0,"(59, 225)",0.0
+MVI_9133,64. Fall,train,Seasons/64. Fall/MVI_9133.MP4,data\landmarks\include50\train\Seasons_64_Fall_MVI_9133.npy,processed,76.0,"(76, 225)",0.0
+MVI_3071,4. Bird,train,Animals/4. Bird/MVI_3071.MOV,data\landmarks\include50\train\Animals_4_Bird_MVI_3071.npy,processed,85.0,"(85, 225)",0.0
+MVI_3867,47. Red,train,Colours/47. Red/MVI_3867.MOV,data\landmarks\include50\train\Colours_47_Red_MVI_3867.npy,processed,66.0,"(66, 225)",0.0
+MVI_9934,51. Good Morning,train,Greetings/51. Good Morning/MVI_9934.MOV,data\landmarks\include50\train\Greetings_51_Good_Morning_MVI_9934.npy,processed,56.0,"(56, 225)",0.0
+MVI_9268,94. good,train,Adjectives/94. good/MVI_9268.MOV,data\landmarks\include50\train\Adjectives_94_good_MVI_9268.npy,processed,46.0,"(46, 225)",0.0
+MVI_4216,55. White,train,Colours/55. White/MVI_4216.MOV,data\landmarks\include50\train\Colours_55_White_MVI_4216.npy,processed,43.0,"(43, 225)",0.0
+MVI_5133,77. Boy,train,People/77. Boy/MVI_5133.MOV,data\landmarks\include50\train\People_77_Boy_MVI_5133.npy,processed,58.0,"(58, 225)",0.0
+MVI_9374,3. happy,train,Adjectives/3. happy/MVI_9374.MOV,data\landmarks\include50\train\Adjectives_3_happy_MVI_9374.npy,processed,45.0,"(45, 225)",0.0
+MVI_9400,84. small little,train,Adjectives/84. small little/MVI_9400.MOV,data\landmarks\include50\train\Adjectives_84_small_little_MVI_9400.npy,processed,53.0,"(53, 225)",0.0
+MVI_5030,44. Shoes,train,Clothes/44. Shoes/MVI_5030.MOV,data\landmarks\include50\train\Clothes_44_Shoes_MVI_5030.npy,processed,72.0,"(72, 225)",0.0
+MVI_4304,14. Election,train,Society/14. Election/MVI_4304.MOV,data\landmarks\include50\train\Society_14_Election_MVI_4304.npy,processed,72.0,"(72, 225)",0.0
+MVI_9373,2. quiet,train,Adjectives/2. quiet/MVI_9373.MOV,data\landmarks\include50\train\Adjectives_2_quiet_MVI_9373.npy,processed,47.0,"(47, 225)",0.0
+MVI_4941,61. Father,train,People/61. Father/MVI_4941.MOV,data\landmarks\include50\train\People_61_Father_MVI_4941.npy,processed,49.0,"(49, 225)",0.0
+MVI_8570,5. Cow,train,Animals/5. Cow/MVI_8570.MP4,data\landmarks\include50\train\Animals_5_Cow_MVI_8570.npy,processed,75.0,"(75, 225)",0.0
+MVI_5111,79. short,train,Adjectives/79. short/MVI_5111.MOV,data\landmarks\include50\train\Adjectives_79_short_MVI_5111.npy,processed,68.0,"(68, 225)",0.0
+MVI_3835,37. Hat,train,Clothes/37. Hat/MVI_3835.MOV,data\landmarks\include50\train\Clothes_37_Hat_MVI_3835.npy,processed,70.0,"(70, 225)",0.0
+MVI_0007,55. Thank you,train,Greetings/55. Thank you/MVI_0007.MOV,data\landmarks\include50\train\Greetings_55_Thank_you_MVI_0007.npy,processed,56.0,"(56, 225)",0.0
+MVI_9238,84. small little,train,Adjectives/84. small little/MVI_9238.MOV,data\landmarks\include50\train\Adjectives_84_small_little_MVI_9238.npy,processed,51.0,"(51, 225)",0.0
+MVI_3049,5. Cow,train,Animals/5. Cow/MVI_3049.MOV,data\landmarks\include50\train\Animals_5_Cow_MVI_3049.npy,processed,100.0,"(100, 225)",0.0
+MVI_9292,2. quiet,train,Adjectives/2. quiet/MVI_9292.MOV,data\landmarks\include50\train\Adjectives_2_quiet_MVI_9292.npy,processed,53.0,"(53, 225)",0.0
+MVI_3500,35. Bank,train,Places/35. Bank/MVI_3500.MOV,data\landmarks\include50\train\Places_35_Bank_MVI_3500.npy,processed,44.0,"(44, 225)",0.0
+MVI_9134,64. Fall,train,Seasons/64. Fall/MVI_9134.MP4,data\landmarks\include50\train\Seasons_64_Fall_MVI_9134.npy,processed,76.0,"(76, 225)",0.0
+MVI_0002,40. I,train,Pronouns/40. I/MVI_0002.MOV,data\landmarks\include50\train\Pronouns_40_I_MVI_0002.npy,processed,89.0,"(89, 225)",0.0
+MVI_0024,46. you (plural),train,Pronouns/46. you (plural)/MVI_0024.MOV,data\landmarks\include50\train\Pronouns_46_you_(plural)_MVI_0024.npy,processed,74.0,"(74, 225)",0.0
+MVI_8819,40. Paint,train,Home/40. Paint/MVI_8819.MP4,data\landmarks\include50\train\Home_40_Paint_MVI_8819.npy,processed,70.0,"(70, 225)",0.0
+MVI_9458,78. long,train,Adjectives/78. long/MVI_9458.MOV,data\landmarks\include50\train\Adjectives_78_long_MVI_9458.npy,processed,56.0,"(56, 225)",0.0
+MVI_3437,19. House,train,Places/19. House/MVI_3437.MOV,data\landmarks\include50\train\Places_19_House_MVI_3437.npy,processed,67.0,"(67, 225)",0.0
+MVI_5307,91. new,train,Adjectives/91. new/MVI_5307.MOV,data\landmarks\include50\train\Adjectives_91_new_MVI_5307.npy,processed,39.0,"(39, 225)",0.0
+MVI_5307,84. small little,train,Adjectives/91. new/MVI_5307.MOV,data\landmarks\include50\train\Adjectives_84_small_little_MVI_5307.npy,processed,39.0,"(39, 225)",0.0
+MVI_5207,84. small little,train,Adjectives/84. small little/MVI_5207.MOV,data\landmarks\include50\train\Adjectives_84_small_little_MVI_5207.npy,processed,57.0,"(57, 225)",0.0
+MVI_9477,83. big large,train,Adjectives/83. big large/MVI_9477.MOV,data\landmarks\include50\train\Adjectives_83_big_large_MVI_9477.npy,processed,56.0,"(56, 225)",0.0
+MVI_9476,83. big large,train,Adjectives/83. big large/MVI_9476.MOV,data\landmarks\include50\train\Adjectives_83_big_large_MVI_9476.npy,processed,54.0,"(54, 225)",0.0
+MVI_9235,83. big large,train,Adjectives/83. big large/MVI_9235.MOV,data\landmarks\include50\train\Adjectives_83_big_large_MVI_9235.npy,processed,46.0,"(46, 225)",0.0
+MVI_3040,4. Bird,train,Animals/4. Bird/MVI_3040.MOV,data\landmarks\include50\train\Animals_4_Bird_MVI_3040.npy,processed,87.0,"(87, 225)",0.0
+MVI_8712,14. Election,train,Society/14. Election/MVI_8712.MP4,data\landmarks\include50\train\Society_14_Election_MVI_8712.npy,processed,83.0,"(83, 225)",0.0
+MVI_9949,55. Thank you,train,Greetings/55. Thank you/MVI_9949.MOV,data\landmarks\include50\train\Greetings_55_Thank_you_MVI_9949.npy,processed,57.0,"(57, 225)",0.0
+MVI_8969,14. Election,train,Society/14. Election/MVI_8969.MP4,data\landmarks\include50\train\Society_14_Election_MVI_8969.npy,processed,71.0,"(71, 225)",0.0
+MVI_5039,47. Red,train,Colours/47. Red/MVI_5039.MOV,data\landmarks\include50\train\Colours_47_Red_MVI_5039.npy,processed,59.0,"(59, 225)",0.0
+MVI_9340,91. new,train,Adjectives/91. new/MVI_9340.MOV,data\landmarks\include50\train\Adjectives_91_new_MVI_9340.npy,processed,49.0,"(49, 225)",0.0
+MVI_9394,83. big large,train,Adjectives/83. big large/MVI_9394.MOV,data\landmarks\include50\train\Adjectives_83_big_large_MVI_9394.npy,processed,59.0,"(59, 225)",0.0
+MVI_9937,44. it,train,Pronouns/44. it/MVI_9937.MOV,data\landmarks\include50\train\Pronouns_44_it_MVI_9937.npy,processed,87.0,"(87, 225)",0.0
+MVI_3663,35. Bank,train,Places/35. Bank/MVI_3663.MOV,data\landmarks\include50\train\Places_35_Bank_MVI_3663.npy,processed,44.0,"(44, 225)",0.0
+MVI_4918,54. Black,train,Colours/54. Black/MVI_4918.MOV,data\landmarks\include50\train\Colours_54_Black_MVI_4918.npy,processed,43.0,"(43, 225)",0.0
+MVI_5343,3. happy,train,Adjectives/3. happy/MVI_5343.MOV,data\landmarks\include50\train\Adjectives_3_happy_MVI_5343.npy,processed,73.0,"(73, 225)",0.0
+MVI_4044,55. White,train,Colours/55. White/MVI_4044.MOV,data\landmarks\include50\train\Colours_55_White_MVI_4044.npy,processed,55.0,"(55, 225)",0.0
+MVI_5389,53. Fan,train,Electronics/53. Fan/MVI_5389.MOV,data\landmarks\include50\train\Electronics_53_Fan_MVI_5389.npy,processed,55.0,"(55, 225)",0.0
+MVI_3554,28. Store or Shop,train,Places/28. Store or Shop/MVI_3554.MOV,data\landmarks\include50\train\Places_28_Store_or_Shop_MVI_3554.npy,processed,56.0,"(56, 225)",0.0
+MVI_3098,5. Cow,train,Animals/5. Cow/MVI_3098.MOV,data\landmarks\include50\train\Animals_5_Cow_MVI_3098.npy,processed,77.0,"(77, 225)",0.0
+MVI_3194,16. train ticket,train,Means_of_Transportation/16. train ticket/MVI_3194.MOV,data\landmarks\include50\train\Means_of_Transportation_16_train_ticket_MVI_3194.npy,processed,99.0,"(99, 225)",0.0
+MVI_8794,34. Pen,train,Home/34. Pen/MVI_8794.MP4,data\landmarks\include50\train\Home_34_Pen_MVI_8794.npy,processed,63.0,"(63, 225)",0.0
+MVI_3553,28. Store or Shop,train,Places/28. Store or Shop/MVI_3553.MOV,data\landmarks\include50\train\Places_28_Store_or_Shop_MVI_3553.npy,processed,49.0,"(49, 225)",0.0
+MVI_3210,11. Car,train,Means_of_Transportation/11. Car/MVI_3210.MOV,data\landmarks\include50\train\Means_of_Transportation_11_Car_MVI_3210.npy,processed,99.0,"(99, 225)",0.0
+MVI_0046,51. Good Morning,train,Greetings/51. Good Morning/MVI_0046.MOV,data\landmarks\include50\train\Greetings_51_Good_Morning_MVI_0046.npy,processed,62.0,"(62, 225)",0.0
+MVI_4060,61. Father,train,People/61. Father/MVI_4060.MOV,data\landmarks\include50\train\People_61_Father_MVI_4060.npy,processed,56.0,"(56, 225)",0.0
+MVI_4992,61. Summer,train,Seasons/61. Summer/MVI_4992.MOV,data\landmarks\include50\train\Seasons_61_Summer_MVI_4992.npy,processed,60.0,"(60, 225)",0.0
+MVI_3046,5. Cow,train,Animals/5. Cow/MVI_3046.MOV,data\landmarks\include50\train\Animals_5_Cow_MVI_3046.npy,processed,78.0,"(78, 225)",0.0
+MVI_3285,23. Court,train,Places/23. Court/MVI_3285.MOV,data\landmarks\include50\train\Places_23_Court_MVI_3285.npy,processed,68.0,"(68, 225)",0.0
+MVI_3285,4. Bird,train,Places/23. Court/MVI_3285.MOV,data\landmarks\include50\train\Animals_4_Bird_MVI_3285.npy,processed,68.0,"(68, 225)",0.0
+MVI_3719,47. Red,train,Colours/47. Red/MVI_3719.MOV,data\landmarks\include50\train\Colours_47_Red_MVI_3719.npy,processed,58.0,"(58, 225)",0.0
+MVI_9917,48. Hello,train,Greetings/48. Hello/MVI_9917.MOV,data\landmarks\include50\train\Greetings_48_Hello_MVI_9917.npy,processed,49.0,"(49, 225)",0.0
+MVI_3224,16. train ticket,train,Means_of_Transportation/16. train ticket/MVI_3224.MOV,data\landmarks\include50\train\Means_of_Transportation_16_train_ticket_MVI_3224.npy,processed,91.0,"(91, 225)",0.0
+MVI_9480,84. small little,train,Adjectives/84. small little/MVI_9480.MOV,data\landmarks\include50\train\Adjectives_84_small_little_MVI_9480.npy,processed,55.0,"(55, 225)",0.0
+MVI_5000,64. Fall,train,Seasons/64. Fall/MVI_5000.MOV,data\landmarks\include50\train\Seasons_64_Fall_MVI_5000.npy,processed,38.0,"(38, 225)",0.0
+MVI_5000,35. Bank,train,Seasons/64. Fall/MVI_5000.MOV,data\landmarks\include50\train\Places_35_Bank_MVI_5000.npy,processed,38.0,"(38, 225)",0.0
+MVI_4156,4. Bird,val,Animals/4. Bird/MVI_4156.MOV,data\landmarks\include50\val\Animals_4_Bird_MVI_4156.npy,processed,66.0,"(66, 225)",0.0
+MVI_8795,34. Pen,val,Home/34. Pen/MVI_8795.MP4,data\landmarks\include50\val\Home_34_Pen_MVI_8795.npy,processed,62.0,"(62, 225)",0.0
+MVI_8663,2. Death,val,Society/2. Death/MVI_8663.MP4,data\landmarks\include50\val\Society_2_Death_MVI_8663.npy,processed,86.0,"(86, 225)",0.0
+MVI_3421,35. Bank,val,Places/35. Bank/MVI_3421.MOV,data\landmarks\include50\val\Places_35_Bank_MVI_3421.npy,processed,59.0,"(59, 225)",0.0
+MVI_4008,44. Shoes,val,Clothes/44. Shoes/MVI_4008.MOV,data\landmarks\include50\val\Clothes_44_Shoes_MVI_4008.npy,processed,76.0,"(76, 225)",0.0
+MVI_9376,3. happy,val,Adjectives/3. happy/MVI_9376.MOV,data\landmarks\include50\val\Adjectives_3_happy_MVI_9376.npy,processed,36.0,"(36, 225)",0.0
+MVI_9237,84. small little,val,Adjectives/84. small little/MVI_9237.MOV,data\landmarks\include50\val\Adjectives_84_small_little_MVI_9237.npy,processed,52.0,"(52, 225)",0.0
+MVI_9175,78. Year,val,Days_and_Time/78. Year/MVI_9175.MP4,data\landmarks\include50\val\Days_and_Time_78_Year_MVI_9175.npy,processed,60.0,"(60, 225)",0.0
+MVI_9537,2. quiet,val,Adjectives/2. quiet/MVI_9537.MOV,data\landmarks\include50\val\Adjectives_2_quiet_MVI_9537.npy,processed,69.0,"(69, 225)",0.0
+MVI_3514,19. House,val,Places/19. House/MVI_3514.MOV,data\landmarks\include50\val\Places_19_House_MVI_3514.npy,processed,48.0,"(48, 225)",0.0
+MVI_4115,78. Girl,val,People/78. Girl/MVI_4115.MOV,data\landmarks\include50\val\People_78_Girl_MVI_4115.npy,processed,92.0,"(92, 225)",0.0
+MVI_3856,44. Shoes,val,Clothes/44. Shoes/MVI_3856.MOV,data\landmarks\include50\val\Clothes_44_Shoes_MVI_3856.npy,processed,83.0,"(83, 225)",0.0
+MVI_9456,3. happy,val,Adjectives/3. happy/MVI_9456.MOV,data\landmarks\include50\val\Adjectives_3_happy_MVI_9456.npy,processed,43.0,"(43, 225)",0.0
+MVI_0032,46. you (plural),val,Pronouns/46. you (plural)/MVI_0032.MOV,data\landmarks\include50\val\Pronouns_46_you_(plural)_MVI_0032.npy,processed,56.0,"(56, 225)",0.0
+MVI_5267,78. long,val,Adjectives/78. long/MVI_5267.MOV,data\landmarks\include50\val\Adjectives_78_long_MVI_5267.npy,processed,62.0,"(62, 225)",0.0
+MVI_4897,47. Red,val,Colours/47. Red/MVI_4897.MOV,data\landmarks\include50\val\Colours_47_Red_MVI_4897.npy,processed,55.0,"(55, 225)",0.0
+MVI_4986,78. Girl,val,People/78. Girl/MVI_4986.MOV,data\landmarks\include50\val\People_78_Girl_MVI_4986.npy,processed,44.0,"(44, 225)",0.0
+MVI_3909,61. Father,val,People/61. Father/MVI_3909.MOV,data\landmarks\include50\val\People_61_Father_MVI_3909.npy,processed,71.0,"(71, 225)",0.0
+MVI_9534,1. loud,val,Adjectives/1. loud/MVI_9534.MOV,data\landmarks\include50\val\Adjectives_1_loud_MVI_9534.npy,processed,56.0,"(56, 225)",0.0
+MVI_3118,11. Car,val,Means_of_Transportation/11. Car/MVI_3118.MOV,data\landmarks\include50\val\Means_of_Transportation_11_Car_MVI_3118.npy,processed,117.0,"(117, 225)",0.0
+MVI_9922,40. I,val,Pronouns/40. I/MVI_9922.MOV,data\landmarks\include50\val\Pronouns_40_I_MVI_9922.npy,processed,68.0,"(68, 225)",0.0
+MVI_3240,11. Car,val,Means_of_Transportation/11. Car/MVI_3240.MOV,data\landmarks\include50\val\Means_of_Transportation_11_Car_MVI_3240.npy,processed,97.0,"(97, 225)",0.0
+MVI_9204,86. Time,val,Days_and_Time/86. Time/MVI_9204.MP4,data\landmarks\include50\val\Days_and_Time_86_Time_MVI_9204.npy,processed,57.0,"(57, 225)",0.0
+MVI_5171,42. T-Shirt,val,Clothes/42. T-Shirt/MVI_5171.MOV,data\landmarks\include50\val\Clothes_42_T-Shirt_MVI_5171.npy,processed,65.0,"(65, 225)",0.0
+MVI_8561,1. Dog,val,Animals/1. Dog/MVI_8561.MP4,data\landmarks\include50\val\Animals_1_Dog_MVI_8561.npy,processed,67.0,"(67, 225)",0.0
+MVI_3837,37. Hat,val,Clothes/37. Hat/MVI_3837.MOV,data\landmarks\include50\val\Clothes_37_Hat_MVI_3837.npy,processed,40.0,"(40, 225)",0.0
+MVI_8626,61. Father,val,People/61. Father/MVI_8626.MP4,data\landmarks\include50\val\People_61_Father_MVI_8626.npy,processed,66.0,"(66, 225)",0.0
+MVI_5178,1. loud,val,Adjectives/1. loud/MVI_5178.MOV,data\landmarks\include50\val\Adjectives_1_loud_MVI_5178.npy,processed,64.0,"(64, 225)",0.0
+MVI_3633,28. Store or Shop,val,Places/28. Store or Shop/MVI_3633.MOV,data\landmarks\include50\val\Places_28_Store_or_Shop_MVI_3633.npy,processed,49.0,"(49, 225)",0.0
+MVI_9410,87. hot,val,Adjectives/87. hot/MVI_9410.MOV,data\landmarks\include50\val\Adjectives_87_hot_MVI_9410.npy,processed,56.0,"(56, 225)",0.0
+MVI_8820,40. Paint,val,Home/40. Paint/MVI_8820.MP4,data\landmarks\include50\val\Home_40_Paint_MVI_8820.npy,processed,66.0,"(66, 225)",0.0
+MVI_5245,66. Brother,val,People/66. Brother/MVI_5245.MOV,data\landmarks\include50\val\People_66_Brother_MVI_5245.npy,processed,62.0,"(62, 225)",0.0
+MVI_8888,91. Priest,val,Jobs/91. Priest/MVI_8888.MP4,data\landmarks\include50\val\Jobs_91_Priest_MVI_8888.npy,processed,63.0,"(63, 225)",0.0
+MVI_5208,84. small little,val,Adjectives/84. small little/MVI_5208.MOV,data\landmarks\include50\val\Adjectives_84_small_little_MVI_5208.npy,processed,58.0,"(58, 225)",0.0
+MVI_3307,28. Store or Shop,val,Places/28. Store or Shop/MVI_3307.MOV,data\landmarks\include50\val\Places_28_Store_or_Shop_MVI_3307.npy,processed,59.0,"(59, 225)",0.0
+MVI_9302,79. short,val,Adjectives/79. short/MVI_9302.MOV,data\landmarks\include50\val\Adjectives_79_short_MVI_9302.npy,processed,44.0,"(44, 225)",0.0
+MVI_5023,42. T-Shirt,val,Clothes/42. T-Shirt/MVI_5023.MOV,data\landmarks\include50\val\Clothes_42_T-Shirt_MVI_5023.npy,processed,79.0,"(79, 225)",0.0
+MVI_3284,23. Court,val,Places/23. Court/MVI_3284.MOV,data\landmarks\include50\val\Places_23_Court_MVI_3284.npy,processed,74.0,"(74, 225)",0.0
+MVI_3962,77. Boy,val,People/77. Boy/MVI_3962.MOV,data\landmarks\include50\val\People_77_Boy_MVI_3962.npy,processed,71.0,"(71, 225)",0.0
+MVI_4159,5. Cow,val,Animals/5. Cow/MVI_4159.MOV,data\landmarks\include50\val\Animals_5_Cow_MVI_4159.npy,processed,50.0,"(50, 225)",0.0
+MVI_9013,28. Window,val,Home/28. Window/MVI_9013.MP4,data\landmarks\include50\val\Home_28_Window_MVI_9013.npy,processed,72.0,"(72, 225)",0.0
+MVI_9361,97. dry,val,Adjectives/97. dry/MVI_9361.MOV,data\landmarks\include50\val\Adjectives_97_dry_MVI_9361.npy,processed,53.0,"(53, 225)",0.0
+MVI_5422,61. Summer,val,Seasons/61. Summer/MVI_5422.MOV,data\landmarks\include50\val\Seasons_61_Summer_MVI_5422.npy,processed,58.0,"(58, 225)",0.0
+MVI_0039,48. Hello,val,Greetings/48. Hello/MVI_0039.MOV,data\landmarks\include50\val\Greetings_48_Hello_MVI_0039.npy,processed,52.0,"(52, 225)",0.0
+MVI_5248,97. dry,val,Adjectives/97. dry/MVI_5248.MOV,data\landmarks\include50\val\Adjectives_97_dry_MVI_5248.npy,processed,58.0,"(58, 225)",0.0
+MVI_0003,40. I,val,Pronouns/40. I/MVI_0003.MOV,data\landmarks\include50\val\Pronouns_40_I_MVI_0003.npy,processed,52.0,"(52, 225)",0.0
+MVI_9939,44. it,val,Pronouns/44. it/MVI_9939.MOV,data\landmarks\include50\val\Pronouns_44_it_MVI_9939.npy,processed,74.0,"(74, 225)",0.0
+MVI_5340,2. quiet,val,Adjectives/2. quiet/MVI_5340.MOV,data\landmarks\include50\val\Adjectives_2_quiet_MVI_5340.npy,processed,53.0,"(53, 225)",0.0
+MVI_4306,14. Election,val,Society/14. Election/MVI_4306.MOV,data\landmarks\include50\val\Society_14_Election_MVI_4306.npy,processed,76.0,"(76, 225)",0.0
+MVI_3778,66. Brother,val,People/66. Brother/MVI_3778.MOV,data\landmarks\include50\val\People_66_Brother_MVI_3778.npy,processed,59.0,"(59, 225)",0.0
+MVI_0099,51. Good Morning,val,Greetings/51. Good Morning/MVI_0099.MOV,data\landmarks\include50\val\Greetings_51_Good_Morning_MVI_0099.npy,processed,66.0,"(66, 225)",0.0
+MVI_4192,16. train ticket,val,Means_of_Transportation/16. train ticket/MVI_4192.MOV,data\landmarks\include50\val\Means_of_Transportation_16_train_ticket_MVI_4192.npy,processed,79.0,"(79, 225)",0.0
+MVI_9945,46. you (plural),val,Pronouns/46. you (plural)/MVI_9945.MOV,data\landmarks\include50\val\Pronouns_46_you_(plural)_MVI_9945.npy,processed,72.0,"(72, 225)",0.0
+MVI_9261,91. new,val,Adjectives/91. new/MVI_9261.MOV,data\landmarks\include50\val\Adjectives_91_new_MVI_9261.npy,processed,49.0,"(49, 225)",0.0
+MVI_5159,94. good,val,Adjectives/94. good/MVI_5159.MOV,data\landmarks\include50\val\Adjectives_94_good_MVI_5159.npy,processed,63.0,"(63, 225)",0.0
+MVI_3532,23. Court,val,Places/23. Court/MVI_3532.MOV,data\landmarks\include50\val\Places_23_Court_MVI_3532.npy,processed,56.0,"(56, 225)",0.0
+MVI_3815,77. Boy,val,People/77. Boy/MVI_3815.MOV,data\landmarks\include50\val\People_77_Boy_MVI_3815.npy,processed,58.0,"(58, 225)",0.0
+MVI_3269,19. House,val,Places/19. House/MVI_3269.MOV,data\landmarks\include50\val\Places_19_House_MVI_3269.npy,processed,61.0,"(61, 225)",0.0
+MVI_4039,54. Black,val,Colours/54. Black/MVI_4039.MOV,data\landmarks\include50\val\Colours_54_Black_MVI_4039.npy,processed,48.0,"(48, 225)",0.0
+MVI_0112,55. Thank you,val,Greetings/55. Thank you/MVI_0112.MOV,data\landmarks\include50\val\Greetings_55_Thank_you_MVI_0112.npy,processed,75.0,"(75, 225)",0.0
+MVI_4964,53. Fan,val,Electronics/53. Fan/MVI_4964.MOV,data\landmarks\include50\val\Electronics_53_Fan_MVI_4964.npy,processed,53.0,"(53, 225)",0.0
+MVI_0044,51. Good Morning,val,Greetings/51. Good Morning/MVI_0044.MOV,data\landmarks\include50\val\Greetings_51_Good_Morning_MVI_0044.npy,processed,85.0,"(85, 225)",0.0
+MVI_5125,83. big large,val,Adjectives/83. big large/MVI_5125.MOV,data\landmarks\include50\val\Adjectives_83_big_large_MVI_5125.npy,processed,71.0,"(71, 225)",0.0
+MVI_3744,55. White,val,Colours/55. White/MVI_3744.MOV,data\landmarks\include50\val\Colours_55_White_MVI_3744.npy,processed,45.0,"(45, 225)",0.0
+MVI_5190,79. short,val,Adjectives/79. short/MVI_5190.MOV,data\landmarks\include50\val\Adjectives_79_short_MVI_5190.npy,processed,56.0,"(56, 225)",0.0
+MVI_5394,54. Cell phone,val,Electronics/54. Cell phone/MVI_5394.MOV,data\landmarks\include50\val\Electronics_54_Cell_phone_MVI_5394.npy,processed,60.0,"(60, 225)",0.0
+MVI_5063,55. White,val,Colours/55. White/MVI_5063.MOV,data\landmarks\include50\val\Colours_55_White_MVI_5063.npy,processed,51.0,"(51, 225)",0.0
+MVI_5448,67. Monday,val,Days_and_Time/67. Monday/MVI_5448.MOV,data\landmarks\include50\val\Days_and_Time_67_Monday_MVI_5448.npy,processed,54.0,"(54, 225)",0.0
+MVI_4745,84. Teacher,val,Jobs/84. Teacher/MVI_4745.MOV,data\landmarks\include50\val\Jobs_84_Teacher_MVI_4745.npy,processed,64.0,"(64, 225)",0.0
+MVI_9423,91. new,val,Adjectives/91. new/MVI_9423.MOV,data\landmarks\include50\val\Adjectives_91_new_MVI_9423.npy,processed,49.0,"(49, 225)",0.0
+MVI_5433,64. Fall,val,Seasons/64. Fall/MVI_5433.MOV,data\landmarks\include50\val\Seasons_64_Fall_MVI_5433.npy,processed,55.0,"(55, 225)",0.0
+MVI_9396,83. big large,val,Adjectives/83. big large/MVI_9396.MOV,data\landmarks\include50\val\Adjectives_83_big_large_MVI_9396.npy,processed,56.0,"(56, 225)",0.0
+MVI_3011,4. Bird,val,Animals/4. Bird/MVI_3011.MOV,data\landmarks\include50\val\Animals_4_Bird_MVI_3011.npy,processed,71.0,"(71, 225)",0.0
+MVI_9350,94. good,val,Adjectives/94. good/MVI_9350.MOV,data\landmarks\include50\val\Adjectives_94_good_MVI_9350.npy,processed,45.0,"(45, 225)",0.0
+MVI_3866,47. Red,val,Colours/47. Red/MVI_3866.MOV,data\landmarks\include50\val\Colours_47_Red_MVI_3866.npy,processed,75.0,"(75, 225)",0.0
+MVI_3661,35. Bank,val,Places/35. Bank/MVI_3661.MOV,data\landmarks\include50\val\Places_35_Bank_MVI_3661.npy,processed,44.0,"(44, 225)",0.0
+MVI_4158,5. Cow,val,Animals/5. Cow/MVI_4158.MOV,data\landmarks\include50\val\Animals_5_Cow_MVI_4158.npy,processed,59.0,"(59, 225)",0.0
+MVI_9992,51. Good Morning,test,Greetings/51. Good Morning/MVI_9992.MOV,data\landmarks\include50\test\Greetings_51_Good_Morning_MVI_9992.npy,processed,58.0,"(58, 225)",0.0
+MVI_4638,78. Year,test,Days_and_Time/78. Year/MVI_4638.MOV,data\landmarks\include50\test\Days_and_Time_78_Year_MVI_4638.npy,processed,51.0,"(51, 225)",0.0
+MVI_4535,53. Fan,test,Electronics/53. Fan/MVI_4535.MOV,data\landmarks\include50\test\Electronics_53_Fan_MVI_4535.npy,processed,58.0,"(58, 225)",0.0
+MVI_4967,54. Cell phone,test,Electronics/54. Cell phone/MVI_4967.MOV,data\landmarks\include50\test\Electronics_54_Cell_phone_MVI_4967.npy,processed,55.0,"(55, 225)",0.0
+MVI_0031,48. Hello,test,Greetings/48. Hello/MVI_0031.MOV,data\landmarks\include50\test\Greetings_48_Hello_MVI_0031.npy,processed,65.0,"(65, 225)",0.0
+MVI_9320,84. small little,test,Adjectives/84. small little/MVI_9320.MOV,data\landmarks\include50\test\Adjectives_84_small_little_MVI_9320.npy,processed,52.0,"(52, 225)",0.0
+MVI_9303,79. short,test,Adjectives/79. short/MVI_9303.MOV,data\landmarks\include50\test\Adjectives_79_short_MVI_9303.npy,processed,49.0,"(49, 225)",0.0
+MVI_9248,87. hot,test,Adjectives/87. hot/MVI_9248.MOV,data\landmarks\include50\test\Adjectives_87_hot_MVI_9248.npy,processed,48.0,"(48, 225)",0.0
+MVI_3584,35. Bank,test,Places/35. Bank/MVI_3584.MOV,data\landmarks\include50\test\Places_35_Bank_MVI_3584.npy,processed,50.0,"(50, 225)",0.0
+MVI_5191,79. short,test,Adjectives/79. short/MVI_5191.MOV,data\landmarks\include50\test\Adjectives_79_short_MVI_5191.npy,processed,64.0,"(64, 225)",0.0
+MVI_3704,42. T-Shirt,test,Clothes/42. T-Shirt/MVI_3704.MOV,data\landmarks\include50\test\Clothes_42_T-Shirt_MVI_3704.npy,processed,84.0,"(84, 225)",0.0
+MVI_4865,37. Hat,test,Clothes/37. Hat/MVI_4865.MOV,data\landmarks\include50\test\Clothes_37_Hat_MVI_4865.npy,processed,78.0,"(78, 225)",0.0
+MVI_3145,11. Car,test,Means_of_Transportation/11. Car/MVI_3145.MOV,data\landmarks\include50\test\Means_of_Transportation_11_Car_MVI_3145.npy,processed,138.0,"(138, 225)",0.0
+MVI_9539,2. quiet,test,Adjectives/2. quiet/MVI_9539.MOV,data\landmarks\include50\test\Adjectives_2_quiet_MVI_9539.npy,processed,65.0,"(65, 225)",0.0
+MVI_4841,14. Election,test,Society/14. Election/MVI_4841.MOV,data\landmarks\include50\test\Society_14_Election_MVI_4841.npy,processed,62.0,"(62, 225)",0.0
+MVI_9948,46. you (plural),test,Pronouns/46. you (plural)/MVI_9948.MOV,data\landmarks\include50\test\Pronouns_46_you_(plural)_MVI_9948.npy,processed,93.0,"(93, 225)",0.0
+MVI_4111,77. Boy,test,People/77. Boy/MVI_4111.MOV,data\landmarks\include50\test\People_77_Boy_MVI_4111.npy,processed,63.0,"(63, 225)",0.0
+MVI_9430,94. good,test,Adjectives/94. good/MVI_9430.MOV,data\landmarks\include50\test\Adjectives_94_good_MVI_9430.npy,processed,67.0,"(67, 225)",0.0
+MVI_4985,78. Girl,test,People/78. Girl/MVI_4985.MOV,data\landmarks\include50\test\People_78_Girl_MVI_4985.npy,processed,46.0,"(46, 225)",0.0
+MVI_5134,77. Boy,test,People/77. Boy/MVI_5134.MOV,data\landmarks\include50\test\People_77_Boy_MVI_5134.npy,processed,60.0,"(60, 225)",0.0
+MVI_5447,67. Monday,test,Days_and_Time/67. Monday/MVI_5447.MOV,data\landmarks\include50\test\Days_and_Time_67_Monday_MVI_5447.npy,processed,53.0,"(53, 225)",0.0
+MVI_5127,84. small little,test,Adjectives/84. small little/MVI_5127.MOV,data\landmarks\include50\test\Adjectives_84_small_little_MVI_5127.npy,processed,80.0,"(80, 225)",0.0
+MVI_9297,3. happy,test,Adjectives/3. happy/MVI_9297.MOV,data\landmarks\include50\test\Adjectives_3_happy_MVI_9297.npy,processed,48.0,"(48, 225)",0.0
+MVI_3419,35. Bank,test,Places/35. Bank/MVI_3419.MOV,data\landmarks\include50\test\Places_35_Bank_MVI_3419.npy,processed,82.0,"(82, 225)",0.0
+MVI_0060_,55. Thank you,test,Greetings/55. Thank you/MVI_0060_.MOV,data\landmarks\include50\test\Greetings_55_Thank_you_MVI_0060_.npy,processed,81.0,"(81, 225)",0.0
+MVI_5313,84. Teacher,test,Jobs/84. Teacher/MVI_5313.MOV,data\landmarks\include50\test\Jobs_84_Teacher_MVI_5313.npy,processed,55.0,"(55, 225)",0.0
+MVI_3384,28. Store or Shop,test,Places/28. Store or Shop/MVI_3384.MOV,data\landmarks\include50\test\Places_28_Store_or_Shop_MVI_3384.npy,processed,62.0,"(62, 225)",0.0
+MVI_9489,87. hot,test,Adjectives/87. hot/MVI_9489.MOV,data\landmarks\include50\test\Adjectives_87_hot_MVI_9489.npy,processed,62.0,"(62, 225)",0.0
+MVI_5082,61. Father,test,People/61. Father/MVI_5082.MOV,data\landmarks\include50\test\People_61_Father_MVI_5082.npy,processed,66.0,"(66, 225)",0.0
+MVI_3365,23. Court,test,Places/23. Court/MVI_3365.MOV,data\landmarks\include50\test\Places_23_Court_MVI_3365.npy,processed,87.0,"(87, 225)",0.0
+MVI_9984,55. Thank you,test,Greetings/55. Thank you/MVI_9984.MOV,data\landmarks\include50\test\Greetings_55_Thank_you_MVI_9984.npy,processed,61.0,"(61, 225)",0.0
+MVI_4889,44. Shoes,test,Clothes/44. Shoes/MVI_4889.MOV,data\landmarks\include50\test\Clothes_44_Shoes_MVI_4889.npy,processed,74.0,"(74, 225)",0.0
+MVI_4537,54. Cell phone,test,Electronics/54. Cell phone/MVI_4537.MOV,data\landmarks\include50\test\Electronics_54_Cell_phone_MVI_4537.npy,processed,48.0,"(48, 225)",0.0
+MVI_5393,54. Cell phone,test,Electronics/54. Cell phone/MVI_5393.MOV,data\landmarks\include50\test\Electronics_54_Cell_phone_MVI_5393.npy,processed,53.0,"(53, 225)",0.0
+MVI_5494,78. Year,test,Days_and_Time/78. Year/MVI_5494.MOV,data\landmarks\include50\test\Days_and_Time_78_Year_MVI_5494.npy,processed,46.0,"(46, 225)",0.0
+MVI_3048,5. Cow,test,Animals/5. Cow/MVI_3048.MOV,data\landmarks\include50\test\Animals_5_Cow_MVI_3048.npy,processed,123.0,"(123, 225)",0.0
+MVI_8560,1. Dog,test,Animals/1. Dog/MVI_8560.MP4,data\landmarks\include50\test\Animals_1_Dog_MVI_8560.npy,processed,83.0,"(83, 225)",0.0
+MVI_9379,78. long,test,Adjectives/78. long/MVI_9379.MOV,data\landmarks\include50\test\Adjectives_78_long_MVI_9379.npy,processed,52.0,"(52, 225)",0.0
+MVI_3195,16. train ticket,test,Means_of_Transportation/16. train ticket/MVI_3195.MOV,data\landmarks\include50\test\Means_of_Transportation_16_train_ticket_MVI_3195.npy,processed,100.0,"(100, 225)",0.0
+MVI_8644,77. Boy,test,People/77. Boy/MVI_8644.MP4,data\landmarks\include50\test\People_77_Boy_MVI_8644.npy,processed,68.0,"(68, 225)",0.0
+MVI_5527,86. Time,test,Days_and_Time/86. Time/MVI_5527.MOV,data\landmarks\include50\test\Days_and_Time_86_Time_MVI_5527.npy,processed,41.0,"(41, 225)",0.0
+MVI_5435,64. Fall,test,Seasons/64. Fall/MVI_5435.MOV,data\landmarks\include50\test\Seasons_64_Fall_MVI_5435.npy,processed,59.0,"(59, 225)",0.0
+MVI_0014,40. I,test,Pronouns/40. I/MVI_0014.MOV,data\landmarks\include50\test\Pronouns_40_I_MVI_0014.npy,processed,45.0,"(45, 225)",0.0
+MVI_9880,40. I,test,Pronouns/40. I/MVI_9880.MOV,data\landmarks\include50\test\Pronouns_40_I_MVI_9880.npy,processed,54.0,"(54, 225)",0.0
+MVI_8600,37. Hat,test,Clothes/37. Hat/MVI_8600.MP4,data\landmarks\include50\test\Clothes_37_Hat_MVI_8600.npy,processed,51.0,"(51, 225)",0.0
+MVI_5029,44. Shoes,test,Clothes/44. Shoes/MVI_5029.MOV,data\landmarks\include50\test\Clothes_44_Shoes_MVI_5029.npy,processed,69.0,"(69, 225)",0.0
+MVI_9487,87. hot,test,Adjectives/87. hot/MVI_9487.MOV,data\landmarks\include50\test\Adjectives_87_hot_MVI_9487.npy,processed,63.0,"(63, 225)",0.0
+MVI_5283,83. big large,test,Adjectives/83. big large/MVI_5283.MOV,data\landmarks\include50\test\Adjectives_83_big_large_MVI_5283.npy,processed,57.0,"(57, 225)",0.0
+MVI_9369,1. loud,test,Adjectives/1. loud/MVI_9369.MOV,data\landmarks\include50\test\Adjectives_1_loud_MVI_9369.npy,processed,48.0,"(48, 225)",0.0
+MVI_8597,16. train ticket,test,Means_of_Transportation/16. train ticket/MVI_8597.MP4,data\landmarks\include50\test\Means_of_Transportation_16_train_ticket_MVI_8597.npy,processed,87.0,"(87, 225)",0.0
+MVI_3029,1. Dog,test,Animals/1. Dog/MVI_3029.MOV,data\landmarks\include50\test\Animals_1_Dog_MVI_3029.npy,processed,97.0,"(97, 225)",0.0
+MVI_5136,78. Girl,test,People/78. Girl/MVI_5136.MOV,data\landmarks\include50\test\People_78_Girl_MVI_5136.npy,processed,50.0,"(50, 225)",0.0
+MVI_9957,48. Hello,test,Greetings/48. Hello/MVI_9957.MOV,data\landmarks\include50\test\Greetings_48_Hello_MVI_9957.npy,processed,79.0,"(79, 225)",0.0
+MVI_0006,55. Thank you,test,Greetings/55. Thank you/MVI_0006.MOV,data\landmarks\include50\test\Greetings_55_Thank_you_MVI_0006.npy,processed,53.0,"(53, 225)",0.0
+MVI_9969,44. it,test,Pronouns/44. it/MVI_9969.MOV,data\landmarks\include50\test\Pronouns_44_it_MVI_9969.npy,processed,44.0,"(44, 225)",0.0
+MVI_0113,55. Thank you,test,Greetings/55. Thank you/MVI_0113.MOV,data\landmarks\include50\test\Greetings_55_Thank_you_MVI_0113.npy,processed,79.0,"(79, 225)",0.0
+MVI_9971,44. it,test,Pronouns/44. it/MVI_9971.MOV,data\landmarks\include50\test\Pronouns_44_it_MVI_9971.npy,processed,47.0,"(47, 225)",0.0
+MVI_5525,86. Time,test,Days_and_Time/86. Time/MVI_5525.MOV,data\landmarks\include50\test\Days_and_Time_86_Time_MVI_5525.npy,processed,42.0,"(42, 225)",0.0
+MVI_9408,87. hot,test,Adjectives/87. hot/MVI_9408.MOV,data\landmarks\include50\test\Adjectives_87_hot_MVI_9408.npy,processed,63.0,"(63, 225)",0.0
+MVI_4460,84. Teacher,test,Jobs/84. Teacher/MVI_4460.MOV,data\landmarks\include50\test\Jobs_84_Teacher_MVI_4460.npy,processed,68.0,"(68, 225)",0.0
+MVI_9220,79. short,test,Adjectives/79. short/MVI_9220.MOV,data\landmarks\include50\test\Adjectives_79_short_MVI_9220.npy,processed,49.0,"(49, 225)",0.0
+MVI_9475,83. big large,test,Adjectives/83. big large/MVI_9475.MOV,data\landmarks\include50\test\Adjectives_83_big_large_MVI_9475.npy,processed,54.0,"(54, 225)",0.0
+MVI_3225,16. train ticket,test,Means_of_Transportation/16. train ticket/MVI_3225.MOV,data\landmarks\include50\test\Means_of_Transportation_16_train_ticket_MVI_3225.npy,processed,98.0,"(98, 225)",0.0
+MVI_9289,1. loud,test,Adjectives/1. loud/MVI_9289.MOV,data\landmarks\include50\test\Adjectives_1_loud_MVI_9289.npy,processed,55.0,"(55, 225)",0.0
+MVI_3073,5. Cow,test,Animals/5. Cow/MVI_3073.MOV,data\landmarks\include50\test\Animals_5_Cow_MVI_3073.npy,processed,87.0,"(87, 225)",0.0
+MVI_5258,1. loud,test,Adjectives/1. loud/MVI_5258.MOV,data\landmarks\include50\test\Adjectives_1_loud_MVI_5258.npy,processed,76.0,"(76, 225)",0.0
+MVI_9900,44. it,test,Pronouns/44. it/MVI_9900.MOV,data\landmarks\include50\test\Pronouns_44_it_MVI_9900.npy,processed,50.0,"(50, 225)",0.0
+MVI_5230,91. new,test,Adjectives/91. new/MVI_5230.MOV,data\landmarks\include50\test\Adjectives_91_new_MVI_5230.npy,processed,57.0,"(57, 225)",0.0
+MVI_9015,28. Window,test,Home/28. Window/MVI_9015.MP4,data\landmarks\include50\test\Home_28_Window_MVI_9015.npy,processed,85.0,"(85, 225)",0.0
+MVI_9907,46. you (plural),test,Pronouns/46. you (plural)/MVI_9907.MOV,data\landmarks\include50\test\Pronouns_46_you_(plural)_MVI_9907.npy,processed,53.0,"(53, 225)",0.0
+MVI_4363,28. Window,test,Home/28. Window/MVI_4363.MOV,data\landmarks\include50\test\Home_28_Window_MVI_4363.npy,processed,70.0,"(70, 225)",0.0
+MVI_3335,35. Bank,test,Places/35. Bank/MVI_3335.MOV,data\landmarks\include50\test\Places_35_Bank_MVI_3335.npy,processed,74.0,"(74, 225)",0.0
+MVI_4920,54. Black,test,Colours/54. Black/MVI_4920.MOV,data\landmarks\include50\test\Colours_54_Black_MVI_4920.npy,processed,54.0,"(54, 225)",0.0
+MVI_4255,2. Death,test,Society/2. Death/MVI_4255.MOV,data\landmarks\include50\test\Society_2_Death_MVI_4255.npy,processed,63.0,"(63, 225)",0.0
+MVI_4415,40. Paint,test,Home/40. Paint/MVI_4415.MOV,data\landmarks\include50\test\Home_40_Paint_MVI_4415.npy,processed,58.0,"(58, 225)",0.0
+MVI_9899,44. it,test,Pronouns/44. it/MVI_9899.MOV,data\landmarks\include50\test\Pronouns_44_it_MVI_9899.npy,processed,44.0,"(44, 225)",0.0
+MVI_9987,55. Thank you,test,Greetings/55. Thank you/MVI_9987.MOV,data\landmarks\include50\test\Greetings_55_Thank_you_MVI_9987.npy,processed,63.0,"(63, 225)",0.0
+MVI_5216,87. hot,test,Adjectives/87. hot/MVI_5216.MOV,data\landmarks\include50\test\Adjectives_87_hot_MVI_5216.npy,processed,57.0,"(57, 225)",0.0
+MVI_3286,23. Court,test,Places/23. Court/MVI_3286.MOV,data\landmarks\include50\test\Places_23_Court_MVI_3286.npy,processed,68.0,"(68, 225)",0.0
+MVI_3552,28. Store or Shop,test,Places/28. Store or Shop/MVI_3552.MOV,data\landmarks\include50\test\Places_28_Store_or_Shop_MVI_3552.npy,processed,46.0,"(46, 225)",0.0
+MVI_4991,61. Summer,test,Seasons/61. Summer/MVI_4991.MOV,data\landmarks\include50\test\Seasons_61_Summer_MVI_4991.npy,processed,61.0,"(61, 225)",0.0
+MVI_4147,1. Dog,test,Animals/1. Dog/MVI_4147.MOV,data\landmarks\include50\test\Animals_1_Dog_MVI_4147.npy,processed,68.0,"(68, 225)",0.0
+MVI_2988,4. Bird,test,Animals/4. Bird/MVI_2988.MOV,data\landmarks\include50\test\Animals_4_Bird_MVI_2988.npy,processed,83.0,"(83, 225)",0.0
+MVI_4593,67. Monday,test,Days_and_Time/67. Monday/MVI_4593.MOV,data\landmarks\include50\test\Days_and_Time_67_Monday_MVI_4593.npy,processed,60.0,"(60, 225)",0.0
+MVI_9122,61. Summer,test,Seasons/61. Summer/MVI_9122.MP4,data\landmarks\include50\test\Seasons_61_Summer_MVI_9122.npy,processed,74.0,"(74, 225)",0.0
+MVI_5211,55. White,test,Colours/55. White/MVI_5211.MOV,data\landmarks\include50\test\Colours_55_White_MVI_5211.npy,processed,56.0,"(56, 225)",0.0
+MVI_8821,40. Paint,test,Home/40. Paint/MVI_8821.MP4,data\landmarks\include50\test\Home_40_Paint_MVI_8821.npy,processed,73.0,"(73, 225)",0.0
+MVI_0029,48. Hello,test,Greetings/48. Hello/MVI_0029.MOV,data\landmarks\include50\test\Greetings_48_Hello_MVI_0029.npy,processed,63.0,"(63, 225)",0.0
+MVI_3740,54. Black,test,Colours/54. Black/MVI_3740.MOV,data\landmarks\include50\test\Colours_54_Black_MVI_3740.npy,processed,44.0,"(44, 225)",0.0
+MVI_9536,1. loud,test,Adjectives/1. loud/MVI_9536.MOV,data\landmarks\include50\test\Adjectives_1_loud_MVI_9536.npy,processed,57.0,"(57, 225)",0.0
+MVI_5097,66. Brother,test,People/66. Brother/MVI_5097.MOV,data\landmarks\include50\test\People_66_Brother_MVI_5097.npy,processed,67.0,"(67, 225)",0.0
+MVI_5180,2. quiet,test,Adjectives/2. quiet/MVI_5180.MOV,data\landmarks\include50\test\Adjectives_2_quiet_MVI_5180.npy,processed,68.0,"(68, 225)",0.0
+MVI_4568,61. Summer,test,Seasons/61. Summer/MVI_4568.MOV,data\landmarks\include50\test\Seasons_61_Summer_MVI_4568.npy,processed,80.0,"(80, 225)",0.0
+MVI_3132,16. train ticket,test,Means_of_Transportation/16. train ticket/MVI_3132.MOV,data\landmarks\include50\test\Means_of_Transportation_16_train_ticket_MVI_3132.npy,processed,88.0,"(88, 225)",0.0
+MVI_0076,44. it,test,Pronouns/44. it/MVI_0076.MOV,data\landmarks\include50\test\Pronouns_44_it_MVI_0076.npy,processed,61.0,"(61, 225)",0.0
+MVI_3836,37. Hat,test,Clothes/37. Hat/MVI_3836.MOV,data\landmarks\include50\test\Clothes_37_Hat_MVI_3836.npy,processed,44.0,"(44, 225)",0.0
+MVI_4578,64. Fall,test,Seasons/64. Fall/MVI_4578.MOV,data\landmarks\include50\test\Seasons_64_Fall_MVI_4578.npy,processed,57.0,"(57, 225)",0.0
+MVI_3174,11. Car,test,Means_of_Transportation/11. Car/MVI_3174.MOV,data\landmarks\include50\test\Means_of_Transportation_11_Car_MVI_3174.npy,processed,97.0,"(97, 225)",0.0
+MVI_5203,83. big large,test,Adjectives/83. big large/MVI_5203.MOV,data\landmarks\include50\test\Adjectives_83_big_large_MVI_5203.npy,processed,65.0,"(65, 225)",0.0
+MVI_9219,78. long,test,Adjectives/78. long/MVI_9219.MOV,data\landmarks\include50\test\Adjectives_78_long_MVI_9219.npy,processed,53.0,"(53, 225)",0.0
+MVI_9300,78. long,test,Adjectives/78. long/MVI_9300.MOV,data\landmarks\include50\test\Adjectives_78_long_MVI_9300.npy,processed,56.0,"(56, 225)",0.0
+MVI_3338,35. Bank,test,Places/35. Bank/MVI_3338.MOV,data\landmarks\include50\test\Places_35_Bank_MVI_3338.npy,processed,63.0,"(63, 225)",0.0
+MVI_5207,54. Black,test,Colours/54. Black/MVI_5207.MOV,data\landmarks\include50\test\Colours_54_Black_MVI_5207.npy,processed,54.0,"(54, 225)",0.0
+MVI_8931,2. Death,test,Society/2. Death/MVI_8931.MP4,data\landmarks\include50\test\Society_2_Death_MVI_8931.npy,processed,68.0,"(68, 225)",0.0
+MVI_4010,44. Shoes,test,Clothes/44. Shoes/MVI_4010.MOV,data\landmarks\include50\test\Clothes_44_Shoes_MVI_4010.npy,processed,75.0,"(75, 225)",0.0
+MVI_4636,78. Year,test,Days_and_Time/78. Year/MVI_4636.MOV,data\landmarks\include50\test\Days_and_Time_78_Year_MVI_4636.npy,processed,53.0,"(53, 225)",0.0
+MVI_3472,28. Store or Shop,test,Places/28. Store or Shop/MVI_3472.MOV,data\landmarks\include50\test\Places_28_Store_or_Shop_MVI_3472.npy,processed,50.0,"(50, 225)",0.0
+MVI_4457,84. Teacher,test,Jobs/84. Teacher/MVI_4457.MOV,data\landmarks\include50\test\Jobs_84_Teacher_MVI_4457.npy,processed,67.0,"(67, 225)",0.0
+MVI_5158,94. good,test,Adjectives/94. good/MVI_5158.MOV,data\landmarks\include50\test\Adjectives_94_good_MVI_5158.npy,processed,73.0,"(73, 225)",0.0
+MVI_3016,5. Cow,test,Animals/5. Cow/MVI_3016.MOV,data\landmarks\include50\test\Animals_5_Cow_MVI_3016.npy,processed,100.0,"(100, 225)",0.0
+MVI_4635,78. Year,test,Days_and_Time/78. Year/MVI_4635.MOV,data\landmarks\include50\test\Days_and_Time_78_Year_MVI_4635.npy,processed,56.0,"(56, 225)",0.0
+MVI_9971,51. Good Morning,test,Greetings/51. Good Morning/MVI_9971.MOV,data\landmarks\include50\test\Greetings_51_Good_Morning_MVI_9971.npy,processed,75.0,"(75, 225)",0.0
+MVI_9948,55. Thank you,test,Greetings/55. Thank you/MVI_9948.MOV,data\landmarks\include50\test\Greetings_55_Thank_you_MVI_9948.npy,processed,53.0,"(53, 225)",0.0
+MVI_3253,16. train ticket,test,Means_of_Transportation/16. train ticket/MVI_3253.MOV,data\landmarks\include50\test\Means_of_Transportation_16_train_ticket_MVI_3253.npy,processed,76.0,"(76, 225)",0.0
+MVI_5268,78. long,test,Adjectives/78. long/MVI_5268.MOV,data\landmarks\include50\test\Adjectives_78_long_MVI_5268.npy,processed,60.0,"(60, 225)",0.0
+MVI_3503,35. Bank,test,Places/35. Bank/MVI_3503.MOV,data\landmarks\include50\test\Places_35_Bank_MVI_3503.npy,processed,45.0,"(45, 225)",0.0
+MVI_5106,78. long,test,Adjectives/78. long/MVI_5106.MOV,data\landmarks\include50\test\Adjectives_78_long_MVI_5106.npy,processed,68.0,"(68, 225)",0.0
+MVI_5106,19. House,test,Adjectives/78. long/MVI_5106.MOV,data\landmarks\include50\test\Places_19_House_MVI_5106.npy,processed,68.0,"(68, 225)",0.0
+MVI_5206,84. small little,test,Adjectives/84. small little/MVI_5206.MOV,data\landmarks\include50\test\Adjectives_84_small_little_MVI_5206.npy,processed,53.0,"(53, 225)",0.0
+MVI_5186,47. Red,test,Colours/47. Red/MVI_5186.MOV,data\landmarks\include50\test\Colours_47_Red_MVI_5186.npy,processed,49.0,"(49, 225)",0.0
+MVI_3858,44. Shoes,test,Clothes/44. Shoes/MVI_3858.MOV,data\landmarks\include50\test\Clothes_44_Shoes_MVI_3858.npy,processed,92.0,"(92, 225)",0.0
+MVI_3927,66. Brother,test,People/66. Brother/MVI_3927.MOV,data\landmarks\include50\test\People_66_Brother_MVI_3927.npy,processed,83.0,"(83, 225)",0.0
+MVI_0024,44. it,test,Pronouns/44. it/MVI_0024.MOV,data\landmarks\include50\test\Pronouns_44_it_MVI_0024.npy,processed,43.0,"(43, 225)",0.0
+MVI_3116,11. Car,test,Means_of_Transportation/11. Car/MVI_3116.MOV,data\landmarks\include50\test\Means_of_Transportation_11_Car_MVI_3116.npy,processed,106.0,"(106, 225)",0.0
+MVI_8967,14. Election,test,Society/14. Election/MVI_8967.MP4,data\landmarks\include50\test\Society_14_Election_MVI_8967.npy,processed,63.0,"(63, 225)",0.0
+MVI_9377,78. long,test,Adjectives/78. long/MVI_9377.MOV,data\landmarks\include50\test\Adjectives_78_long_MVI_9377.npy,processed,53.0,"(53, 225)",0.0
+MVI_3581,35. Bank,test,Places/35. Bank/MVI_3581.MOV,data\landmarks\include50\test\Places_35_Bank_MVI_3581.npy,processed,50.0,"(50, 225)",0.0
+MVI_5263,3. happy,test,Adjectives/3. happy/MVI_5263.MOV,data\landmarks\include50\test\Adjectives_3_happy_MVI_5263.npy,processed,53.0,"(53, 225)",0.0
+MVI_0030,48. Hello,test,Greetings/48. Hello/MVI_0030.MOV,data\landmarks\include50\test\Greetings_48_Hello_MVI_0030.npy,processed,74.0,"(74, 225)",0.0
+MVI_4969,54. Cell phone,test,Electronics/54. Cell phone/MVI_4969.MOV,data\landmarks\include50\test\Electronics_54_Cell_phone_MVI_4969.npy,processed,68.0,"(68, 225)",0.0
+MVI_9993,51. Good Morning,test,Greetings/51. Good Morning/MVI_9993.MOV,data\landmarks\include50\test\Greetings_51_Good_Morning_MVI_9993.npy,processed,64.0,"(64, 225)",0.0
+MVI_4898,47. Red,test,Colours/47. Red/MVI_4898.MOV,data\landmarks\include50\test\Colours_47_Red_MVI_4898.npy,processed,60.0,"(60, 225)",0.0
+MVI_9395,83. big large,test,Adjectives/83. big large/MVI_9395.MOV,data\landmarks\include50\test\Adjectives_83_big_large_MVI_9395.npy,processed,57.0,"(57, 225)",0.0
+MVI_4637,78. Year,test,Days_and_Time/78. Year/MVI_4637.MOV,data\landmarks\include50\test\Days_and_Time_78_Year_MVI_4637.npy,processed,50.0,"(50, 225)",0.0
+MVI_3086,1. Dog,test,Animals/1. Dog/MVI_3086.MOV,data\landmarks\include50\test\Animals_1_Dog_MVI_3086.npy,processed,83.0,"(83, 225)",0.0
+MVI_5239,94. good,test,Adjectives/94. good/MVI_5239.MOV,data\landmarks\include50\test\Adjectives_94_good_MVI_5239.npy,processed,56.0,"(56, 225)",0.0
+MVI_0077,44. it,test,Pronouns/44. it/MVI_0077.MOV,data\landmarks\include50\test\Pronouns_44_it_MVI_0077.npy,processed,68.0,"(68, 225)",0.0
+MVI_5177,1. loud,test,Adjectives/1. loud/MVI_5177.MOV,data\landmarks\include50\test\Adjectives_1_loud_MVI_5177.npy,processed,56.0,"(56, 225)",0.0
+MVI_5271,79. short,test,Adjectives/79. short/MVI_5271.MOV,data\landmarks\include50\test\Adjectives_79_short_MVI_5271.npy,processed,52.0,"(52, 225)",0.0
+MVI_5183,3. happy,test,Adjectives/3. happy/MVI_5183.MOV,data\landmarks\include50\test\Adjectives_3_happy_MVI_5183.npy,processed,71.0,"(71, 225)",0.0
+MVI_2978,1. Dog,test,Animals/1. Dog/MVI_2978.MOV,data\landmarks\include50\test\Animals_1_Dog_MVI_2978.npy,processed,117.0,"(117, 225)",0.0
+MVI_8768,28. Window,test,Home/28. Window/MVI_8768.MP4,data\landmarks\include50\test\Home_28_Window_MVI_8768.npy,processed,104.0,"(104, 225)",0.0
+MVI_9177,78. Year,test,Days_and_Time/78. Year/MVI_9177.MP4,data\landmarks\include50\test\Days_and_Time_78_Year_MVI_9177.npy,processed,57.0,"(57, 225)",0.0
+MVI_3929,66. Brother,test,People/66. Brother/MVI_3929.MOV,data\landmarks\include50\test\People_66_Brother_MVI_3929.npy,processed,72.0,"(72, 225)",0.0
+MVI_0064,40. I,test,Pronouns/40. I/MVI_0064.MOV,data\landmarks\include50\test\Pronouns_40_I_MVI_0064.npy,processed,65.0,"(65, 225)",0.0
+MVI_5150,91. new,test,Adjectives/91. new/MVI_5150.MOV,data\landmarks\include50\test\Adjectives_91_new_MVI_5150.npy,processed,64.0,"(64, 225)",0.0
+MVI_9501,91. new,test,Adjectives/91. new/MVI_9501.MOV,data\landmarks\include50\test\Adjectives_91_new_MVI_9501.npy,processed,49.0,"(49, 225)",0.0
+MVI_3197,16. train ticket,test,Means_of_Transportation/16. train ticket/MVI_3197.MOV,data\landmarks\include50\test\Means_of_Transportation_16_train_ticket_MVI_3197.npy,processed,102.0,"(102, 225)",0.0
+MVI_4801,2. Death,test,Society/2. Death/MVI_4801.MOV,data\landmarks\include50\test\Society_2_Death_MVI_4801.npy,processed,71.0,"(71, 225)",0.0
+MVI_4256,2. Death,test,Society/2. Death/MVI_4256.MOV,data\landmarks\include50\test\Society_2_Death_MVI_4256.npy,processed,58.0,"(58, 225)",0.0
+MVI_3087,1. Dog,test,Animals/1. Dog/MVI_3087.MOV,data\landmarks\include50\test\Animals_1_Dog_MVI_3087.npy,processed,75.0,"(75, 225)",0.0
+MVI_4004,42. T-Shirt,test,Clothes/42. T-Shirt/MVI_4004.MOV,data\landmarks\include50\test\Clothes_42_T-Shirt_MVI_4004.npy,processed,81.0,"(81, 225)",0.0
+MVI_9462,79. short,test,Adjectives/79. short/MVI_9462.MOV,data\landmarks\include50\test\Adjectives_79_short_MVI_9462.npy,processed,54.0,"(54, 225)",0.0
+MVI_5388,53. Fan,test,Electronics/53. Fan/MVI_5388.MOV,data\landmarks\include50\test\Electronics_53_Fan_MVI_5388.npy,processed,53.0,"(53, 225)",0.0
+MVI_4906,34. Pen,test,Home/34. Pen/MVI_4906.MOV,data\landmarks\include50\test\Home_34_Pen_MVI_4906.npy,processed,52.0,"(52, 225)",0.0
+MVI_5156,37. Hat,test,Clothes/37. Hat/MVI_5156.MOV,data\landmarks\include50\test\Clothes_37_Hat_MVI_5156.npy,processed,51.0,"(51, 225)",0.0
+MVI_0091,48. Hello,test,Greetings/48. Hello/MVI_0091.MOV,data\landmarks\include50\test\Greetings_48_Hello_MVI_0091.npy,processed,80.0,"(80, 225)",0.0
+MVI_5155,37. Hat,test,Clothes/37. Hat/MVI_5155.MOV,data\landmarks\include50\test\Clothes_37_Hat_MVI_5155.npy,processed,61.0,"(61, 225)",0.0
+MVI_9915,48. Hello,test,Greetings/48. Hello/MVI_9915.MOV,data\landmarks\include50\test\Greetings_48_Hello_MVI_9915.npy,processed,52.0,"(52, 225)",0.0
+MVI_9951,55. Thank you,test,Greetings/55. Thank you/MVI_9951.MOV,data\landmarks\include50\test\Greetings_55_Thank_you_MVI_9951.npy,processed,54.0,"(54, 225)",0.0
+MVI_5287,77. Boy,test,People/77. Boy/MVI_5287.MOV,data\landmarks\include50\test\People_77_Boy_MVI_5287.npy,processed,52.0,"(52, 225)",0.0
+MVI_4800,2. Death,test,Society/2. Death/MVI_4800.MOV,data\landmarks\include50\test\Society_2_Death_MVI_4800.npy,processed,62.0,"(62, 225)",0.0
+MVI_5387,53. Fan,test,Electronics/53. Fan/MVI_5387.MOV,data\landmarks\include50\test\Electronics_53_Fan_MVI_5387.npy,processed,56.0,"(56, 225)",0.0
+MVI_9905,46. you (plural),test,Pronouns/46. you (plural)/MVI_9905.MOV,data\landmarks\include50\test\Pronouns_46_you_(plural)_MVI_9905.npy,processed,56.0,"(56, 225)",0.0
+MVI_3611,23. Court,test,Places/23. Court/MVI_3611.MOV,data\landmarks\include50\test\Places_23_Court_MVI_3611.npy,processed,58.0,"(58, 225)",0.0
+MVI_3634,28. Store or Shop,test,Places/28. Store or Shop/MVI_3634.MOV,data\landmarks\include50\test\Places_28_Store_or_Shop_MVI_3634.npy,processed,50.0,"(50, 225)",0.0
+MVI_2980,1. Dog,test,Animals/1. Dog/MVI_2980.MOV,data\landmarks\include50\test\Animals_1_Dog_MVI_2980.npy,processed,89.0,"(89, 225)",0.0
+MVI_3852,42. T-Shirt,test,Clothes/42. T-Shirt/MVI_3852.MOV,data\landmarks\include50\test\Clothes_42_T-Shirt_MVI_3852.npy,processed,92.0,"(92, 225)",0.0
+MVI_4193,16. train ticket,test,Means_of_Transportation/16. train ticket/MVI_4193.MOV,data\landmarks\include50\test\Means_of_Transportation_16_train_ticket_MVI_4193.npy,processed,76.0,"(76, 225)",0.0
+MVI_0015,44. it,test,Pronouns/44. it/MVI_0015.MOV,data\landmarks\include50\test\Pronouns_44_it_MVI_0015.npy,processed,73.0,"(73, 225)",0.0
+MVI_4772,91. Priest,test,Jobs/91. Priest/MVI_4772.MOV,data\landmarks\include50\test\Jobs_91_Priest_MVI_4772.npy,processed,49.0,"(49, 225)",0.0
+MVI_9969,51. Good Morning,test,Greetings/51. Good Morning/MVI_9969.MOV,data\landmarks\include50\test\Greetings_51_Good_Morning_MVI_9969.npy,processed,80.0,"(80, 225)",0.0
+MVI_0026,44. it,test,Pronouns/44. it/MVI_0026.MOV,data\landmarks\include50\test\Pronouns_44_it_MVI_0026.npy,processed,43.0,"(43, 225)",0.0
+MVI_9132,64. Fall,test,Seasons/64. Fall/MVI_9132.MP4,data\landmarks\include50\test\Seasons_64_Fall_MVI_9132.npy,processed,68.0,"(68, 225)",0.0
+MVI_8817,40. Paint,test,Home/40. Paint/MVI_8817.MP4,data\landmarks\include50\test\Home_40_Paint_MVI_8817.npy,processed,76.0,"(76, 225)",0.0
+MVI_4077,66. Brother,test,People/66. Brother/MVI_4077.MOV,data\landmarks\include50\test\People_66_Brother_MVI_4077.npy,processed,53.0,"(53, 225)",0.0
+MVI_3984,37. Hat,test,Clothes/37. Hat/MVI_3984.MOV,data\landmarks\include50\test\Clothes_37_Hat_MVI_3984.npy,processed,57.0,"(57, 225)",0.0
+MVI_3742,54. Black,test,Colours/54. Black/MVI_3742.MOV,data\landmarks\include50\test\Colours_54_Black_MVI_3742.npy,processed,46.0,"(46, 225)",0.0
+MVI_9397,84. small little,test,Adjectives/84. small little/MVI_9397.MOV,data\landmarks\include50\test\Adjectives_84_small_little_MVI_9397.npy,processed,51.0,"(51, 225)",0.0
+MVI_5259,1. loud,test,Adjectives/1. loud/MVI_5259.MOV,data\landmarks\include50\test\Adjectives_1_loud_MVI_5259.npy,processed,64.0,"(64, 225)",0.0
+MVI_9982,48. Hello,test,Greetings/48. Hello/MVI_9982.MOV,data\landmarks\include50\test\Greetings_48_Hello_MVI_9982.npy,processed,51.0,"(51, 225)",0.0
+MVI_5077,86. Time,test,Days_and_Time/86. Time/MVI_5077.MOV,data\landmarks\include50\test\Days_and_Time_86_Time_MVI_5077.npy,processed,45.0,"(45, 225)",0.0
+MVI_3779,66. Brother,test,People/66. Brother/MVI_3779.MOV,data\landmarks\include50\test\People_66_Brother_MVI_3779.npy,processed,57.0,"(57, 225)",0.0
+MVI_9329,87. hot,test,Adjectives/87. hot/MVI_9329.MOV,data\landmarks\include50\test\Adjectives_87_hot_MVI_9329.npy,processed,53.0,"(53, 225)",0.0
+MVI_5080,61. Father,test,People/61. Father/MVI_5080.MOV,data\landmarks\include50\test\People_61_Father_MVI_5080.npy,processed,58.0,"(58, 225)",0.0
+MVI_9222,79. short,test,Adjectives/79. short/MVI_9222.MOV,data\landmarks\include50\test\Adjectives_79_short_MVI_9222.npy,processed,49.0,"(49, 225)",0.0
+MVI_3163,16. train ticket,test,Means_of_Transportation/16. train ticket/MVI_3163.MOV,data\landmarks\include50\test\Means_of_Transportation_16_train_ticket_MVI_3163.npy,processed,88.0,"(88, 225)",0.0
+MVI_3176,11. Car,test,Means_of_Transportation/11. Car/MVI_3176.MOV,data\landmarks\include50\test\Means_of_Transportation_11_Car_MVI_3176.npy,processed,95.0,"(95, 225)",0.0
+MVI_9372,2. quiet,test,Adjectives/2. quiet/MVI_9372.MOV,data\landmarks\include50\test\Adjectives_2_quiet_MVI_9372.npy,processed,47.0,"(47, 225)",0.0
+MVI_8793,34. Pen,test,Home/34. Pen/MVI_8793.MP4,data\landmarks\include50\test\Home_34_Pen_MVI_8793.npy,processed,69.0,"(69, 225)",0.0
+MVI_4041,54. Black,test,Colours/54. Black/MVI_4041.MOV,data\landmarks\include50\test\Colours_54_Black_MVI_4041.npy,processed,53.0,"(53, 225)",0.0
+MVI_5049,78. Year,test,Days_and_Time/78. Year/MVI_5049.MOV,data\landmarks\include50\test\Days_and_Time_78_Year_MVI_5049.npy,processed,51.0,"(51, 225)",0.0

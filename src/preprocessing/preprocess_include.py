@@ -19,7 +19,7 @@ OUTPUT_ROOT = r"data\landmarks\include50"
 MODEL_PATH = r"models\holistic_landmarker.task"
 
 # We are intentionally processing only 10 videos for testing.
-MAX_VIDEOS = 10
+MAX_VIDEOS = None
 
 
 # ============================================================
@@ -326,9 +326,17 @@ def process_video(
         # Increasing timestamp
         # ----------------------------------------
 
-        timestamp_ms= (
+        fps = cap.get(cv2.CAP_PROP_FPS)
+
+        if fps <= 0:
+            fps = 25.0
+
+        frame_interval_ms = 1000.0 / fps
+
+
+        timestamp_ms = int(
             start_timestamp_ms
-            + frame_count * 40
+            + frame_count * frame_interval_ms
         )
 
         # ----------------------------------------
@@ -455,9 +463,7 @@ def main():
     # Select first 10 videos
     # --------------------------------------------
 
-    test_df = df.head(
-        MAX_VIDEOS
-    ).copy()
+    test_df = df.copy() if MAX_VIDEOS is None else df.head(MAX_VIDEOS).copy()
 
     print(
         f"Processing first {len(test_df)} videos."
@@ -699,7 +705,7 @@ def main():
 
     print()
     print("=" * 60)
-    print("10-VIDEO PREPROCESSING COMPLETE")
+    print("ALL-VIDEO PREPROCESSING COMPLETE")
     print("=" * 60)
 
     print(

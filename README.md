@@ -467,7 +467,7 @@ Large INCLUDE video data is stored separately on the local D: drive.
 - [x] INCLUDE-50 manifest
 - [x] 958/958 videos verified
 - [x] INCLUDE videos downloaded and extracted
-- [ ] INCLUDE → MediaPipe preprocessing
+- [x] INCLUDE → MediaPipe preprocessing
 - [ ] BiLSTM baseline
 - [ ] iSign Transformer baseline
 - [ ] Manual/NMF fusion model

@@ -2,26 +2,22 @@ from datasets import load_dataset
 import pandas as pd
 import os
 
-
 OUTPUT_DIR = "data/include/metadata"
 OUTPUT_FILE = os.path.join(
     OUTPUT_DIR,
     "include50_manifest.csv"
 )
 
-
 os.makedirs(
     OUTPUT_DIR,
     exist_ok=True
 )
-
 
 print("Loading INCLUDE metadata...")
 
 ds = load_dataset(
     "ai4bharat/INCLUDE"
 )
-
 
 # --------------------------------------------------
 # Combine official splits
@@ -37,12 +33,10 @@ for split in ["train", "val", "test"]:
 
     frames.append(df)
 
-
 df = pd.concat(
     frames,
     ignore_index=True
 )
-
 
 # --------------------------------------------------
 # Keep INCLUDE-50
@@ -51,7 +45,6 @@ df = pd.concat(
 df = df[
     df["include_50"] == True
 ].copy()
-
 
 # --------------------------------------------------
 # Useful columns

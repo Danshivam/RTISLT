@@ -1,2 +1,11 @@
-sample_id,label,split,video_path,landmark_path,frames,shape,nan_values,status
-MVI_9448,1. loud,train,Adjectives/1. loud/MVI_9448.MOV,data\landmarks\include50\train\Adjectives_1_loud_MVI_9448.npy,56,"(56, 225)",0,processed
+sample_id,label,split,video_path,landmark_path,status,frames,shape,nan_values
+MVI_9448,1. loud,train,Adjectives/1. loud/MVI_9448.MOV,data\landmarks\include50\train\Adjectives_1_loud_MVI_9448.npy,existing,,,
+MVI_3515,19. House,train,Places/19. House/MVI_3515.MOV,data\landmarks\include50\train\Places_19_House_MVI_3515.npy,processed,45.0,"(45, 225)",0.0
+MVI_5204,83. big large,train,Adjectives/83. big large/MVI_5204.MOV,data\landmarks\include50\train\Adjectives_83_big_large_MVI_5204.npy,processed,70.0,"(70, 225)",0.0
+MVI_5345,91. Priest,train,Jobs/91. Priest/MVI_5345.MOV,data\landmarks\include50\train\Jobs_91_Priest_MVI_5345.npy,processed,45.0,"(45, 225)",0.0
+MVI_3612,23. Court,train,Places/23. Court/MVI_3612.MOV,data\landmarks\include50\train\Places_23_Court_MVI_3612.npy,processed,61.0,"(61, 225)",0.0
+MVI_8596,16. train ticket,train,Means_of_Transportation/16. train ticket/MVI_8596.MP4,data\landmarks\include50\train\Means_of_Transportation_16_train_ticket_MVI_8596.npy,processed,101.0,"(101, 225)",0.0
+MVI_3531,23. Court,train,Places/23. Court/MVI_3531.MOV,data\landmarks\include50\train\Places_23_Court_MVI_3531.npy,processed,70.0,"(70, 225)",0.0
+MVI_0014,44. it,train,Pronouns/44. it/MVI_0014.MOV,data\landmarks\include50\train\Pronouns_44_it_MVI_0014.npy,processed,78.0,"(78, 225)",0.0
+MVI_3436,19. House,train,Places/19. House/MVI_3436.MOV,data\landmarks\include50\train\Places_19_House_MVI_3436.npy,processed,64.0,"(64, 225)",0.0
+MVI_3711,44. Shoes,train,Clothes/44. Shoes/MVI_3711.MOV,data\landmarks\include50\train\Clothes_44_Shoes_MVI_3711.npy,processed,69.0,"(69, 225)",0.0

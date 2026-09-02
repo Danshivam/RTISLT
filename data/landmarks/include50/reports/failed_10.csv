@@ -1,10 +1,1 @@
-video_path,label,split,error
-Places/19. House/MVI_3515.MOV,19. House,train,Input timestamp must be monotonically increasing.
-Adjectives/83. big large/MVI_5204.MOV,83. big large,train,Input timestamp must be monotonically increasing.
-Jobs/91. Priest/MVI_5345.MOV,91. Priest,train,Input timestamp must be monotonically increasing.
-Places/23. Court/MVI_3612.MOV,23. Court,train,Input timestamp must be monotonically increasing.
-Means_of_Transportation/16. train ticket/MVI_8596.MP4,16. train ticket,train,Input timestamp must be monotonically increasing.
-Places/23. Court/MVI_3531.MOV,23. Court,train,Input timestamp must be monotonically increasing.
-Pronouns/44. it/MVI_0014.MOV,44. it,train,Input timestamp must be monotonically increasing.
-Places/19. House/MVI_3436.MOV,19. House,train,Input timestamp must be monotonically increasing.
-Clothes/44. Shoes/MVI_3711.MOV,44. Shoes,train,Input timestamp must be monotonically increasing.
+

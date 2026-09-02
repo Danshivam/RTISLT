@@ -291,8 +291,6 @@ def process_video(
     # Timestamp
     # --------------------------------------------
 
-    
-
     frame_count = 0
 
     # --------------------------------------------
@@ -328,7 +326,7 @@ def process_video(
         # Increasing timestamp
         # ----------------------------------------
 
-        timestamp_ms = (
+        timestamp_ms= (
             start_timestamp_ms
             + frame_count * 40
         )
@@ -415,14 +413,6 @@ def process_video(
     )
 
     return {
-        "frames": len(normalized),
-        "shape": str(normalized.shape),
-        "nan_values": int(
-            np.isnan(normalized).sum()
-        )
-    }
-
-    return {
     "frames": len(normalized),
     "shape": str(normalized.shape),
     "nan_values": int(
@@ -433,7 +423,9 @@ def process_video(
         + len(normalized) * 40
         + 1
     )
-}
+    }
+
+
 
 
 # ============================================================
@@ -623,8 +615,12 @@ def main():
                 stats = process_video(
                     video_path,
                     output_path,
-                    landmarker
+                    landmarker,
+                    global_timestamp_ms
+                )
 
+                global_timestamp_ms = (
+                    stats["next_timestamp_ms"]
                 )
 
                 successful.append({

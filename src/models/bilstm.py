@@ -1,9 +1,9 @@
 import torch
 import torch.nn as nn
+from torch.nn.utils.rnn import pack_padded_sequence
 
 
 class ISLBiLSTM(nn.Module):
-
     def __init__(
         self,
         input_size=225,
@@ -28,20 +28,41 @@ class ISLBiLSTM(nn.Module):
             num_classes
         )
 
-    def forward(self, x):
+    def forward(self, x, lengths):
+        """
+        x:
+            Padded input tensor
+            Shape: [batch, max_sequence_length, 225]
 
-        output, (hidden, cell) = self.lstm(x)
+        lengths:
+            Actual sequence lengths
+            Shape: [batch]
+        """
 
+        # Convert padded sequences into a packed representation.
+        packed_x = pack_padded_sequence(
+            x,
+            lengths.cpu(),
+            batch_first=True,
+            enforce_sorted=False
+        )
+
+        # Run the packed sequences through the BiLSTM.
+        _, (hidden, _) = self.lstm(packed_x)
+
+        # Last forward hidden state
         forward_hidden = hidden[-2]
+
+        # Last backward hidden state
         backward_hidden = hidden[-1]
 
+        # Combine both directions
         final_hidden = torch.cat(
             [forward_hidden, backward_hidden],
             dim=1
         )
 
-        logits = self.classifier(
-            final_hidden
-        )
+        # Classification
+        logits = self.classifier(final_hidden)
 
         return logits

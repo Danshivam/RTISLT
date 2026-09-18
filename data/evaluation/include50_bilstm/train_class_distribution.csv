@@ -1,0 +1,51 @@
+class_id,label,count
+0,1. Dog,12
+1,1. loud,13
+2,11. Car,14
+3,14. Election,11
+4,16. train ticket,12
+5,19. House,18
+6,2. Death,8
+7,2. quiet,16
+8,23. Court,18
+9,28. Store or Shop,16
+10,28. Window,10
+11,3. happy,16
+12,34. Pen,11
+13,35. Bank,14
+14,37. Hat,13
+15,4. Bird,22
+16,40. I,16
+17,40. Paint,11
+18,42. T-Shirt,15
+19,44. Shoes,14
+20,44. it,11
+21,46. you (plural),16
+22,47. Red,16
+23,48. Hello,13
+24,5. Cow,16
+25,51. Good Morning,15
+26,53. Fan,11
+27,54. Black,14
+28,54. Cell phone,9
+29,55. Thank you,13
+30,55. White,17
+31,61. Father,16
+32,61. Summer,10
+33,64. Fall,11
+34,66. Brother,14
+35,67. Monday,11
+36,77. Boy,15
+37,78. Girl,16
+38,78. Year,7
+39,78. long,14
+40,79. short,14
+41,83. big large,15
+42,84. Teacher,10
+43,84. small little,16
+44,86. Time,11
+45,87. hot,14
+46,91. Priest,13
+47,91. new,16
+48,94. good,16
+49,97. dry,19

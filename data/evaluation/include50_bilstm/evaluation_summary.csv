@@ -1,0 +1,2 @@
+seed,best_validation_accuracy,test_loss,top1_accuracy,top5_accuracy,macro_precision_supported,macro_recall_supported,macro_f1_supported,weighted_f1,supported_test_classes,total_classes
+42,0.6233766233766234,1.266215294599533,0.5572916666666666,0.9270833333333334,0.5568999028182702,0.5623339812115322,0.5273176569995297,0.5516008467295231,49,50

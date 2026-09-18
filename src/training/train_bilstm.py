@@ -30,7 +30,7 @@ from src.models.bilstm import ISLBiLSTM
 BATCH_SIZE = 16
 EPOCHS = 30
 LEARNING_RATE = 0.001
-SEED = 42
+SEED = 67
 
 DEVICE = torch.device(
     "cuda" if torch.cuda.is_available() else "cpu"

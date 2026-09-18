@@ -79,9 +79,7 @@ with HolisticLandmarker.create_from_options(options) as landmarker:
         )
 
         # Timestamp must increase for VIDEO mode
-        timestamp_ms = int(
-            (time.time() - start_time) * 1000
-        )
+        timestamp_ms = int((time.time() - start_time) * 1000)
 
         # Run detection
         result = landmarker.detect_for_video(

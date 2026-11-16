@@ -1,4 +1,4 @@
-# RISLT 
+# RISLT - ISL
 
 ### Lightweight Landmark-Based Indian Sign Language → English Translation
 

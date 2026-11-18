@@ -14,7 +14,7 @@ MANIFEST_PATH = "data/include/metadata/include50_manifest.csv"
 
 VIDEO_ROOT = r"D:\ISLR_DATA\INCLUDE\videos"
 
-OUTPUT_ROOT = r"data\landmarks\include50"
+OUTPUT_ROOT = r"data\landmarks\include50_test"
 
 MODEL_PATH = r"models\holistic_landmarker.task"
 
